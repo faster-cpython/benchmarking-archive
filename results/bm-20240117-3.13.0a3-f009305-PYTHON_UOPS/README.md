@@ -125,6 +125,15 @@
 - [📄table](bm-20240117-pythonperf1-amd64-python-v3.13.0a3-3.13.0a3-f009305-vs-3.12.0.md)
 - [📈time plot](bm-20240117-pythonperf1-amd64-python-v3.13.0a3-3.13.0a3-f009305-vs-3.12.0.png)
 
+### vs. base
+
+- Geometric mean: 1.04x slower (HPT: reliability of 100.00%, 1.01x slower at 99th %ile)
+- Memory usage: unknown
+- missing benchmarks: 🔴 aiohttp, django_template, flaskblogging, genshi_text, genshi_xml, html5lib, pylint, thrift
+- new benchmarks: dask, unpack_sequence
+- [📄table](bm-20240117-pythonperf1-amd64-python-v3.13.0a3-3.13.0a3-f009305-vs-base.md)
+- [📈time plot](bm-20240117-pythonperf1-amd64-python-v3.13.0a3-3.13.0a3-f009305-vs-base.png)
+
 ## windows x86 (pythonperf1_win32)
 
 - [GitHub Action run](https://github.com/faster-cpython/benchmarking/actions/runs/7583593375)
@@ -156,6 +165,15 @@
 - missing benchmarks: aiohttp, django_template, dulwich_log, mypy2, sqlalchemy_declarative, sqlalchemy_imperative
 - [📄table](bm-20240117-pythonperf1_win32-x86-python-f009305a7d635f86440c-3.13.0a3-f009305-vs-3.12.0.md)
 - [📈time plot](bm-20240117-pythonperf1_win32-x86-python-f009305a7d635f86440c-3.13.0a3-f009305-vs-3.12.0.png)
+
+### vs. base
+
+- Geometric mean: 1.06x slower (HPT: reliability of 100.00%, 1.02x slower at 99th %ile)
+- Memory usage: unknown
+- missing benchmarks: 🔴 django_template, flaskblogging, genshi_text, genshi_xml, html5lib, pylint, thrift
+- new benchmarks: dask, unpack_sequence
+- [📄table](bm-20240117-pythonperf1_win32-x86-python-f009305a7d635f86440c-3.13.0a3-f009305-vs-base.md)
+- [📈time plot](bm-20240117-pythonperf1_win32-x86-python-f009305a7d635f86440c-3.13.0a3-f009305-vs-base.png)
 
 ## darwin arm64 (darwin)
 
