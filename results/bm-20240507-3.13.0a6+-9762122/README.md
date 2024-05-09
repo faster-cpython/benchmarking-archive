@@ -42,6 +42,39 @@
 - [📄table](bm-20240507-arminc-aarch64-python-976212223541b89329d8-3.13.0a6%2B-9762122-vs-3.12.0.md)
 - [📈time plot](bm-20240507-arminc-aarch64-python-976212223541b89329d8-3.13.0a6%2B-9762122-vs-3.12.0.png)
 
+## linux x86_64 (linux)
+
+- [GitHub Action run](https://github.com/faster-cpython/benchmarking/actions/runs/9007446271)
+- cpu model: Intel(R) Xeon(R) W-2255 CPU @ 3.70GHz
+- platform: Linux-5.4.0-164-generic-x86_64-with-glibc2.31
+- [raw results](bm-20240507-linux-x86_64-python-976212223541b89329d8-3.13.0a6%2B-9762122.json)
+
+### vs. 3.10.4
+
+- Geometric mean: 1.28x faster (HPT: reliability of 100.00%, 1.25x faster at 99th %ile)
+- Memory usage: 1.11x
+- missing benchmarks: sqlalchemy_declarative, sqlalchemy_imperative, unpack_sequence
+- new benchmarks: async_tree_cpu_io_mixed_tg, async_tree_io_tg, async_tree_memoization_tg, async_tree_none_tg
+- [📄table](bm-20240507-linux-x86_64-python-976212223541b89329d8-3.13.0a6%2B-9762122-vs-3.10.4.md)
+- [📈time plot](bm-20240507-linux-x86_64-python-976212223541b89329d8-3.13.0a6%2B-9762122-vs-3.10.4.png)
+
+### vs. 3.11.0
+
+- Geometric mean: 1.02x faster (HPT: reliability of 88.88%, 1.00x faster at 99th %ile)
+- Memory usage: 1.04x
+- missing benchmarks: sqlalchemy_declarative, sqlalchemy_imperative, unpack_sequence
+- [📄table](bm-20240507-linux-x86_64-python-976212223541b89329d8-3.13.0a6%2B-9762122-vs-3.11.0.md)
+- [📈time plot](bm-20240507-linux-x86_64-python-976212223541b89329d8-3.13.0a6%2B-9762122-vs-3.11.0.png)
+
+### vs. 3.12.0
+
+- Geometric mean: 1.01x slower (HPT: reliability of 99.55%, 1.00x faster at 99th %ile)
+- Memory usage: 0.98x
+- missing benchmarks: sqlalchemy_declarative, sqlalchemy_imperative, unpack_sequence
+- new benchmarks: djangocms, flaskblogging, genshi_text, genshi_xml, html5lib, pylint, thrift
+- [📄table](bm-20240507-linux-x86_64-python-976212223541b89329d8-3.13.0a6%2B-9762122-vs-3.12.0.md)
+- [📈time plot](bm-20240507-linux-x86_64-python-976212223541b89329d8-3.13.0a6%2B-9762122-vs-3.12.0.png)
+
 ## linux x86_64 (pythonperf2)
 
 - [GitHub Action run](https://github.com/faster-cpython/benchmarking/actions/runs/9007446271)
