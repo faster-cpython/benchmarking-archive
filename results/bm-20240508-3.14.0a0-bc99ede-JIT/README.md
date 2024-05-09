@@ -9,6 +9,15 @@
 - commit merge base: [7b0c247f1c176e092777fce4677a00f22c738b3c](https://github.com/brandtbucher/cpython/commit/7b0c247f1c176e092777fce4677a00f22c738b3c)
 - ref: hoist
 
+## linux x86_64 (azure)
+
+- [pystats raw](bm-20240508-azure-x86_64-brandtbucher-hoist-3.14.0a0-bc99ede-pystats.json)
+- [pystats table](bm-20240508-azure-x86_64-brandtbucher-hoist-3.14.0a0-bc99ede-pystats.md)
+
+### vs. base
+
+- [pystats diff](bm-20240508-azure-x86_64-brandtbucher-hoist-3.14.0a0-bc99ede-pystats-vs-base.md)
+
 ## linux x86_64 (linux)
 
 - [GitHub Action run](https://github.com/faster-cpython/benchmarking/actions/runs/9010774069)
