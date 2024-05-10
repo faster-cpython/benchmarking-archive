@@ -657,5 +657,6 @@
   "bm-20231002-3.12.0-0fb18b0\/bm-20231002-pythonperf1-amd64-python-v3.12.0-3.12.0-0fb18b0.json,bm-20240508-3.13.0b1-2268289\/bm-20240508-pythonperf1-amd64-python-v3.13.0b1-3.13.0b1-2268289.json,3.12.0": null,
   "bm-20231002-3.12.0-0fb18b0\/bm-20231002-arminc-aarch64-python-0fb18b02c8ad56299d6a-3.12.0-0fb18b0.json,bm-20240501-3.13.0a6+-c408c36-JIT\/bm-20240501-arminc-aarch64-python-c408c36e9b346f9f15a3-3.13.0a6+-c408c36.json,3.12.0": 0.99,
   "bm-20231002-3.12.0-0fb18b0\/bm-20231002-arminc-aarch64-python-0fb18b02c8ad56299d6a-3.12.0-0fb18b0.json,bm-20240501-3.13.0a6+-a7711a2-JIT\/bm-20240501-arminc-aarch64-python-main-3.13.0a6+-a7711a2.json,3.12.0": 0.99,
-  "bm-20231002-3.12.0-0fb18b0\/bm-20231002-arminc-aarch64-python-0fb18b02c8ad56299d6a-3.12.0-0fb18b0.json,bm-20240504-3.13.0a6+-999f0c5-JIT\/bm-20240504-arminc-aarch64-python-999f0c512281995fb61a-3.13.0a6+-999f0c5.json,3.12.0": 1.0
+  "bm-20231002-3.12.0-0fb18b0\/bm-20231002-arminc-aarch64-python-0fb18b02c8ad56299d6a-3.12.0-0fb18b0.json,bm-20240504-3.13.0a6+-999f0c5-JIT\/bm-20240504-arminc-aarch64-python-999f0c512281995fb61a-3.13.0a6+-999f0c5.json,3.12.0": 1.0,
+  "bm-20231002-3.12.0-0fb18b0\/bm-20231002-linux-x86_64-python-v3.12.0-3.12.0-0fb18b0.json,bm-20231013-3.13.0a1-ad056f0-NOGIL\/bm-20231013-linux-x86_64-python-v3.13.0a1-3.13.0a1-ad056f0.json,3.12.0": 0.55
 }
