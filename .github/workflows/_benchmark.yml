@@ -1,7 +1,7 @@
 # Generated file: !!! DO NOT EDIT !!!
 ---
 env:
-  PYPERFORMANCE_HASH: 16765924a3e845fe9c3c582b7576e5f1285955df
+  PYPERFORMANCE_HASH: f451bb0721d535b180ac1dc2ffe5cf02e0806120
   PYSTON_BENCHMARKS_HASH: 004743ccbd9e54598c543d7eb71fd3b8e10d5750
 name: _benchmark
 on:
@@ -22,9 +22,6 @@ on:
       pgo:
         description: Build with PGO
         type: boolean
-      dry_run:
-        description: 'Dry run: Do not commit to the repo'
-        type: boolean
       force:
         description: Rerun and replace results if commit already exists
         type: boolean
@@ -36,6 +33,9 @@ on:
         type: boolean
       jit:
         description: Enable the JIT
+        type: boolean
+      nogil:
+        description: Enable free threading
         type: boolean
 
   workflow_dispatch:
@@ -66,9 +66,6 @@ on:
       pgo:
         description: Build with PGO
         type: boolean
-      dry_run:
-        description: 'Dry run: Do not commit to the repo'
-        type: boolean
       force:
         description: Rerun and replace results if commit already exists
         type: boolean
@@ -80,6 +77,9 @@ on:
         type: boolean
       jit:
         description: Enable the JIT
+        type: boolean
+      nogil:
+        description: Enable free threading
         type: boolean
 
 jobs:
@@ -114,7 +114,7 @@ jobs:
       if: ${{ always() }}
       id: should_run
       run: |
-        venv/bin/python -m bench_runner should_run ${{ inputs.force }} ${{ inputs.fork }} ${{ inputs.ref }} ${{ inputs.machine }} false ${{ inputs.tier2 }} ${{ inputs.jit }} >> $GITHUB_OUTPUT
+        venv/bin/python -m bench_runner should_run ${{ inputs.force }} ${{ inputs.fork }} ${{ inputs.ref }} ${{ inputs.machine }} false ${{ inputs.tier2 }} ${{ inputs.jit }} ${{ inputs.nogil }} >> $GITHUB_OUTPUT
     - name: Checkout python-macrobenchmarks
       uses: actions/checkout@v4
       if: ${{ steps.should_run.outputs.should_run != 'false' }}
@@ -133,7 +133,7 @@ jobs:
       if: ${{ steps.should_run.outputs.should_run != 'false' }}
       run: |
         cd cpython
-        ./configure ${{ inputs.pgo == true && '--enable-optimizations --with-lto=yes' || '' }} ${{ inputs.tier2 == true && '--enable-experimental-jit=interpreter' || '' }} ${{ inputs.jit == true && '--enable-experimental-jit=yes' || '' }}
+        ./configure ${{ inputs.pgo == true && '--enable-optimizations --with-lto=yes' || '' }} ${{ inputs.tier2 == true && '--enable-experimental-jit=interpreter' || '' }} ${{ inputs.jit == true && '--enable-experimental-jit=yes' || '' }} ${{ inputs.nogil == true && '--disable-gil' || '' }}
         make ${{ runner.arch == 'ARM64' && '-j' || '-j4' }}
     - name: Install pyperformance
       if: ${{ steps.should_run.outputs.should_run != 'false' }}
@@ -151,11 +151,10 @@ jobs:
       if: ${{ steps.should_run.outputs.should_run != 'false' }}
       run: |
         rm -rf ~/.debug/*
-        venv/bin/python -m bench_runner run_benchmarks ${{ inputs.perf && 'perf' || 'benchmark' }} cpython/python ${{ inputs.fork }} ${{ inputs.ref }} ${{ inputs.benchmarks || 'all' }} --run_id ${{ github.run_id }} ${{ inputs.tier2 == true && '--flag PYTHON_UOPS' || '' }} ${{ inputs.jit == true && '--flag JIT' || '' }}
+        venv/bin/python -m bench_runner run_benchmarks ${{ inputs.perf && 'perf' || 'benchmark' }} cpython/python ${{ inputs.fork }} ${{ inputs.ref }} ${{ inputs.benchmarks || 'all' }} --run_id ${{ github.run_id }} ${{ inputs.tier2 == true && '--flag PYTHON_UOPS' || '' }} ${{ inputs.jit == true && '--flag JIT' || '' }} ${{ inputs.nogil == true && '--flag NOGIL' || '' }}
       # Pull again, since another job may have committed results in the meantime
     - name: Pull benchmarking
-      if: ${{ steps.should_run.outputs.should_run != 'false' && !inputs.dry_run &&
-        !inputs.perf }}
+      if: ${{ steps.should_run.outputs.should_run != 'false' && !inputs.perf }}
       run: |
         # Another benchmarking task may have created results for the same
         # commit while the above was running. This "magic" incantation means
@@ -163,8 +162,7 @@ jobs:
         # just pulled in in that case.
         git pull -s recursive -X ours --autostash --rebase
     - name: Adding data to repo
-      if: ${{ steps.should_run.outputs.should_run != 'false' && !inputs.dry_run &&
-        !inputs.perf }}
+      if: ${{ steps.should_run.outputs.should_run != 'false' && !inputs.perf }}
       uses: EndBug/add-and-commit@v9
       with:
         add: results
@@ -209,7 +207,7 @@ jobs:
       if: ${{ always() }}
       id: should_run
       run: |
-        venv/bin/python -m bench_runner should_run ${{ inputs.force }} ${{ inputs.force }} ${{ inputs.ref }} ${{ inputs.machine }} false ${{ inputs.tier2 }} ${{ inputs.jit }} >> $GITHUB_OUTPUT
+        venv/bin/python -m bench_runner should_run ${{ inputs.force }} ${{ inputs.force }} ${{ inputs.ref }} ${{ inputs.machine }} false ${{ inputs.tier2 }} ${{ inputs.jit }} ${{ inputs.nogil }} >> $GITHUB_OUTPUT
     - name: Checkout python-macrobenchmarks
       uses: actions/checkout@v4
       if: ${{ steps.should_run.outputs.should_run != 'false' }}
@@ -232,7 +230,7 @@ jobs:
       if: ${{ steps.should_run.outputs.should_run != 'false' }}
       run: |
         cd cpython
-        ./configure ${{ inputs.pgo == true && '--enable-optimizations --with-lto=yes' || '' }} ${{ inputs.tier2 == true && '--enable-experimental-jit=interpreter' || '' }} ${{ inputs.jit == true && '--enable-experimental-jit=yes' || '' }}
+        ./configure ${{ inputs.pgo == true && '--enable-optimizations --with-lto=yes' || '' }} ${{ inputs.tier2 == true && '--enable-experimental-jit=interpreter' || '' }} ${{ inputs.jit == true && '--enable-experimental-jit=yes' || '' }} ${{ inputs.nogil == true && '--disable-gil' || '' }}
         make -j4
       # On macos ARM64, actions/setup-python isn't available, so we rely on a
       # pre-installed homebrew one, used through a venv
@@ -243,10 +241,10 @@ jobs:
     - name: Running pyperformance
       if: ${{ steps.should_run.outputs.should_run != 'false' }}
       run: |
-        venv/bin/python -m bench_runner run_benchmarks benchmark cpython/python.exe ${{ inputs.fork }} ${{ inputs.ref }} ${{ inputs.benchmarks || 'all' }} --run_id ${{ github.run_id }} ${{ inputs.tier2 == true && '--flag PYTHON_UOPS' || '' }} ${{ inputs.jit == true && '--flag JIT' || '' }}
+        venv/bin/python -m bench_runner run_benchmarks benchmark cpython/python.exe ${{ inputs.fork }} ${{ inputs.ref }} ${{ inputs.benchmarks || 'all' }} --run_id ${{ github.run_id }} ${{ inputs.tier2 == true && '--flag PYTHON_UOPS' || '' }} ${{ inputs.jit == true && '--flag JIT' || '' }} ${{ inputs.nogil == true && '--flag NOGIL' || '' }}
       # Pull again, since another job may have committed results in the meantime
     - name: Pull benchmarking
-      if: ${{ steps.should_run.outputs.should_run != 'false' && !inputs.dry_run }}
+      if: ${{ steps.should_run.outputs.should_run != 'false' }}
       run: |
         # Another benchmarking task may have created results for the same
         # commit while the above was running. This "magic" incantation means
@@ -254,7 +252,7 @@ jobs:
         # just pulled in in that case.
         git pull -s recursive -X ours --autostash --rebase
     - name: Add data to repo
-      if: ${{ steps.should_run.outputs.should_run != 'false' && !inputs.dry_run }}
+      if: ${{ steps.should_run.outputs.should_run != 'false' }}
       uses: EndBug/add-and-commit@v9
       with:
         add: results
@@ -298,7 +296,7 @@ jobs:
       if: ${{ always() }}
       id: should_run
       run: |
-        venv\Scripts\python.exe -m bench_runner should_run ${{ inputs.force }} ${{ inputs.fork }} ${{ inputs.ref }} ${{ inputs.machine }} false ${{ inputs.tier2 }} ${{ inputs.jit }} >> $GITHUB_OUTPUT
+        venv\Scripts\python.exe -m bench_runner should_run ${{ inputs.force }} ${{ inputs.fork }} ${{ inputs.ref }} ${{ inputs.machine }} false ${{ inputs.tier2 }} ${{ inputs.jit }} ${{ inputs.nogil }} >> $GITHUB_OUTPUT
     - name: Checkout python-macrobenchmarks
       uses: actions/checkout@v4
       if: ${{ steps.should_run.outputs.should_run != 'false' }}
@@ -317,7 +315,7 @@ jobs:
       if: ${{ steps.should_run.outputs.should_run != 'false' }}
       run: |
         cd cpython
-        PCbuild\build.bat ($env:BUILD_FLAGS -split ' ') ${{ inputs.pgo == true && '--pgo' || '' }} ${{ inputs.jit == true && '--experimental-jit' || '' }} ${{ inputs.tier2 == true && '--experimental-jit-interpreter' || '' }} -c Release
+        PCbuild\build.bat ($env:BUILD_FLAGS -split ' ') ${{ inputs.pgo == true && '--pgo' || '' }} ${{ inputs.jit == true && '--experimental-jit' || '' }} ${{ inputs.tier2 == true && '--experimental-jit-interpreter' || '' }} ${{ inputs.nogil == true && '--disable-gil' || '' }} -c Release
         # Copy the build products to a place that libraries can find them.
         Copy-Item -Path $env:BUILD_DEST -Destination "libs" -Recurse
     - name: Install pyperformance
@@ -327,10 +325,10 @@ jobs:
     - name: Running pyperformance
       if: ${{ steps.should_run.outputs.should_run != 'false' }}
       run: |
-        venv\Scripts\python.exe -m bench_runner run_benchmarks benchmark cpython\$env:BUILD_DEST\python.exe ${{ inputs.fork }} ${{ inputs.ref }} ${{ inputs.benchmarks || 'all' }} --run_id ${{ github.run_id }} ${{ inputs.tier2 == true && '--flag PYTHON_UOPS' || '' }} ${{ inputs.jit == true && '--flag JIT' || '' }}
+        venv\Scripts\python.exe -m bench_runner run_benchmarks benchmark cpython\$env:BUILD_DEST\python.exe ${{ inputs.fork }} ${{ inputs.ref }} ${{ inputs.benchmarks || 'all' }} --run_id ${{ github.run_id }} ${{ inputs.tier2 == true && '--flag PYTHON_UOPS' || '' }} ${{ inputs.jit == true && '--flag JIT' || '' }} ${{ inputs.nogil == true && '--flag NOGIL' || '' }}
       # Pull again, since another job may have committed results in the meantime
     - name: Pull benchmarking
-      if: ${{ steps.should_run.outputs.should_run != 'false' && !inputs.dry_run }}
+      if: ${{ steps.should_run.outputs.should_run != 'false' }}
       run: |
         # Another benchmarking task may have created results for the same
         # commit while the above was running. This "magic" incantation means
@@ -338,7 +336,7 @@ jobs:
         # just pulled in in that case.
         git pull -s recursive -X ours --autostash --rebase
     - name: Add data to repo
-      if: ${{ steps.should_run.outputs.should_run != 'false' && !inputs.dry_run }}
+      if: ${{ steps.should_run.outputs.should_run != 'false' }}
       uses: EndBug/add-and-commit@v9
       with:
         add: results
@@ -385,7 +383,7 @@ jobs:
       if: ${{ always() }}
       id: should_run
       run: |
-        venv\Scripts\python.exe -m bench_runner should_run ${{ inputs.force }} ${{ inputs.fork }} ${{ inputs.ref }} ${{ inputs.machine }} false ${{ inputs.tier2 }} ${{ inputs.jit }} >> $GITHUB_OUTPUT
+        venv\Scripts\python.exe -m bench_runner should_run ${{ inputs.force }} ${{ inputs.fork }} ${{ inputs.ref }} ${{ inputs.machine }} false ${{ inputs.tier2 }} ${{ inputs.jit }} ${{ inputs.nogil }} >> $GITHUB_OUTPUT
     - name: Checkout python-macrobenchmarks
       uses: actions/checkout@v4
       if: ${{ steps.should_run.outputs.should_run != 'false' }}
@@ -404,7 +402,7 @@ jobs:
       if: ${{ steps.should_run.outputs.should_run != 'false' }}
       run: |
         cd cpython
-        PCbuild\build.bat ($env:BUILD_FLAGS -split ' ') ${{ inputs.pgo == true && '--pgo' || '' }} ${{ inputs.jit == true && '--experimental-jit' || '' }} ${{ inputs.tier2 == true && '--experimental-jit-interpreter' || '' }} -c Release
+        PCbuild\build.bat ($env:BUILD_FLAGS -split ' ') ${{ inputs.pgo == true && '--pgo' || '' }} ${{ inputs.jit == true && '--experimental-jit' || '' }} ${{ inputs.tier2 == true && '--experimental-jit-interpreter' || '' }} ${{ inputs.nogil == true && '--disable-gil' || '' }} -c Release
         # Copy the build products to a place that libraries can find them.
         Copy-Item -Path $env:BUILD_DEST -Destination "libs" -Recurse
     - name: Install pyperformance
@@ -414,10 +412,10 @@ jobs:
     - name: Running pyperformance
       if: ${{ steps.should_run.outputs.should_run != 'false' }}
       run: |
-        venv\Scripts\python.exe -m bench_runner run_benchmarks benchmark cpython\$env:BUILD_DEST\python.exe ${{ inputs.fork }} ${{ inputs.ref }} ${{ inputs.benchmarks || 'all' }} --run_id ${{ github.run_id }} ${{ inputs.tier2 == true && '--flag PYTHON_UOPS' || '' }} ${{ inputs.jit == true && '--flag JIT' || '' }}
+        venv\Scripts\python.exe -m bench_runner run_benchmarks benchmark cpython\$env:BUILD_DEST\python.exe ${{ inputs.fork }} ${{ inputs.ref }} ${{ inputs.benchmarks || 'all' }} --run_id ${{ github.run_id }} ${{ inputs.tier2 == true && '--flag PYTHON_UOPS' || '' }} ${{ inputs.jit == true && '--flag JIT' || '' }} ${{ inputs.nogil == true && '--flag NOGIL' || '' }}
       # Pull again, since another job may have committed results in the meantime
     - name: Pull benchmarking
-      if: ${{ steps.should_run.outputs.should_run != 'false' && !inputs.dry_run }}
+      if: ${{ steps.should_run.outputs.should_run != 'false' }}
       run: |
         # Another benchmarking task may have created results for the same
         # commit while the above was running. This "magic" incantation means
@@ -425,7 +423,7 @@ jobs:
         # just pulled in in that case.
         git pull -s recursive -X ours --autostash --rebase
     - name: Add data to repo
-      if: ${{ steps.should_run.outputs.should_run != 'false' && !inputs.dry_run }}
+      if: ${{ steps.should_run.outputs.should_run != 'false' }}
       uses: EndBug/add-and-commit@v9
       with:
         add: results
@@ -471,7 +469,7 @@ jobs:
       if: ${{ always() }}
       id: should_run
       run: |
-        venv/bin/python -m bench_runner should_run ${{ inputs.force }} ${{ inputs.fork }} ${{ inputs.ref }} ${{ inputs.machine }} false ${{ inputs.tier2 }} ${{ inputs.jit }} >> $GITHUB_OUTPUT
+        venv/bin/python -m bench_runner should_run ${{ inputs.force }} ${{ inputs.fork }} ${{ inputs.ref }} ${{ inputs.machine }} false ${{ inputs.tier2 }} ${{ inputs.jit }} ${{ inputs.nogil }} >> $GITHUB_OUTPUT
     - name: Checkout python-macrobenchmarks
       uses: actions/checkout@v4
       if: ${{ steps.should_run.outputs.should_run != 'false' }}
@@ -490,7 +488,7 @@ jobs:
       if: ${{ steps.should_run.outputs.should_run != 'false' }}
       run: |
         cd cpython
-        ./configure ${{ inputs.pgo == true && '--enable-optimizations --with-lto=yes' || '' }} ${{ inputs.tier2 == true && '--enable-experimental-jit=interpreter' || '' }} ${{ inputs.jit == true && '--enable-experimental-jit=yes' || '' }}
+        ./configure ${{ inputs.pgo == true && '--enable-optimizations --with-lto=yes' || '' }} ${{ inputs.tier2 == true && '--enable-experimental-jit=interpreter' || '' }} ${{ inputs.jit == true && '--enable-experimental-jit=yes' || '' }} ${{ inputs.nogil == true && '--disable-gil' || '' }}
         make ${{ runner.arch == 'ARM64' && '-j' || '-j4' }}
     - name: Install pyperformance
       if: ${{ steps.should_run.outputs.should_run != 'false' }}
@@ -508,11 +506,10 @@ jobs:
       if: ${{ steps.should_run.outputs.should_run != 'false' }}
       run: |
         rm -rf ~/.debug/*
-        venv/bin/python -m bench_runner run_benchmarks ${{ inputs.perf && 'perf' || 'benchmark' }} cpython/python ${{ inputs.fork }} ${{ inputs.ref }} ${{ inputs.benchmarks || 'all' }} --run_id ${{ github.run_id }} ${{ inputs.tier2 == true && '--flag PYTHON_UOPS' || '' }} ${{ inputs.jit == true && '--flag JIT' || '' }}
+        venv/bin/python -m bench_runner run_benchmarks ${{ inputs.perf && 'perf' || 'benchmark' }} cpython/python ${{ inputs.fork }} ${{ inputs.ref }} ${{ inputs.benchmarks || 'all' }} --run_id ${{ github.run_id }} ${{ inputs.tier2 == true && '--flag PYTHON_UOPS' || '' }} ${{ inputs.jit == true && '--flag JIT' || '' }} ${{ inputs.nogil == true && '--flag NOGIL' || '' }}
       # Pull again, since another job may have committed results in the meantime
     - name: Pull benchmarking
-      if: ${{ steps.should_run.outputs.should_run != 'false' && !inputs.dry_run &&
-        !inputs.perf }}
+      if: ${{ steps.should_run.outputs.should_run != 'false' && !inputs.perf }}
       run: |
         # Another benchmarking task may have created results for the same
         # commit while the above was running. This "magic" incantation means
@@ -520,8 +517,7 @@ jobs:
         # just pulled in in that case.
         git pull -s recursive -X ours --autostash --rebase
     - name: Adding data to repo
-      if: ${{ steps.should_run.outputs.should_run != 'false' && !inputs.dry_run &&
-        !inputs.perf }}
+      if: ${{ steps.should_run.outputs.should_run != 'false' && !inputs.perf }}
       uses: EndBug/add-and-commit@v9
       with:
         add: results
@@ -574,7 +570,7 @@ jobs:
       if: ${{ always() }}
       id: should_run
       run: |
-        venv/bin/python -m bench_runner should_run ${{ inputs.force }} ${{ inputs.fork }} ${{ inputs.ref }} ${{ inputs.machine }} false ${{ inputs.tier2 }} ${{ inputs.jit }} >> $GITHUB_OUTPUT
+        venv/bin/python -m bench_runner should_run ${{ inputs.force }} ${{ inputs.fork }} ${{ inputs.ref }} ${{ inputs.machine }} false ${{ inputs.tier2 }} ${{ inputs.jit }} ${{ inputs.nogil }} >> $GITHUB_OUTPUT
     - name: Checkout python-macrobenchmarks
       uses: actions/checkout@v4
       if: ${{ steps.should_run.outputs.should_run != 'false' }}
@@ -593,7 +589,7 @@ jobs:
       if: ${{ steps.should_run.outputs.should_run != 'false' }}
       run: |
         cd cpython
-        ./configure ${{ inputs.pgo == true && '--enable-optimizations --with-lto=yes' || '' }} ${{ inputs.tier2 == true && '--enable-experimental-jit=interpreter' || '' }} ${{ inputs.jit == true && '--enable-experimental-jit=yes' || '' }}
+        ./configure ${{ inputs.pgo == true && '--enable-optimizations --with-lto=yes' || '' }} ${{ inputs.tier2 == true && '--enable-experimental-jit=interpreter' || '' }} ${{ inputs.jit == true && '--enable-experimental-jit=yes' || '' }} ${{ inputs.nogil == true && '--disable-gil' || '' }}
         make ${{ runner.arch == 'ARM64' && '-j' || '-j4' }}
     - name: Install pyperformance
       if: ${{ steps.should_run.outputs.should_run != 'false' }}
@@ -611,11 +607,10 @@ jobs:
       if: ${{ steps.should_run.outputs.should_run != 'false' }}
       run: |
         rm -rf ~/.debug/*
-        venv/bin/python -m bench_runner run_benchmarks ${{ inputs.perf && 'perf' || 'benchmark' }} cpython/python ${{ inputs.fork }} ${{ inputs.ref }} ${{ inputs.benchmarks || 'all' }} --run_id ${{ github.run_id }} ${{ inputs.tier2 == true && '--flag PYTHON_UOPS' || '' }} ${{ inputs.jit == true && '--flag JIT' || '' }}
+        venv/bin/python -m bench_runner run_benchmarks ${{ inputs.perf && 'perf' || 'benchmark' }} cpython/python ${{ inputs.fork }} ${{ inputs.ref }} ${{ inputs.benchmarks || 'all' }} --run_id ${{ github.run_id }} ${{ inputs.tier2 == true && '--flag PYTHON_UOPS' || '' }} ${{ inputs.jit == true && '--flag JIT' || '' }} ${{ inputs.nogil == true && '--flag NOGIL' || '' }}
       # Pull again, since another job may have committed results in the meantime
     - name: Pull benchmarking
-      if: ${{ steps.should_run.outputs.should_run != 'false' && !inputs.dry_run &&
-        !inputs.perf }}
+      if: ${{ steps.should_run.outputs.should_run != 'false' && !inputs.perf }}
       run: |
         # Another benchmarking task may have created results for the same
         # commit while the above was running. This "magic" incantation means
@@ -623,8 +618,7 @@ jobs:
         # just pulled in in that case.
         git pull -s recursive -X ours --autostash --rebase
     - name: Adding data to repo
-      if: ${{ steps.should_run.outputs.should_run != 'false' && !inputs.dry_run &&
-        !inputs.perf }}
+      if: ${{ steps.should_run.outputs.should_run != 'false' && !inputs.perf }}
       uses: EndBug/add-and-commit@v9
       with:
         add: results

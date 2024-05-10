@@ -1,11 +1,12 @@
 # Generated file: !!! DO NOT EDIT !!!
 ---
 env:
-  PYPERFORMANCE_HASH: 16765924a3e845fe9c3c582b7576e5f1285955df
+  PYPERFORMANCE_HASH: f451bb0721d535b180ac1dc2ffe5cf02e0806120
   PYSTON_BENCHMARKS_HASH: 004743ccbd9e54598c543d7eb71fd3b8e10d5750
 name: benchmark
 run-name: benchmarking ${{ inputs.fork }}/${{ inputs.ref }} ${{ inputs.tier2 == true
-  && 'T2' || '' }} ${{ inputs.jit == true && 'JIT' || '' }}
+  && 'T2' || '' }} ${{ inputs.jit == true && 'JIT' || '' }} ${{ inputs.nogil == true
+  && 'NOGIL' || '' }}
 on:
   workflow_dispatch:
     inputs:
@@ -38,16 +39,16 @@ on:
         description: Also collect pystats for this commit
         type: boolean
         default: false
-      pystats_individual:
-        description: Collect pystats for each individual benchmark
-        type: boolean
-        default: false
       tier2:
         description: Enable the Tier 2 interpreter
         type: boolean
         default: false
       jit:
         description: Enable the JIT
+        type: boolean
+        default: false
+      nogil:
+        description: Enable free threading
         type: boolean
         default: false
 
@@ -84,7 +85,7 @@ jobs:
     - name: Determine base
       id: base
       run: |
-        python -m bench_runner get_merge_base ${{ inputs.benchmark_base }} ${{ inputs.machine }} ${{ inputs.pystats }} ${{ inputs.tier2 }} ${{ inputs.jit }} >> $GITHUB_OUTPUT
+        python -m bench_runner get_merge_base ${{ inputs.benchmark_base }} ${{ inputs.machine }} ${{ inputs.pystats }} ${{ inputs.tier2 }} ${{ inputs.jit }} ${{ inputs.nogil }} >> $GITHUB_OUTPUT
         cat $GITHUB_OUTPUT
 
   head:
@@ -99,6 +100,7 @@ jobs:
       force: true
       tier2: ${{ inputs.tier2 }}
       jit: ${{ inputs.jit }}
+      nogil: ${{ inputs.nogil }}
     secrets: inherit
 
   base:
@@ -115,6 +117,7 @@ jobs:
       force: false
       tier2: ${{ inputs.tier2 }}
       jit: ${{ inputs.jit }}
+      nogil: ${{ inputs.nogil }}
     secrets: inherit
 
   pystats-head:
@@ -124,10 +127,11 @@ jobs:
       fork: ${{ inputs.fork }}
       ref: ${{ inputs.ref }}
       benchmarks: ${{ inputs.benchmarks }}
-      individual: ${{ inputs.pystats_individual }}
+      individual: true
       force: true
       tier2: ${{ inputs.tier2 }}
       jit: ${{ inputs.jit }}
+      nogil: ${{ inputs.nogil }}
     secrets: inherit
 
   pystats-base:
@@ -139,10 +143,11 @@ jobs:
       fork: python
       ref: ${{ needs.determine_base.outputs.ref }}
       benchmarks: ${{ inputs.benchmarks }}
-      individual: ${{ inputs.pystats_individual }}
+      individual: true
       force: false
       tier2: ${{ inputs.tier2 }}
       jit: ${{ inputs.jit }}
+      nogil: ${{ inputs.nogil }}
     secrets: inherit
 
   generate:
@@ -171,4 +176,5 @@ jobs:
       version: ${{ needs.determine_base.outputs.version }}
       tier2: ${{ inputs.tier2 }}
       jit: ${{ inputs.jit }}
+      nogil: $${{ inputs.nogil }}
     secrets: inherit
