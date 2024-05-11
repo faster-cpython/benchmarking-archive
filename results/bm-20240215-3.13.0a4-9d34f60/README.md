@@ -42,6 +42,39 @@
 - [📄table](bm-20240215-arminc-aarch64-python-v3.13.0a4-3.13.0a4-9d34f60-vs-3.12.0.md)
 - [📈time plot](bm-20240215-arminc-aarch64-python-v3.13.0a4-3.13.0a4-9d34f60-vs-3.12.0.png)
 
+## linux x86_64 (linux)
+
+- [GitHub Action run](https://github.com/faster-cpython/benchmarking/actions/runs/9038489291)
+- cpu model: Intel(R) Xeon(R) W-2255 CPU @ 3.70GHz
+- platform: Linux-5.4.0-164-generic-x86_64-with-glibc2.31
+- [raw results](bm-20240215-linux-x86_64-python-v3.13.0a4-3.13.0a4-9d34f60.json)
+
+### vs. 3.10.4
+
+- Geometric mean: 1.34x faster (HPT: reliability of 100.00%, 1.27x faster at 99th %ile)
+- Memory usage: 1.07x
+- missing benchmarks: dask, sqlalchemy_declarative, sqlalchemy_imperative, unpack_sequence
+- new benchmarks: async_tree_cpu_io_mixed_tg, async_tree_io_tg, async_tree_memoization_tg, async_tree_none_tg
+- [📄table](bm-20240215-linux-x86_64-python-v3.13.0a4-3.13.0a4-9d34f60-vs-3.10.4.md)
+- [📈time plot](bm-20240215-linux-x86_64-python-v3.13.0a4-3.13.0a4-9d34f60-vs-3.10.4.png)
+
+### vs. 3.11.0
+
+- Geometric mean: 1.05x faster (HPT: reliability of 99.88%, 1.00x faster at 99th %ile)
+- Memory usage: 1.00x
+- missing benchmarks: dask, sqlalchemy_declarative, sqlalchemy_imperative, unpack_sequence
+- [📄table](bm-20240215-linux-x86_64-python-v3.13.0a4-3.13.0a4-9d34f60-vs-3.11.0.md)
+- [📈time plot](bm-20240215-linux-x86_64-python-v3.13.0a4-3.13.0a4-9d34f60-vs-3.11.0.png)
+
+### vs. 3.12.0
+
+- Geometric mean: 1.03x faster (HPT: reliability of 99.61%, 1.00x faster at 99th %ile)
+- Memory usage: 0.93x
+- missing benchmarks: dask, sqlalchemy_declarative, sqlalchemy_imperative, unpack_sequence
+- new benchmarks: djangocms, flaskblogging, genshi_text, genshi_xml, html5lib, pylint, thrift
+- [📄table](bm-20240215-linux-x86_64-python-v3.13.0a4-3.13.0a4-9d34f60-vs-3.12.0.md)
+- [📈time plot](bm-20240215-linux-x86_64-python-v3.13.0a4-3.13.0a4-9d34f60-vs-3.12.0.png)
+
 ## linux x86_64 (pythonperf2)
 
 - [GitHub Action run](https://github.com/faster-cpython/benchmarking/actions/runs/9038489291)
