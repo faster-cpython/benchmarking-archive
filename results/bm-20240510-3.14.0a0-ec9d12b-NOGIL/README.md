@@ -42,3 +42,12 @@
 - [📄table](bm-20240510-linux-x86_64-python-main-3.14.0a0-ec9d12b-vs-3.12.0.md)
 - [📈time plot](bm-20240510-linux-x86_64-python-main-3.14.0a0-ec9d12b-vs-3.12.0.png)
 
+### vs. base
+
+- Geometric mean: 1.49x slower (HPT: reliability of 100.00%, 1.29x slower at 99th %ile)
+- Memory usage: 1.15x
+- missing benchmarks: 🔴 dask
+- [🧠memory plot](bm-20240510-linux-x86_64-python-main-3.14.0a0-ec9d12b-vs-base-mem.png)
+- [📄table](bm-20240510-linux-x86_64-python-main-3.14.0a0-ec9d12b-vs-base.md)
+- [📈time plot](bm-20240510-linux-x86_64-python-main-3.14.0a0-ec9d12b-vs-base.png)
+
