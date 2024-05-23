@@ -14,6 +14,10 @@
 - [pystats raw](bm-20240522-azure-x86_64-brandtbucher-unbox_floats-3.14.0a0-994a9dc-pystats.json)
 - [pystats table](bm-20240522-azure-x86_64-brandtbucher-unbox_floats-3.14.0a0-994a9dc-pystats.md)
 
+### vs. base
+
+- [pystats diff](bm-20240522-azure-x86_64-brandtbucher-unbox_floats-3.14.0a0-994a9dc-pystats-vs-base.md)
+
 ## linux x86_64 (linux)
 
 - [GitHub Action run](https://github.com/faster-cpython/benchmarking/actions/runs/9197624208)
@@ -46,4 +50,13 @@
 - new benchmarks: flaskblogging, genshi_text, genshi_xml, html5lib, pylint
 - [📄table](bm-20240522-linux-x86_64-brandtbucher-unbox_floats-3.14.0a0-994a9dc-vs-3.12.0.md)
 - [📈time plot](bm-20240522-linux-x86_64-brandtbucher-unbox_floats-3.14.0a0-994a9dc-vs-3.12.0.png)
+
+### vs. base
+
+- Geometric mean: 1.01x slower (HPT: reliability of 98.91%, 1.00x slower at 99th %ile)
+- Memory usage: 1.00x
+- missing benchmarks: 🔴 json, thrift
+- [🧠memory plot](bm-20240522-linux-x86_64-brandtbucher-unbox_floats-3.14.0a0-994a9dc-vs-base-mem.png)
+- [📄table](bm-20240522-linux-x86_64-brandtbucher-unbox_floats-3.14.0a0-994a9dc-vs-base.md)
+- [📈time plot](bm-20240522-linux-x86_64-brandtbucher-unbox_floats-3.14.0a0-994a9dc-vs-base.png)
 
