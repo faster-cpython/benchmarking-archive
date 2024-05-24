@@ -9,7 +9,7 @@ Here are some recent and important revisions. 👉 [Complete list of results](RE
 **Key:** 📄: table, 📈: time plot, 🧠: memory plot
 
 <!-- START table -->
-[Most recent pystats on main (406ffb5)](results/bm-20240523-3.14.0a0-406ffb5/bm-20240523-azure-x86_64-python-406ffb5293a8c9ca315b-3.14.0a0-406ffb5-pystats.md)
+[Most recent pystats on main (92fab33)](results/bm-20240524-3.14.0a0-92fab33-PYTHON_UOPS/bm-20240524-azure-x86_64-python-main-3.14.0a0-92fab33-pystats.md)
 
 ## linux aarch64 (arminc)
 | date | fork/ref | hash/flags | vs. 3.10.4: | vs. 3.11.0: | vs. 3.12.0: | vs. base: |
