@@ -51,6 +51,7 @@
 
 - Geometric mean: 1.24x slower (HPT: reliability of 100.00%, 1.12x slower at 99th %ile)
 - Memory usage: 1.01x
+- missing benchmarks: 🔴 flaskblogging
 - [🧠memory plot](bm-20240425-linux-x86_64-python-2c451489122d539080c8-3.13.0a6%2B-2c45148-vs-base-mem.png)
 - [📄table](bm-20240425-linux-x86_64-python-2c451489122d539080c8-3.13.0a6%2B-2c45148-vs-base.md)
 - [📈time plot](bm-20240425-linux-x86_64-python-2c451489122d539080c8-3.13.0a6%2B-2c45148-vs-base.png)

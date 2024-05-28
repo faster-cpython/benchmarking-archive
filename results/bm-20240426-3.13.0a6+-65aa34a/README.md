@@ -46,6 +46,7 @@
 
 - Geometric mean: 1.00x faster (HPT: reliability of 98.82%, 1.00x faster at 99th %ile)
 - Memory usage: 1.00x
+- missing benchmarks: 🔴 flaskblogging
 - [🧠memory plot](bm-20240426-linux-x86_64-faster%252dcpython-tier_2_call-3.13.0a6%2B-65aa34a-vs-base-mem.png)
 - [📄table](bm-20240426-linux-x86_64-faster%252dcpython-tier_2_call-3.13.0a6%2B-65aa34a-vs-base.md)
 - [📈time plot](bm-20240426-linux-x86_64-faster%252dcpython-tier_2_call-3.13.0a6%2B-65aa34a-vs-base.png)

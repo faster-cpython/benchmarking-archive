@@ -11,7 +11,7 @@
 
 ## linux x86_64 (linux)
 
-- [GitHub Action run](https://github.com/faster-cpython/benchmarking/actions/runs/8849402063)
+- [GitHub Action run](https://github.com/faster-cpython/benchmarking/actions/runs/9273657041)
 - cpu model: Intel(R) Xeon(R) W-2255 CPU @ 3.70GHz
 - platform: Linux-5.4.0-164-generic-x86_64-with-glibc2.31
 - [raw results](bm-20240425-linux-x86_64-python-2c451489122d539080c8-3.13.0a6%2B-2c45148.json)
@@ -20,7 +20,7 @@
 
 - Geometric mean: 1.34x faster (HPT: reliability of 100.00%, 1.26x faster at 99th %ile)
 - Memory usage: 1.10x
-- missing benchmarks: flaskblogging, sqlalchemy_declarative, sqlalchemy_imperative, unpack_sequence
+- missing benchmarks: sqlalchemy_declarative, sqlalchemy_imperative, unpack_sequence
 - new benchmarks: async_tree_cpu_io_mixed_tg, async_tree_io_tg, async_tree_memoization_tg, async_tree_none_tg
 - [📄table](bm-20240425-linux-x86_64-python-2c451489122d539080c8-3.13.0a6%2B-2c45148-vs-3.10.4.md)
 - [📈time plot](bm-20240425-linux-x86_64-python-2c451489122d539080c8-3.13.0a6%2B-2c45148-vs-3.10.4.png)
@@ -29,7 +29,7 @@
 
 - Geometric mean: 1.07x faster (HPT: reliability of 97.83%, 1.00x faster at 99th %ile)
 - Memory usage: 1.02x
-- missing benchmarks: flaskblogging, sqlalchemy_declarative, sqlalchemy_imperative, unpack_sequence
+- missing benchmarks: sqlalchemy_declarative, sqlalchemy_imperative, unpack_sequence
 - [📄table](bm-20240425-linux-x86_64-python-2c451489122d539080c8-3.13.0a6%2B-2c45148-vs-3.11.0.md)
 - [📈time plot](bm-20240425-linux-x86_64-python-2c451489122d539080c8-3.13.0a6%2B-2c45148-vs-3.11.0.png)
 
@@ -38,9 +38,17 @@
 - Geometric mean: 1.04x faster (HPT: reliability of 99.96%, 1.01x faster at 99th %ile)
 - Memory usage: 0.96x
 - missing benchmarks: sqlalchemy_declarative, sqlalchemy_imperative, unpack_sequence
-- new benchmarks: djangocms, genshi_text, genshi_xml, html5lib, pylint, thrift
+- new benchmarks: djangocms, flaskblogging, genshi_text, genshi_xml, html5lib, pylint, thrift
 - [📄table](bm-20240425-linux-x86_64-python-2c451489122d539080c8-3.13.0a6%2B-2c45148-vs-3.12.0.md)
 - [📈time plot](bm-20240425-linux-x86_64-python-2c451489122d539080c8-3.13.0a6%2B-2c45148-vs-3.12.0.png)
+
+### vs. base
+
+- Geometric mean: 1.01x faster (HPT: reliability of 100.00%, 1.00x faster at 99th %ile)
+- Memory usage: 0.99x
+- [🧠memory plot](bm-20240425-linux-x86_64-python-2c451489122d539080c8-3.13.0a6%2B-2c45148-vs-base-mem.png)
+- [📄table](bm-20240425-linux-x86_64-python-2c451489122d539080c8-3.13.0a6%2B-2c45148-vs-base.md)
+- [📈time plot](bm-20240425-linux-x86_64-python-2c451489122d539080c8-3.13.0a6%2B-2c45148-vs-base.png)
 
 ## linux x86_64 (pythonperf2)
 
