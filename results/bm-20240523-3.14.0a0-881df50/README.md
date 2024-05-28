@@ -9,6 +9,11 @@
 - commit merge base: [d472b4f9fa4fb6061588d421f33a0388a2005bc6](https://github.com/faster%2dcpython/cpython/commit/d472b4f9fa4fb6061588d421f33a0388a2005bc6)
 - ref: specialize_binary_op
 
+## linux x86_64 (azure)
+
+- [pystats raw](bm-20240523-azure-x86_64-faster%252dcpython-specialize_binary_op-3.14.0a0-881df50-pystats.json)
+- [pystats table](bm-20240523-azure-x86_64-faster%252dcpython-specialize_binary_op-3.14.0a0-881df50-pystats.md)
+
 ## linux x86_64 (linux)
 
 - [GitHub Action run](https://github.com/faster-cpython/benchmarking/actions/runs/9268982480)
