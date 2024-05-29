@@ -2,8 +2,7 @@
 
 - fork: python
 - version: 3.13.0a4+
-- tier 2: False
-- jit: False
+- config: 
 - commit hash: [e3dedea](https://github.com/python/cpython/commit/e3dedea)
 - commit date: 2024-02-24T19:37:03+00:00
 - commit merge base: [53c5c17e0a97ee06e511c89f1ca6ceb38fd06246](https://github.com/python/cpython/commit/53c5c17e0a97ee06e511c89f1ca6ceb38fd06246)

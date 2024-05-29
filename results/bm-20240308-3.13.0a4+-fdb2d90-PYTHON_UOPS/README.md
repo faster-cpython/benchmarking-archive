@@ -2,8 +2,7 @@
 
 - fork: python
 - version: 3.13.0a4+
-- tier 2: True
-- jit: False
+- config: T2
 - commit hash: [fdb2d90](https://github.com/python/cpython/commit/fdb2d90)
 - commit date: 2024-03-08T13:49:52+03:00
 - commit merge base: [0003285c8d78f0b463f2acc164655456fcfc3206](https://github.com/python/cpython/commit/0003285c8d78f0b463f2acc164655456fcfc3206)

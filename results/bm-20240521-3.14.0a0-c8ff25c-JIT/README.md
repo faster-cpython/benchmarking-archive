@@ -2,8 +2,7 @@
 
 - fork: saulshanabrook
 - version: 3.14.0a0
-- tier 2: False
-- jit: True
+- config: JIT
 - commit hash: [c8ff25c](https://github.com/saulshanabrook/cpython/commit/c8ff25c)
 - commit date: 2024-05-21T12:40:58-04:00
 - commit merge base: [642b25b9a82c368b045709f0b94e7d5a02400ed2](https://github.com/saulshanabrook/cpython/commit/642b25b9a82c368b045709f0b94e7d5a02400ed2)

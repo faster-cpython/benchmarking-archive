@@ -2,8 +2,7 @@
 
 - fork: python
 - version: 3.12.0b2
-- tier 2: False
-- jit: False
+- config: 
 - commit hash: [e6c0efa](https://github.com/python/cpython/commit/e6c0efa)
 - commit date: 2023-06-06T16:16:21+02:00
 - ref: e6c0efa25a47488f4000, v3.12.0b2

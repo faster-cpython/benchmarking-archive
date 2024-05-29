@@ -2,8 +2,7 @@
 
 - fork: python
 - version: 3.11.6
-- tier 2: False
-- jit: False
+- config: 
 - commit hash: [8b6ee5b](https://github.com/python/cpython/commit/8b6ee5b)
 - commit date: 2023-10-02T14:29:10+01:00
 - ref: v3.11.6

@@ -2,8 +2,7 @@
 
 - fork: nineteendo
 - version: 3.13.0a6+
-- tier 2: False
-- jit: False
+- config: 
 - commit hash: [59ac30f](https://github.com/nineteendo/cpython/commit/59ac30f)
 - commit date: 2024-04-29T10:01:01+02:00
 - commit merge base: [c7e7bfc4ca26bf90e0d4959e303770fbfc3a3795](https://github.com/nineteendo/cpython/commit/c7e7bfc4ca26bf90e0d4959e303770fbfc3a3795)

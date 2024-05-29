@@ -2,8 +2,7 @@
 
 - fork: python
 - version: 3.14.0a0
-- tier 2: True
-- jit: False
+- config: T2
 - commit hash: [caf6064](https://github.com/python/cpython/commit/caf6064)
 - commit date: 2024-05-18T22:40:51+00:00
 - commit merge base: [30b4e9f9c42493136c58c56fee5553128bb32428](https://github.com/python/cpython/commit/30b4e9f9c42493136c58c56fee5553128bb32428)

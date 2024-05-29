@@ -2,8 +2,7 @@
 
 - fork: zooba
 - version: 3.14.0a0
-- tier 2: False
-- jit: False
+- config: 
 - commit hash: [7466cb2](https://github.com/zooba/cpython/commit/7466cb2)
 - commit date: 2024-05-20T19:34:18+01:00
 - commit merge base: [caf6064a1bc15ac344afd78b780188e60b9c628e](https://github.com/zooba/cpython/commit/caf6064a1bc15ac344afd78b780188e60b9c628e)

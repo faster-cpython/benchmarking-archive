@@ -2,8 +2,7 @@
 
 - fork: pvlkhn
 - version: 3.13.0a3+
-- tier 2: False
-- jit: False
+- config: 
 - commit hash: [3213e3a](https://github.com/pvlkhn/cpython/commit/3213e3a)
 - commit date: 2024-02-11T03:04:59+02:00
 - commit merge base: [b70a68fbd6b72a25b5ef430603e39c9e40f40d29](https://github.com/pvlkhn/cpython/commit/b70a68fbd6b72a25b5ef430603e39c9e40f40d29)

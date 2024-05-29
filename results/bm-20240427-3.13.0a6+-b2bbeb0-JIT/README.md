@@ -2,8 +2,7 @@
 
 - fork: savannahostrowski
 - version: 3.13.0a6+
-- tier 2: False
-- jit: True
+- config: JIT
 - commit hash: [b2bbeb0](https://github.com/savannahostrowski/cpython/commit/b2bbeb0)
 - commit date: 2024-04-27T11:36:18-07:00
 - commit merge base: [51aefc5bf907ddffaaf083ded0de773adcdf08c8](https://github.com/savannahostrowski/cpython/commit/51aefc5bf907ddffaaf083ded0de773adcdf08c8)

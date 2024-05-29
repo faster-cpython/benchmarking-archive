@@ -2,8 +2,7 @@
 
 - fork: gaogaotiantian
 - version: 3.13.0a5+
-- tier 2: False
-- jit: True
+- config: JIT
 - commit hash: [a65be06](https://github.com/gaogaotiantian/cpython/commit/a65be06)
 - commit date: 2024-03-27T11:31:57-07:00
 - commit merge base: [262fb911ab7df8e890ebd0efb0773c3e0b5a757f](https://github.com/gaogaotiantian/cpython/commit/262fb911ab7df8e890ebd0efb0773c3e0b5a757f)

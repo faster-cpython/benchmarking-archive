@@ -2,8 +2,7 @@
 
 - fork: python
 - version: 3.10.10
-- tier 2: False
-- jit: False
+- config: 
 - commit hash: [aad5f6a](https://github.com/python/cpython/commit/aad5f6a)
 - commit date: 2023-02-07T12:05:45+00:00
 - ref: aad5f6a89125ad4529ab, v3.10.10

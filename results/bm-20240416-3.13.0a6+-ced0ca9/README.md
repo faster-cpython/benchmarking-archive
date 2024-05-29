@@ -2,8 +2,7 @@
 
 - fork: gvanrossum
 - version: 3.13.0a6+
-- tier 2: False
-- jit: False
+- config: 
 - commit hash: [ced0ca9](https://github.com/gvanrossum/cpython/commit/ced0ca9)
 - commit date: 2024-04-16T14:58:21-07:00
 - commit merge base: [0823f4361850145152a94e9086bede6a000d8a4a](https://github.com/gvanrossum/cpython/commit/0823f4361850145152a94e9086bede6a000d8a4a)

@@ -2,8 +2,7 @@
 
 - fork: python
 - version: 3.11.8
-- tier 2: False
-- jit: False
+- config: 
 - commit hash: [db85d51](https://github.com/python/cpython/commit/db85d51)
 - commit date: 2024-02-06T21:21:21+00:00
 - ref: v3.11.8

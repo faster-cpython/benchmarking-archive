@@ -2,8 +2,7 @@
 
 - fork: python
 - version: 3.11.2
-- tier 2: False
-- jit: False
+- config: 
 - commit hash: [878ead1](https://github.com/python/cpython/commit/878ead1)
 - commit date: 2023-02-07T13:37:51+00:00
 - ref: 878ead1ac16519651263, v3.11.2

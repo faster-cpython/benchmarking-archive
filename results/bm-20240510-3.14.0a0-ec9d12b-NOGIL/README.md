@@ -2,8 +2,7 @@
 
 - fork: python
 - version: 3.14.0a0
-- tier 2: False
-- jit: False
+- config: NOGIL
 - commit hash: [ec9d12b](https://github.com/python/cpython/commit/ec9d12b)
 - commit date: 2024-05-10T16:55:49+00:00
 - commit merge base: [f5c6b9977a561fcf9c2a803fb08652fd39b13d3b](https://github.com/python/cpython/commit/f5c6b9977a561fcf9c2a803fb08652fd39b13d3b)

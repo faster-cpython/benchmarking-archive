@@ -2,8 +2,7 @@
 
 - fork: python
 - version: 3.10.1
-- tier 2: False
-- jit: False
+- config: 
 - commit hash: [2cd268a](https://github.com/python/cpython/commit/2cd268a)
 - commit date: 2021-12-06T18:23:39+00:00
 - ref: 2cd268a3a9340346dd86

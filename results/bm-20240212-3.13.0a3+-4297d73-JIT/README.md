@@ -2,8 +2,7 @@
 
 - fork: python
 - version: 3.13.0a3+
-- tier 2: False
-- jit: True
+- config: JIT
 - commit hash: [4297d73](https://github.com/python/cpython/commit/4297d73)
 - commit date: 2024-02-12T21:31:07+03:00
 - commit merge base: [de7d67b19b9f31d7712de7211ffac5bf6018157f](https://github.com/python/cpython/commit/de7d67b19b9f31d7712de7211ffac5bf6018157f)

@@ -2,8 +2,7 @@
 
 - fork: mdboom
 - version: 3.13.0a5+
-- tier 2: False
-- jit: True
+- config: JIT
 - commit hash: [cb999fb](https://github.com/mdboom/cpython/commit/cb999fb)
 - commit date: 2024-03-13T16:36:53-04:00
 - commit merge base: [61733a2fb9dc36d2246d922146a3462a2248832d](https://github.com/mdboom/cpython/commit/61733a2fb9dc36d2246d922146a3462a2248832d)

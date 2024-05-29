@@ -2,8 +2,7 @@
 
 - fork: brandtbucher
 - version: 3.13.0a6+
-- tier 2: True
-- jit: False
+- config: T2
 - commit hash: [a8158ae](https://github.com/brandtbucher/cpython/commit/a8158ae)
 - commit date: 2024-05-05T13:51:13-07:00
 - commit merge base: [d8d94911e2393bd30ca58a32b33d792307fdc00d](https://github.com/brandtbucher/cpython/commit/d8d94911e2393bd30ca58a32b33d792307fdc00d)

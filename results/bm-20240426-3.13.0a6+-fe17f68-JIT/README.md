@@ -2,8 +2,7 @@
 
 - fork: savannahostrowski
 - version: 3.13.0a6+
-- tier 2: False
-- jit: True
+- config: JIT
 - commit hash: [fe17f68](https://github.com/savannahostrowski/cpython/commit/fe17f68)
 - commit date: 2024-04-26T13:27:29-07:00
 - commit merge base: [b43c7e1070e515b3e94043ff777ab83074234051](https://github.com/savannahostrowski/cpython/commit/b43c7e1070e515b3e94043ff777ab83074234051)

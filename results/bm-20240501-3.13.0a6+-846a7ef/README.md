@@ -2,8 +2,7 @@
 
 - fork: faster-cpython
 - version: 3.13.0a6+
-- tier 2: False
-- jit: False
+- config: 
 - commit hash: [846a7ef](https://github.com/faster%2dcpython/cpython/commit/846a7ef)
 - commit date: 2024-05-01T21:45:37+01:00
 - commit merge base: [75955110a643875b5d096b6eda06dcc6e542e171](https://github.com/faster%2dcpython/cpython/commit/75955110a643875b5d096b6eda06dcc6e542e171)

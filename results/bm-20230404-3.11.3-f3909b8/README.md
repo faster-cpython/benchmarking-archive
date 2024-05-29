@@ -2,8 +2,7 @@
 
 - fork: python
 - version: 3.11.3
-- tier 2: False
-- jit: False
+- config: 
 - commit hash: [f3909b8](https://github.com/python/cpython/commit/f3909b8)
 - commit date: 2023-04-04T23:22:17+01:00
 - ref: f3909b8bc83675b7ab09

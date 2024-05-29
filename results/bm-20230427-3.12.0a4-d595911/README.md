@@ -2,8 +2,7 @@
 
 - fork: mdboom
 - version: 3.12.0a4
-- tier 2: False
-- jit: False
+- config: 
 - commit hash: [d595911](https://github.com/mdboom/cpython/commit/d595911)
 - commit date: 2023-04-27T14:06:49-07:00
 - ref: nogil_d595911

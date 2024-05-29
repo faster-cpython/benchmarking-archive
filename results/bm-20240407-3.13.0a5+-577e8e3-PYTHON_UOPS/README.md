@@ -2,8 +2,7 @@
 
 - fork: Fidget-Spinner
 - version: 3.13.0a5+
-- tier 2: True
-- jit: False
+- config: T2
 - commit hash: [577e8e3](https://github.com/Fidget%2dSpinner/cpython/commit/577e8e3)
 - commit date: 2024-04-07T02:11:32+08:00
 - commit merge base: [62aeb0ee69b06091396398de56dcb755ca3b9dc9](https://github.com/Fidget%2dSpinner/cpython/commit/62aeb0ee69b06091396398de56dcb755ca3b9dc9)

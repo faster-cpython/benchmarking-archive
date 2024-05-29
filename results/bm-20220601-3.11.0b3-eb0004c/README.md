@@ -2,8 +2,7 @@
 
 - fork: python
 - version: 3.11.0b3
-- tier 2: False
-- jit: False
+- config: 
 - commit hash: [eb0004c](https://github.com/python/cpython/commit/eb0004c)
 - commit date: 2022-06-01T14:07:53+01:00
 - ref: eb0004c27163ec089201, v3.11.0b3

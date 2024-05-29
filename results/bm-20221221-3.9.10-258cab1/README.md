@@ -2,8 +2,7 @@
 
 - fork: faster_cpython
 - version: 3.9.10
-- tier 2: False
-- jit: False
+- config: 
 - commit hash: [258cab1](https://github.com/faster_cpython/cpython/commit/258cab1)
 - commit date: 2022-12-21T19:44:41-08:00
 - ref: nogil

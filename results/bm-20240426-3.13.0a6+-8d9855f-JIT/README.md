@@ -2,8 +2,7 @@
 
 - fork: savannahostrowski
 - version: 3.13.0a6+
-- tier 2: False
-- jit: True
+- config: JIT
 - commit hash: [8d9855f](https://github.com/savannahostrowski/cpython/commit/8d9855f)
 - commit date: 2024-04-26T12:04:09-07:00
 - commit merge base: [3e06c7f719b99cc7f5e8889319cff4980e41d3e8](https://github.com/savannahostrowski/cpython/commit/3e06c7f719b99cc7f5e8889319cff4980e41d3e8)

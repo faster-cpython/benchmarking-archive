@@ -2,8 +2,7 @@
 
 - fork: iritkatriel
 - version: 3.13.0a4+
-- tier 2: False
-- jit: False
+- config: 
 - commit hash: [ad434a2](https://github.com/iritkatriel/cpython/commit/ad434a2)
 - commit date: 2024-02-27T15:17:56+00:00
 - commit merge base: [e3dedeae7abbeda0cb3f1d872ebbb914635d64f2](https://github.com/iritkatriel/cpython/commit/e3dedeae7abbeda0cb3f1d872ebbb914635d64f2)

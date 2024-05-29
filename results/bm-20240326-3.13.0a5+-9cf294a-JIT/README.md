@@ -2,8 +2,7 @@
 
 - fork: man-group
 - version: 3.13.0a5+
-- tier 2: False
-- jit: True
+- config: JIT
 - commit hash: [9cf294a](https://github.com/man%2dgroup/cpython/commit/9cf294a)
 - commit date: 2024-03-26T12:15:24+00:00
 - commit merge base: [9654daf793b534b44a831c80f43505ab9e380f1f](https://github.com/man%2dgroup/cpython/commit/9654daf793b534b44a831c80f43505ab9e380f1f)

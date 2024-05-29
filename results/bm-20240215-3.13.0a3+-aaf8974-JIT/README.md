@@ -2,8 +2,7 @@
 
 - fork: mdboom
 - version: 3.13.0a3+
-- tier 2: False
-- jit: True
+- config: JIT
 - commit hash: [aaf8974](https://github.com/mdboom/cpython/commit/aaf8974)
 - commit date: 2024-02-15T17:19:06-05:00
 - commit merge base: [ae460d450ab854ca66d509ef6971cfe1b6312405](https://github.com/mdboom/cpython/commit/ae460d450ab854ca66d509ef6971cfe1b6312405)

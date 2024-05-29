@@ -2,8 +2,7 @@
 
 - fork: python
 - version: 3.12.0b3
-- tier 2: False
-- jit: False
+- config: 
 - commit hash: [f992a60](https://github.com/python/cpython/commit/f992a60)
 - commit date: 2023-06-19T20:56:16+02:00
 - ref: f992a60014b7ca83de03, v3.12.0b3

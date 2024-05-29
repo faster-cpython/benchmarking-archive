@@ -2,8 +2,7 @@
 
 - fork: python
 - version: 3.13.0a5+
-- tier 2: False
-- jit: True
+- config: JIT
 - commit hash: [dcaf33a](https://github.com/python/cpython/commit/dcaf33a)
 - commit date: 2024-03-20T17:33:08+01:00
 - commit merge base: [44fbab43d8f3f2df07091d237824cf4fa1f6c57c](https://github.com/python/cpython/commit/44fbab43d8f3f2df07091d237824cf4fa1f6c57c)
