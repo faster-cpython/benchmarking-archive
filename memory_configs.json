@@ -269,5 +269,6 @@
   "bm-20240525-3.14.0a0-e418fc3\/bm-20240525-arminc-aarch64-python-e418fc3a6e7bade68ab5-3.14.0a0-e418fc3.json,bm-20240525-3.14.0a0-e418fc3-PYTHON_UOPS\/bm-20240525-arminc-aarch64-python-e418fc3a6e7bade68ab5-3.14.0a0-e418fc3.json": 1.02,
   "bm-20240525-3.14.0a0-e418fc3\/bm-20240525-darwin-arm64-python-e418fc3a6e7bade68ab5-3.14.0a0-e418fc3.json,bm-20240525-3.14.0a0-e418fc3-PYTHON_UOPS\/bm-20240525-darwin-arm64-python-e418fc3a6e7bade68ab5-3.14.0a0-e418fc3.json": 1.01,
   "bm-20240525-3.14.0a0-e418fc3\/bm-20240525-pythonperf1-amd64-python-e418fc3a6e7bade68ab5-3.14.0a0-e418fc3.json,bm-20240525-3.14.0a0-e418fc3-PYTHON_UOPS\/bm-20240525-pythonperf1-amd64-python-e418fc3a6e7bade68ab5-3.14.0a0-e418fc3.json": null,
-  "bm-20240525-3.14.0a0-e418fc3\/bm-20240525-pythonperf1_win32-x86-python-e418fc3a6e7bade68ab5-3.14.0a0-e418fc3.json,bm-20240525-3.14.0a0-e418fc3-PYTHON_UOPS\/bm-20240525-pythonperf1_win32-x86-python-e418fc3a6e7bade68ab5-3.14.0a0-e418fc3.json": null
+  "bm-20240525-3.14.0a0-e418fc3\/bm-20240525-pythonperf1_win32-x86-python-e418fc3a6e7bade68ab5-3.14.0a0-e418fc3.json,bm-20240525-3.14.0a0-e418fc3-PYTHON_UOPS\/bm-20240525-pythonperf1_win32-x86-python-e418fc3a6e7bade68ab5-3.14.0a0-e418fc3.json": null,
+  "bm-20240522-3.14.0a0-d472b4f\/bm-20240522-linux-x86_64-python-d472b4f9fa4fb6061588-3.14.0a0-d472b4f.json,bm-20240522-3.14.0a0-d472b4f-JIT\/bm-20240522-linux-x86_64-python-d472b4f9fa4fb6061588-3.14.0a0-d472b4f.json": 1.08
 }

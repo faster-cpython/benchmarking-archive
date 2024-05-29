@@ -80,6 +80,14 @@
 - [📄table](bm-20240522-linux-x86_64-python-d472b4f9fa4fb6061588-3.14.0a0-d472b4f-vs-3.12.0.md)
 - [📈time plot](bm-20240522-linux-x86_64-python-d472b4f9fa4fb6061588-3.14.0a0-d472b4f-vs-3.12.0.png)
 
+### vs. base
+
+- Geometric mean: 1.00x faster (HPT: reliability of 91.18%, 1.00x slower at 99th %ile)
+- Memory usage: 1.08x
+- [🧠memory plot](bm-20240522-linux-x86_64-python-d472b4f9fa4fb6061588-3.14.0a0-d472b4f-vs-base-mem.png)
+- [📄table](bm-20240522-linux-x86_64-python-d472b4f9fa4fb6061588-3.14.0a0-d472b4f-vs-base.md)
+- [📈time plot](bm-20240522-linux-x86_64-python-d472b4f9fa4fb6061588-3.14.0a0-d472b4f-vs-base.png)
+
 ## linux x86_64 (pythonperf2)
 
 - [GitHub Action run](https://github.com/faster-cpython/benchmarking/actions/runs/9217931145)
