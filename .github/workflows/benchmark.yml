@@ -157,9 +157,6 @@ jobs:
     uses: ./.github/workflows/_generate.yml
     with:
       force: false
-      tier2: ${{ inputs.tier2 }}
-      jit: ${{ inputs.jit }}
-      nogil: ${{ inputs.nogil }}
     if: ${{ always() }}
     needs: [head, base, pystats-head, pystats-base]
     secrets: inherit
