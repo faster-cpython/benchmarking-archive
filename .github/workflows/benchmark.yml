@@ -106,9 +106,6 @@ jobs:
       nogil: ${{ inputs.nogil }}
     secrets: inherit
 
-    env:
-      flags: ${{ inputs.tier2 == 'true' && 'PYTHON_UOPS' || '' }},${{ inputs.jit ==
-        'true' && 'JIT' || '' }},${{ inputs.nogil == 'true' && 'NOGIL' || '' }}
   base:
     uses: ./.github/workflows/_benchmark.yml
     needs: determine_base
@@ -126,9 +123,6 @@ jobs:
       nogil: ${{ inputs.nogil }}
     secrets: inherit
 
-    env:
-      flags: ${{ inputs.tier2 == 'true' && 'PYTHON_UOPS' || '' }},${{ inputs.jit ==
-        'true' && 'JIT' || '' }},${{ inputs.nogil == 'true' && 'NOGIL' || '' }}
   pystats-head:
     uses: ./.github/workflows/_pystats.yml
     if: ${{ inputs.pystats }}
@@ -143,9 +137,6 @@ jobs:
       nogil: ${{ inputs.nogil }}
     secrets: inherit
 
-    env:
-      flags: ${{ inputs.tier2 == 'true' && 'PYTHON_UOPS' || '' }},${{ inputs.jit ==
-        'true' && 'JIT' || '' }},${{ inputs.nogil == 'true' && 'NOGIL' || '' }}
   pystats-base:
     uses: ./.github/workflows/_pystats.yml
     needs: determine_base
@@ -162,9 +153,6 @@ jobs:
       nogil: ${{ inputs.nogil }}
     secrets: inherit
 
-    env:
-      flags: ${{ inputs.tier2 == 'true' && 'PYTHON_UOPS' || '' }},${{ inputs.jit ==
-        'true' && 'JIT' || '' }},${{ inputs.nogil == 'true' && 'NOGIL' || '' }}
   generate:
     uses: ./.github/workflows/_generate.yml
     with:
@@ -176,18 +164,12 @@ jobs:
     needs: [head, base, pystats-head, pystats-base]
     secrets: inherit
 
-    env:
-      flags: ${{ inputs.tier2 == 'true' && 'PYTHON_UOPS' || '' }},${{ inputs.jit ==
-        'true' && 'JIT' || '' }},${{ inputs.nogil == 'true' && 'NOGIL' || '' }}
   publish:
     uses: ./.github/workflows/_publish.yml
     if: ${{ always() }}
     needs: [generate]
     secrets: inherit
 
-    env:
-      flags: ${{ inputs.tier2 == 'true' && 'PYTHON_UOPS' || '' }},${{ inputs.jit ==
-        'true' && 'JIT' || '' }},${{ inputs.nogil == 'true' && 'NOGIL' || '' }}
   notify:
     uses: ./.github/workflows/_notify.yml
     if: ${{ always() }}
@@ -202,6 +184,3 @@ jobs:
       jit: ${{ inputs.jit }}
       nogil: ${{ inputs.nogil }}
     secrets: inherit
-    env:
-      flags: ${{ inputs.tier2 == 'true' && 'PYTHON_UOPS' || '' }},${{ inputs.jit ==
-        'true' && 'JIT' || '' }},${{ inputs.nogil == 'true' && 'NOGIL' || '' }}
