@@ -1,1 +1,1 @@
-git+https://github.com/faster-cpython/bench_runner@v0.23.8#egg=bench_runner
+git+https://github.com/faster-cpython/bench_runner@v0.23.9#egg=bench_runner
