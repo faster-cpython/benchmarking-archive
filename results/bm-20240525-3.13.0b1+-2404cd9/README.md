@@ -139,6 +139,39 @@
 - [📄table](bm-20240525-pythonperf1-amd64-python-2404cd94603bc585e617-3.13.0b1%2B-2404cd9-vs-3.12.0.md)
 - [📈time plot](bm-20240525-pythonperf1-amd64-python-2404cd94603bc585e617-3.13.0b1%2B-2404cd9-vs-3.12.0.png)
 
+## windows x86 (pythonperf1_win32)
+
+- [GitHub Action run](https://github.com/faster-cpython/benchmarking/actions/runs/9320695215)
+- cpu model: missing
+- platform: Windows-11-10.0.22631-SP0
+- [raw results](bm-20240525-pythonperf1_win32-x86-python-2404cd94603bc585e617-3.13.0b1%2B-2404cd9.json)
+
+### vs. 3.10.4
+
+- Geometric mean: 1.13x faster (HPT: reliability of 100.00%, 1.09x faster at 99th %ile)
+- Memory usage: unknown
+- missing benchmarks: aiohttp, dask, dulwich_log, mypy2, sqlalchemy_declarative, sqlalchemy_imperative, unpack_sequence
+- new benchmarks: async_tree_cpu_io_mixed_tg, async_tree_io_tg, async_tree_memoization_tg, async_tree_none_tg
+- [📄table](bm-20240525-pythonperf1_win32-x86-python-2404cd94603bc585e617-3.13.0b1%2B-2404cd9-vs-3.10.4.md)
+- [📈time plot](bm-20240525-pythonperf1_win32-x86-python-2404cd94603bc585e617-3.13.0b1%2B-2404cd9-vs-3.10.4.png)
+
+### vs. 3.11.0
+
+- Geometric mean: 1.24x faster (HPT: reliability of 100.00%, 1.26x faster at 99th %ile)
+- Memory usage: unknown
+- missing benchmarks: aiohttp, dask, dulwich_log, mypy2, sqlalchemy_declarative, sqlalchemy_imperative, unpack_sequence
+- [📄table](bm-20240525-pythonperf1_win32-x86-python-2404cd94603bc585e617-3.13.0b1%2B-2404cd9-vs-3.11.0.md)
+- [📈time plot](bm-20240525-pythonperf1_win32-x86-python-2404cd94603bc585e617-3.13.0b1%2B-2404cd9-vs-3.11.0.png)
+
+### vs. 3.12.0
+
+- Geometric mean: 1.18x faster (HPT: reliability of 100.00%, 1.17x faster at 99th %ile)
+- Memory usage: unknown
+- missing benchmarks: aiohttp, dask, dulwich_log, mypy2, sqlalchemy_declarative, sqlalchemy_imperative, unpack_sequence
+- new benchmarks: flaskblogging, genshi_text, genshi_xml, html5lib, pylint, thrift
+- [📄table](bm-20240525-pythonperf1_win32-x86-python-2404cd94603bc585e617-3.13.0b1%2B-2404cd9-vs-3.12.0.md)
+- [📈time plot](bm-20240525-pythonperf1_win32-x86-python-2404cd94603bc585e617-3.13.0b1%2B-2404cd9-vs-3.12.0.png)
+
 ## darwin arm64 (darwin)
 
 - [GitHub Action run](https://github.com/faster-cpython/benchmarking/actions/runs/9319142252)
