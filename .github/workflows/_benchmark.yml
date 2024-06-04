@@ -120,7 +120,7 @@ jobs:
       if: ${{ always() }}
       id: should_run
       run: |
-        venv/bin/python -m bench_runner should_run ${{ inputs.force }} ${{ inputs.fork }} ${{ inputs.ref }} ${{ inputs.machine }} false ${{ inputs.tier2 == true && 'PYTHON_UOPS' || '' }},${{ inputs.jit == true && 'JIT' || '' }},${{ inputs.nogil == true && 'NOGIL' || '' }} >> $GITHUB_OUTPUT
+        venv/bin/python -m bench_runner should_run ${{ inputs.force }} ${{ inputs.fork }} ${{ inputs.ref }} ${{ inputs.machine }} false ${{ inputs.tier2 == true && 'tier2' || '' }},${{ inputs.jit == true && 'jit' || '' }},${{ inputs.nogil == true && 'nogil' || '' }} >> $GITHUB_OUTPUT
     - name: Checkout python-macrobenchmarks
       uses: actions/checkout@v4
       if: ${{ steps.should_run.outputs.should_run != 'false' }}
@@ -157,7 +157,7 @@ jobs:
       if: ${{ steps.should_run.outputs.should_run != 'false' }}
       run: |
         rm -rf ~/.debug/*
-        venv/bin/python -m bench_runner run_benchmarks ${{ inputs.perf && 'perf' || 'benchmark' }} cpython/python ${{ inputs.fork }} ${{ inputs.ref }} ${{ inputs.benchmarks || 'all' }} ${{ inputs.tier2 == true && 'PYTHON_UOPS' || '' }},${{ inputs.jit == true && 'JIT' || '' }},${{ inputs.nogil == true && 'NOGIL' || '' }} --run_id ${{ github.run_id }}
+        venv/bin/python -m bench_runner run_benchmarks ${{ inputs.perf && 'perf' || 'benchmark' }} cpython/python ${{ inputs.fork }} ${{ inputs.ref }} ${{ inputs.benchmarks || 'all' }} ${{ inputs.tier2 == true && 'tier2' || '' }},${{ inputs.jit == true && 'jit' || '' }},${{ inputs.nogil == true && 'nogil' || '' }} --run_id ${{ github.run_id }}
       # Pull again, since another job may have committed results in the meantime
     - name: Pull benchmarking
       if: ${{ steps.should_run.outputs.should_run != 'false' && !inputs.perf }}
@@ -190,8 +190,8 @@ jobs:
 
     if: ${{ (inputs.machine == 'linux-x86_64-linux' || inputs.machine == 'all') }}
     env:
-      flags: ${{ inputs.tier2 == true && 'PYTHON_UOPS' || '' }},${{ inputs.jit ==
-        true && 'JIT' || '' }},${{ inputs.nogil == true && 'NOGIL' || '' }}
+      flags: ${{ inputs.tier2 == true && 'tier2' || '' }},${{ inputs.jit == true &&
+        'jit' || '' }},${{ inputs.nogil == true && 'nogil' || '' }}
   benchmark-darwin-arm64-darwin:
     runs-on: [self-hosted, macos, bare-metal, darwin-arm64-darwin]
 
@@ -216,7 +216,7 @@ jobs:
       if: ${{ always() }}
       id: should_run
       run: |
-        venv/bin/python -m bench_runner should_run ${{ inputs.force }} ${{ inputs.force }} ${{ inputs.ref }} ${{ inputs.machine }} false ${{ inputs.tier2 == true && 'PYTHON_UOPS' || '' }},${{ inputs.jit == true && 'JIT' || '' }},${{ inputs.nogil == true && 'NOGIL' || '' }} >> $GITHUB_OUTPUT
+        venv/bin/python -m bench_runner should_run ${{ inputs.force }} ${{ inputs.force }} ${{ inputs.ref }} ${{ inputs.machine }} false ${{ inputs.tier2 == true && 'tier2' || '' }},${{ inputs.jit == true && 'jit' || '' }},${{ inputs.nogil == true && 'nogil' || '' }} >> $GITHUB_OUTPUT
     - name: Checkout python-macrobenchmarks
       uses: actions/checkout@v4
       if: ${{ steps.should_run.outputs.should_run != 'false' }}
@@ -250,7 +250,7 @@ jobs:
     - name: Running pyperformance
       if: ${{ steps.should_run.outputs.should_run != 'false' }}
       run: |
-        venv/bin/python -m bench_runner run_benchmarks benchmark cpython/python.exe ${{ inputs.fork }} ${{ inputs.ref }} ${{ inputs.benchmarks || 'all' }} ${{ inputs.tier2 == true && 'PYTHON_UOPS' || '' }},${{ inputs.jit == true && 'JIT' || '' }},${{ inputs.nogil == true && 'NOGIL' || '' }} --run_id ${{ github.run_id }}
+        venv/bin/python -m bench_runner run_benchmarks benchmark cpython/python.exe ${{ inputs.fork }} ${{ inputs.ref }} ${{ inputs.benchmarks || 'all' }} ${{ inputs.tier2 == true && 'tier2' || '' }},${{ inputs.jit == true && 'jit' || '' }},${{ inputs.nogil == true && 'nogil' || '' }} --run_id ${{ github.run_id }}
       # Pull again, since another job may have committed results in the meantime
     - name: Pull benchmarking
       if: ${{ steps.should_run.outputs.should_run != 'false' }}
@@ -275,8 +275,8 @@ jobs:
         overwrite: true
     if: ${{ (inputs.machine == 'darwin-arm64-darwin' || inputs.machine == 'all') }}
     env:
-      flags: ${{ inputs.tier2 == true && 'PYTHON_UOPS' || '' }},${{ inputs.jit ==
-        true && 'JIT' || '' }},${{ inputs.nogil == true && 'NOGIL' || '' }}
+      flags: ${{ inputs.tier2 == true && 'tier2' || '' }},${{ inputs.jit == true &&
+        'jit' || '' }},${{ inputs.nogil == true && 'nogil' || '' }}
   benchmark-windows-x86_64-pythonperf1:
     runs-on: [self-hosted, windows, bare-metal, windows-x86_64-pythonperf1]
 
@@ -308,7 +308,7 @@ jobs:
       if: ${{ always() }}
       id: should_run
       run: |
-        venv\Scripts\python.exe -m bench_runner should_run ${{ inputs.force }} ${{ inputs.fork }} ${{ inputs.ref }} ${{ inputs.machine }} false "${{ inputs.tier2 == true && 'PYTHON_UOPS' || '' }},${{ inputs.jit == true && 'JIT' || '' }},${{ inputs.nogil == true && 'NOGIL' || '' }}" >> $GITHUB_OUTPUT
+        venv\Scripts\python.exe -m bench_runner should_run ${{ inputs.force }} ${{ inputs.fork }} ${{ inputs.ref }} ${{ inputs.machine }} false "${{ inputs.tier2 == true && 'tier2' || '' }},${{ inputs.jit == true && 'jit' || '' }},${{ inputs.nogil == true && 'nogil' || '' }}" >> $GITHUB_OUTPUT
     - name: Checkout python-macrobenchmarks
       uses: actions/checkout@v4
       if: ${{ steps.should_run.outputs.should_run != 'false' }}
@@ -337,7 +337,7 @@ jobs:
     - name: Running pyperformance
       if: ${{ steps.should_run.outputs.should_run != 'false' }}
       run: |
-        venv\Scripts\python.exe -m bench_runner run_benchmarks benchmark cpython\$env:BUILD_DEST\python.exe ${{ inputs.fork }} ${{ inputs.ref }} ${{ inputs.benchmarks || 'all' }} "${{ inputs.tier2 == true && 'PYTHON_UOPS' || '' }},${{ inputs.jit == true && 'JIT' || '' }},${{ inputs.nogil == true && 'NOGIL' || '' }}" --run_id ${{ github.run_id }}
+        venv\Scripts\python.exe -m bench_runner run_benchmarks benchmark cpython\$env:BUILD_DEST\python.exe ${{ inputs.fork }} ${{ inputs.ref }} ${{ inputs.benchmarks || 'all' }} "${{ inputs.tier2 == true && 'tier2' || '' }},${{ inputs.jit == true && 'jit' || '' }},${{ inputs.nogil == true && 'nogil' || '' }}" --run_id ${{ github.run_id }}
       # Pull again, since another job may have committed results in the meantime
     - name: Pull benchmarking
       if: ${{ steps.should_run.outputs.should_run != 'false' }}
@@ -364,8 +364,8 @@ jobs:
     if: ${{ (inputs.machine == 'windows-x86_64-pythonperf1' || inputs.machine == 'all')
       }}
     env:
-      flags: ${{ inputs.tier2 == true && 'PYTHON_UOPS' || '' }},${{ inputs.jit ==
-        true && 'JIT' || '' }},${{ inputs.nogil == true && 'NOGIL' || '' }}
+      flags: ${{ inputs.tier2 == true && 'tier2' || '' }},${{ inputs.jit == true &&
+        'jit' || '' }},${{ inputs.nogil == true && 'nogil' || '' }}
   benchmark-windows-x86-pythonperf1_win32:
     runs-on: [self-hosted, windows, bare-metal, windows-x86_64-pythonperf1]
 
@@ -398,7 +398,7 @@ jobs:
       if: ${{ always() }}
       id: should_run
       run: |
-        venv\Scripts\python.exe -m bench_runner should_run ${{ inputs.force }} ${{ inputs.fork }} ${{ inputs.ref }} ${{ inputs.machine }} false "${{ inputs.tier2 == true && 'PYTHON_UOPS' || '' }},${{ inputs.jit == true && 'JIT' || '' }},${{ inputs.nogil == true && 'NOGIL' || '' }}" >> $GITHUB_OUTPUT
+        venv\Scripts\python.exe -m bench_runner should_run ${{ inputs.force }} ${{ inputs.fork }} ${{ inputs.ref }} ${{ inputs.machine }} false "${{ inputs.tier2 == true && 'tier2' || '' }},${{ inputs.jit == true && 'jit' || '' }},${{ inputs.nogil == true && 'nogil' || '' }}" >> $GITHUB_OUTPUT
     - name: Checkout python-macrobenchmarks
       uses: actions/checkout@v4
       if: ${{ steps.should_run.outputs.should_run != 'false' }}
@@ -427,7 +427,7 @@ jobs:
     - name: Running pyperformance
       if: ${{ steps.should_run.outputs.should_run != 'false' }}
       run: |
-        venv\Scripts\python.exe -m bench_runner run_benchmarks benchmark cpython\$env:BUILD_DEST\python.exe ${{ inputs.fork }} ${{ inputs.ref }} ${{ inputs.benchmarks || 'all' }} "${{ inputs.tier2 == true && 'PYTHON_UOPS' || '' }},${{ inputs.jit == true && 'JIT' || '' }},${{ inputs.nogil == true && 'NOGIL' || '' }}" --run_id ${{ github.run_id }}
+        venv\Scripts\python.exe -m bench_runner run_benchmarks benchmark cpython\$env:BUILD_DEST\python.exe ${{ inputs.fork }} ${{ inputs.ref }} ${{ inputs.benchmarks || 'all' }} "${{ inputs.tier2 == true && 'tier2' || '' }},${{ inputs.jit == true && 'jit' || '' }},${{ inputs.nogil == true && 'nogil' || '' }}" --run_id ${{ github.run_id }}
       # Pull again, since another job may have committed results in the meantime
     - name: Pull benchmarking
       if: ${{ steps.should_run.outputs.should_run != 'false' }}
@@ -454,8 +454,8 @@ jobs:
     if: ${{ (inputs.machine == 'windows-x86-pythonperf1_win32' || inputs.machine ==
       'all') }}
     env:
-      flags: ${{ inputs.tier2 == true && 'PYTHON_UOPS' || '' }},${{ inputs.jit ==
-        true && 'JIT' || '' }},${{ inputs.nogil == true && 'NOGIL' || '' }}
+      flags: ${{ inputs.tier2 == true && 'tier2' || '' }},${{ inputs.jit == true &&
+        'jit' || '' }},${{ inputs.nogil == true && 'nogil' || '' }}
   benchmark-linux-x86_64-pythonperf2:
     runs-on: [self-hosted, linux, bare-metal, linux-x86_64-pythonperf2]
     timeout-minutes: 1440
@@ -487,7 +487,7 @@ jobs:
       if: ${{ always() }}
       id: should_run
       run: |
-        venv/bin/python -m bench_runner should_run ${{ inputs.force }} ${{ inputs.fork }} ${{ inputs.ref }} ${{ inputs.machine }} false ${{ inputs.tier2 == true && 'PYTHON_UOPS' || '' }},${{ inputs.jit == true && 'JIT' || '' }},${{ inputs.nogil == true && 'NOGIL' || '' }} >> $GITHUB_OUTPUT
+        venv/bin/python -m bench_runner should_run ${{ inputs.force }} ${{ inputs.fork }} ${{ inputs.ref }} ${{ inputs.machine }} false ${{ inputs.tier2 == true && 'tier2' || '' }},${{ inputs.jit == true && 'jit' || '' }},${{ inputs.nogil == true && 'nogil' || '' }} >> $GITHUB_OUTPUT
     - name: Checkout python-macrobenchmarks
       uses: actions/checkout@v4
       if: ${{ steps.should_run.outputs.should_run != 'false' }}
@@ -524,7 +524,7 @@ jobs:
       if: ${{ steps.should_run.outputs.should_run != 'false' }}
       run: |
         rm -rf ~/.debug/*
-        venv/bin/python -m bench_runner run_benchmarks ${{ inputs.perf && 'perf' || 'benchmark' }} cpython/python ${{ inputs.fork }} ${{ inputs.ref }} ${{ inputs.benchmarks || 'all' }} ${{ inputs.tier2 == true && 'PYTHON_UOPS' || '' }},${{ inputs.jit == true && 'JIT' || '' }},${{ inputs.nogil == true && 'NOGIL' || '' }} --run_id ${{ github.run_id }}
+        venv/bin/python -m bench_runner run_benchmarks ${{ inputs.perf && 'perf' || 'benchmark' }} cpython/python ${{ inputs.fork }} ${{ inputs.ref }} ${{ inputs.benchmarks || 'all' }} ${{ inputs.tier2 == true && 'tier2' || '' }},${{ inputs.jit == true && 'jit' || '' }},${{ inputs.nogil == true && 'nogil' || '' }} --run_id ${{ github.run_id }}
       # Pull again, since another job may have committed results in the meantime
     - name: Pull benchmarking
       if: ${{ steps.should_run.outputs.should_run != 'false' && !inputs.perf }}
@@ -558,8 +558,8 @@ jobs:
     if: ${{ (inputs.machine == 'linux-x86_64-pythonperf2' || inputs.machine == 'all')
       }}
     env:
-      flags: ${{ inputs.tier2 == true && 'PYTHON_UOPS' || '' }},${{ inputs.jit ==
-        true && 'JIT' || '' }},${{ inputs.nogil == true && 'NOGIL' || '' }}
+      flags: ${{ inputs.tier2 == true && 'tier2' || '' }},${{ inputs.jit == true &&
+        'jit' || '' }},${{ inputs.nogil == true && 'nogil' || '' }}
   benchmark-linux-aarch64-arminc:
     runs-on: [self-hosted, linux, bare-metal, linux-aarch64-arminc]
     timeout-minutes: 1440
@@ -591,7 +591,7 @@ jobs:
       if: ${{ always() }}
       id: should_run
       run: |
-        venv/bin/python -m bench_runner should_run ${{ inputs.force }} ${{ inputs.fork }} ${{ inputs.ref }} ${{ inputs.machine }} false ${{ inputs.tier2 == true && 'PYTHON_UOPS' || '' }},${{ inputs.jit == true && 'JIT' || '' }},${{ inputs.nogil == true && 'NOGIL' || '' }} >> $GITHUB_OUTPUT
+        venv/bin/python -m bench_runner should_run ${{ inputs.force }} ${{ inputs.fork }} ${{ inputs.ref }} ${{ inputs.machine }} false ${{ inputs.tier2 == true && 'tier2' || '' }},${{ inputs.jit == true && 'jit' || '' }},${{ inputs.nogil == true && 'nogil' || '' }} >> $GITHUB_OUTPUT
     - name: Checkout python-macrobenchmarks
       uses: actions/checkout@v4
       if: ${{ steps.should_run.outputs.should_run != 'false' }}
@@ -628,7 +628,7 @@ jobs:
       if: ${{ steps.should_run.outputs.should_run != 'false' }}
       run: |
         rm -rf ~/.debug/*
-        venv/bin/python -m bench_runner run_benchmarks ${{ inputs.perf && 'perf' || 'benchmark' }} cpython/python ${{ inputs.fork }} ${{ inputs.ref }} ${{ inputs.benchmarks || 'all' }} ${{ inputs.tier2 == true && 'PYTHON_UOPS' || '' }},${{ inputs.jit == true && 'JIT' || '' }},${{ inputs.nogil == true && 'NOGIL' || '' }} --run_id ${{ github.run_id }}
+        venv/bin/python -m bench_runner run_benchmarks ${{ inputs.perf && 'perf' || 'benchmark' }} cpython/python ${{ inputs.fork }} ${{ inputs.ref }} ${{ inputs.benchmarks || 'all' }} ${{ inputs.tier2 == true && 'tier2' || '' }},${{ inputs.jit == true && 'jit' || '' }},${{ inputs.nogil == true && 'nogil' || '' }} --run_id ${{ github.run_id }}
       # Pull again, since another job may have committed results in the meantime
     - name: Pull benchmarking
       if: ${{ steps.should_run.outputs.should_run != 'false' && !inputs.perf }}
@@ -662,5 +662,5 @@ jobs:
     if: ${{ (inputs.machine == 'linux-aarch64-arminc' || inputs.machine == 'all')
       }}
     env:
-      flags: ${{ inputs.tier2 == true && 'PYTHON_UOPS' || '' }},${{ inputs.jit ==
-        true && 'JIT' || '' }},${{ inputs.nogil == true && 'NOGIL' || '' }}
+      flags: ${{ inputs.tier2 == true && 'tier2' || '' }},${{ inputs.jit == true &&
+        'jit' || '' }},${{ inputs.nogil == true && 'nogil' || '' }}

@@ -95,7 +95,7 @@ jobs:
       if: ${{ always() }}
       id: should_run
       run: |
-        python -m bench_runner should_run ${{ inputs.force }} ${{ inputs.fork }} ${{ inputs.ref }} all true ${{ inputs.tier2 == true && 'PYTHON_UOPS' || '' }},${{ inputs.jit == true && 'JIT' || '' }},${{ inputs.nogil == true && 'NOGIL' || '' }} >> $GITHUB_OUTPUT
+        python -m bench_runner should_run ${{ inputs.force }} ${{ inputs.fork }} ${{ inputs.ref }} all true ${{ inputs.tier2 == true && 'tier2' || '' }},${{ inputs.jit == true && 'jit' || '' }},${{ inputs.nogil == true && 'nogil' || '' }} >> $GITHUB_OUTPUT
     - name: Checkout python-macrobenchmarks
       uses: actions/checkout@v4
       if: ${{ steps.should_run.outputs.should_run != 'false' }}
@@ -130,7 +130,7 @@ jobs:
     - name: Running pyperformance
       if: ${{ steps.should_run.outputs.should_run != 'false' }}
       run: |
-        python -m bench_runner run_benchmarks pystats cpython/python ${{ inputs.fork }} ${{ inputs.ref }} ${{ inputs.benchmarks || 'all' }} ${{ inputs.tier2 == true && 'PYTHON_UOPS' || '' }},${{ inputs.jit == true && 'JIT' || '' }},${{ inputs.nogil == true && 'NOGIL' || '' }} --run_id ${{ github.run_id }} ${{ inputs.individual == true && '--individual' || '' }}
+        python -m bench_runner run_benchmarks pystats cpython/python ${{ inputs.fork }} ${{ inputs.ref }} ${{ inputs.benchmarks || 'all' }} ${{ inputs.tier2 == true && 'tier2' || '' }},${{ inputs.jit == true && 'jit' || '' }},${{ inputs.nogil == true && 'nogil' || '' }} --run_id ${{ github.run_id }} ${{ inputs.individual == true && '--individual' || '' }}
     - name: Pull benchmarking
       if: ${{ steps.should_run.outputs.should_run != 'false' }}
       run: |
@@ -145,5 +145,5 @@ jobs:
       with:
         add: results
     env:
-      flags: ${{ inputs.tier2 == true && 'PYTHON_UOPS' || '' }},${{ inputs.jit ==
-        true && 'JIT' || '' }},${{ inputs.nogil == true && 'NOGIL' || '' }}
+      flags: ${{ inputs.tier2 == true && 'tier2' || '' }},${{ inputs.jit == true &&
+        'jit' || '' }},${{ inputs.nogil == true && 'nogil' || '' }}
