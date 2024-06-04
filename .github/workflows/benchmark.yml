@@ -85,12 +85,12 @@ jobs:
     - name: Determine base
       id: base
       run: |
-        python -m bench_runner get_merge_base ${{ inputs.benchmark_base }} ${{ inputs.machine }} ${{ inputs.pystats }} ${{ inputs.tier2 == 'true' && 'PYTHON_UOPS' || '' }},${{ inputs.jit == 'true' && 'JIT' || '' }},${{ inputs.nogil == 'true' && 'NOGIL' || '' }} >> $GITHUB_OUTPUT
+        python -m bench_runner get_merge_base ${{ inputs.benchmark_base }} ${{ inputs.machine }} ${{ inputs.pystats }} ${{ inputs.tier2 == true && 'PYTHON_UOPS' || '' }},${{ inputs.jit == true && 'JIT' || '' }},${{ inputs.nogil == true && 'NOGIL' || '' }} >> $GITHUB_OUTPUT
         cat $GITHUB_OUTPUT
 
     env:
-      flags: ${{ inputs.tier2 == 'true' && 'PYTHON_UOPS' || '' }},${{ inputs.jit ==
-        'true' && 'JIT' || '' }},${{ inputs.nogil == 'true' && 'NOGIL' || '' }}
+      flags: ${{ inputs.tier2 == true && 'PYTHON_UOPS' || '' }},${{ inputs.jit ==
+        true && 'JIT' || '' }},${{ inputs.nogil == true && 'NOGIL' || '' }}
   head:
     uses: ./.github/workflows/_benchmark.yml
     with:
