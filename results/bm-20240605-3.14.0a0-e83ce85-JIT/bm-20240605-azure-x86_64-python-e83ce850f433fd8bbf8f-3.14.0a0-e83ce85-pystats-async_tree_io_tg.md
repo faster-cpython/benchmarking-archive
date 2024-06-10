@@ -565,7 +565,7 @@ instruction is not counted.
 <td align="right">1,980</td>
 <td align="right">0.0%</td>
 <td align="right">100.0%</td>
-<td align="right">1,130.1%</td>
+<td align="right">1,129.5%</td>
 </tr>
 <tr>
 <td align="left">CALL_METHOD_DESCRIPTOR_FAST_WITH_KEYWORDS</td>
@@ -10721,7 +10721,7 @@ Specialized hits
 Specialized instructions, e.g. `LOAD_ATTR_MODULE` that complete.
 </details>
 </td>
-<td align="right">1,700,439,065</td>
+<td align="right">1,700,439,076</td>
 <td align="right">43.2%</td>
 </tr>
 <tr>
@@ -10733,7 +10733,7 @@ Specialized misses
 Specialized instructions, e.g. `LOAD_ATTR_MODULE` that deopt.
 </details>
 </td>
-<td align="right">861,415</td>
+<td align="right">861,404</td>
 <td align="right">0.0%</td>
 </tr>
 </tbody>
@@ -10835,12 +10835,12 @@ Specialized instructions, e.g. `LOAD_ATTR_MODULE` that deopt.
 </tr>
 <tr>
 <td align="left">RESUME</td>
-<td align="right">22,375</td>
+<td align="right">22,364</td>
 <td align="right">2.5%</td>
 </tr>
 <tr>
 <td align="left">RESUME_CHECK</td>
-<td align="right">22,375</td>
+<td align="right">22,364</td>
 <td align="right">2.5%</td>
 </tr>
 <tr>
@@ -11014,12 +11014,12 @@ other names.
 </tr>
 <tr>
 <td align="left">Allocations</td>
-<td align="right">172,382,136</td>
+<td align="right">172,382,184</td>
 <td align="right">60.7%</td>
 </tr>
 <tr>
 <td align="left">Allocations to 512 bytes</td>
-<td align="right">171,519,920</td>
+<td align="right">171,519,969</td>
 <td align="right">60.4%</td>
 </tr>
 <tr>
@@ -11029,12 +11029,12 @@ other names.
 </tr>
 <tr>
 <td align="left">Allocations over 4 kbytes</td>
-<td align="right">116</td>
+<td align="right">115</td>
 <td align="right">0.0%</td>
 </tr>
 <tr>
 <td align="left">Frees</td>
-<td align="right">172,292,507</td>
+<td align="right">172,292,562</td>
 <td align="right"></td>
 </tr>
 <tr>
@@ -11054,12 +11054,12 @@ other names.
 </tr>
 <tr>
 <td align="left">Increfs</td>
-<td align="right">1,009,294,641</td>
+<td align="right">1,009,294,953</td>
 <td align="right">30.5%</td>
 </tr>
 <tr>
 <td align="left">Decrefs</td>
-<td align="right">1,123,251,409</td>
+<td align="right">1,123,251,790</td>
 <td align="right">31.7%</td>
 </tr>
 <tr>
@@ -11084,27 +11084,27 @@ other names.
 </tr>
 <tr>
 <td align="left">Method cache hits</td>
-<td align="right">60,559,880</td>
+<td align="right">60,559,562</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">Method cache misses</td>
-<td align="right">4,360</td>
+<td align="right">4,678</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">Method cache collisions</td>
-<td align="right">4,172</td>
+<td align="right">4,372</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">Method cache dunder hits</td>
-<td align="right">75,846,872</td>
+<td align="right">75,846,910</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">Method cache dunder misses</td>
-<td align="right">788</td>
+<td align="right">750</td>
 <td align="right"></td>
 </tr>
 </tbody>
@@ -11141,7 +11141,7 @@ Collected/visits gives some measure of efficiency.
 <td align="right">1</td>
 <td align="right">0</td>
 <td align="right">2,240</td>
-<td align="right">2,940,736,242</td>
+<td align="right">2,947,813,382</td>
 </tr>
 <tr>
 <td align="right">2</td>
@@ -12266,4 +12266,4 @@ A watched `globals()` dict has been modified
 </details>
 
 ---
-Stats gathered on: 2024-06-06
+Stats gathered on: 2024-06-10

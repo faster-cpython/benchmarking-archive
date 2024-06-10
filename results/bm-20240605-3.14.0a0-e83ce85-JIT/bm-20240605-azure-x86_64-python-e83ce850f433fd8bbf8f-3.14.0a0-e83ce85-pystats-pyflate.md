@@ -8015,7 +8015,7 @@ other names.
 </tr>
 <tr>
 <td align="left">Frees</td>
-<td align="right">322,896,783</td>
+<td align="right">322,896,785</td>
 <td align="right"></td>
 </tr>
 <tr>
@@ -8035,12 +8035,12 @@ other names.
 </tr>
 <tr>
 <td align="left">Increfs</td>
-<td align="right">2,072,838,025</td>
+<td align="right">2,072,838,035</td>
 <td align="right">89.1%</td>
 </tr>
 <tr>
 <td align="left">Decrefs</td>
-<td align="right">1,840,927,152</td>
+<td align="right">1,840,927,162</td>
 <td align="right">68.3%</td>
 </tr>
 <tr>
@@ -8065,17 +8065,17 @@ other names.
 </tr>
 <tr>
 <td align="left">Method cache hits</td>
-<td align="right">8,186</td>
+<td align="right">8,180</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">Method cache misses</td>
-<td align="right">694</td>
+<td align="right">700</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">Method cache collisions</td>
-<td align="right">611</td>
+<td align="right">608</td>
 <td align="right"></td>
 </tr>
 <tr>
@@ -9360,4 +9360,4 @@ A watched `globals()` dict has been modified
 </details>
 
 ---
-Stats gathered on: 2024-06-06
+Stats gathered on: 2024-06-10

@@ -5046,7 +5046,7 @@ other names.
 </tr>
 <tr>
 <td align="left">Frees</td>
-<td align="right">145,428,696</td>
+<td align="right">145,428,699</td>
 <td align="right"></td>
 </tr>
 <tr>
@@ -5066,12 +5066,12 @@ other names.
 </tr>
 <tr>
 <td align="left">Increfs</td>
-<td align="right">225,748,107</td>
+<td align="right">225,748,106</td>
 <td align="right">82.9%</td>
 </tr>
 <tr>
 <td align="left">Decrefs</td>
-<td align="right">360,588,903</td>
+<td align="right">360,588,906</td>
 <td align="right">87.3%</td>
 </tr>
 <tr>
@@ -5096,17 +5096,17 @@ other names.
 </tr>
 <tr>
 <td align="left">Method cache hits</td>
-<td align="right">576</td>
+<td align="right">578</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">Method cache misses</td>
-<td align="right">104</td>
+<td align="right">102</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">Method cache collisions</td>
-<td align="right">82</td>
+<td align="right">88</td>
 <td align="right"></td>
 </tr>
 <tr>
@@ -6095,4 +6095,4 @@ A watched `globals()` dict has been modified
 </details>
 
 ---
-Stats gathered on: 2024-06-06
+Stats gathered on: 2024-06-10

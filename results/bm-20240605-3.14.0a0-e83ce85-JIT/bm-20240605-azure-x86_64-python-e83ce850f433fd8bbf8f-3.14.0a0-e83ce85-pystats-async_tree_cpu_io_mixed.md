@@ -11291,22 +11291,22 @@ other names.
 <tbody>
 <tr>
 <td align="left">Allocations from freelist</td>
-<td align="right">69,863,287</td>
+<td align="right">69,863,294</td>
 <td align="right">19.5%</td>
 </tr>
 <tr>
 <td align="left">Frees to freelist</td>
-<td align="right">69,990,707</td>
+<td align="right">69,990,714</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">Allocations</td>
-<td align="right">289,264,848</td>
+<td align="right">289,264,837</td>
 <td align="right">80.5%</td>
 </tr>
 <tr>
 <td align="left">Allocations to 512 bytes</td>
-<td align="right">287,340,446</td>
+<td align="right">287,340,432</td>
 <td align="right">80.0%</td>
 </tr>
 <tr>
@@ -11316,12 +11316,12 @@ other names.
 </tr>
 <tr>
 <td align="left">Allocations over 4 kbytes</td>
-<td align="right">142</td>
+<td align="right">145</td>
 <td align="right">0.0%</td>
 </tr>
 <tr>
 <td align="left">Frees</td>
-<td align="right">291,366,939</td>
+<td align="right">291,367,457</td>
 <td align="right"></td>
 </tr>
 <tr>
@@ -11341,12 +11341,12 @@ other names.
 </tr>
 <tr>
 <td align="left">Increfs</td>
-<td align="right">580,471,082</td>
+<td align="right">580,556,691</td>
 <td align="right">34.4%</td>
 </tr>
 <tr>
 <td align="left">Decrefs</td>
-<td align="right">834,148,580</td>
+<td align="right">834,234,750</td>
 <td align="right">41.2%</td>
 </tr>
 <tr>
@@ -11371,27 +11371,27 @@ other names.
 </tr>
 <tr>
 <td align="left">Method cache hits</td>
-<td align="right">67,849,652</td>
+<td align="right">67,751,477</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">Method cache misses</td>
-<td align="right">763,648</td>
+<td align="right">861,823</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">Method cache collisions</td>
-<td align="right">776,442</td>
+<td align="right">862,156</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">Method cache dunder hits</td>
-<td align="right">12,896,856</td>
+<td align="right">12,909,421</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">Method cache dunder misses</td>
-<td align="right">15,244</td>
+<td align="right">2,679</td>
 <td align="right"></td>
 </tr>
 </tbody>
@@ -11428,7 +11428,7 @@ Collected/visits gives some measure of efficiency.
 <td align="right">1</td>
 <td align="right">0</td>
 <td align="right">2,240</td>
-<td align="right">1,095,196,660</td>
+<td align="right">1,095,197,080</td>
 </tr>
 <tr>
 <td align="right">2</td>
@@ -12648,4 +12648,4 @@ A watched `globals()` dict has been modified
 </details>
 
 ---
-Stats gathered on: 2024-06-06
+Stats gathered on: 2024-06-10

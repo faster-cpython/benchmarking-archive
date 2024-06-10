@@ -10707,7 +10707,7 @@ other names.
 </tr>
 <tr>
 <td align="left">Allocations</td>
-<td align="right">93,335,342</td>
+<td align="right">93,335,340</td>
 <td align="right">62.8%</td>
 </tr>
 <tr>
@@ -10722,12 +10722,12 @@ other names.
 </tr>
 <tr>
 <td align="left">Allocations over 4 kbytes</td>
-<td align="right">102</td>
+<td align="right">100</td>
 <td align="right">0.0%</td>
 </tr>
 <tr>
 <td align="left">Frees</td>
-<td align="right">93,286,267</td>
+<td align="right">93,286,279</td>
 <td align="right"></td>
 </tr>
 <tr>
@@ -10747,12 +10747,12 @@ other names.
 </tr>
 <tr>
 <td align="left">Increfs</td>
-<td align="right">426,994,088</td>
+<td align="right">426,994,074</td>
 <td align="right">31.3%</td>
 </tr>
 <tr>
 <td align="left">Decrefs</td>
-<td align="right">492,492,362</td>
+<td align="right">492,492,394</td>
 <td align="right">32.9%</td>
 </tr>
 <tr>
@@ -10777,27 +10777,27 @@ other names.
 </tr>
 <tr>
 <td align="left">Method cache hits</td>
-<td align="right">38,084,363</td>
+<td align="right">38,084,427</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">Method cache misses</td>
-<td align="right">3,817</td>
+<td align="right">3,753</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">Method cache collisions</td>
-<td align="right">3,564</td>
+<td align="right">3,422</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">Method cache dunder hits</td>
-<td align="right">11,198,588</td>
+<td align="right">11,198,586</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">Method cache dunder misses</td>
-<td align="right">672</td>
+<td align="right">674</td>
 <td align="right"></td>
 </tr>
 </tbody>
@@ -10834,7 +10834,7 @@ Collected/visits gives some measure of efficiency.
 <td align="right">1</td>
 <td align="right">0</td>
 <td align="right">2,240</td>
-<td align="right">988,212,260</td>
+<td align="right">988,212,680</td>
 </tr>
 <tr>
 <td align="right">2</td>
@@ -11756,4 +11756,4 @@ A watched `globals()` dict has been modified
 </details>
 
 ---
-Stats gathered on: 2024-06-06
+Stats gathered on: 2024-06-10

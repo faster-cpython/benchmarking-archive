@@ -5752,7 +5752,7 @@ other names.
 </tr>
 <tr>
 <td align="left">Frees</td>
-<td align="right">96,032,641</td>
+<td align="right">96,032,645</td>
 <td align="right"></td>
 </tr>
 <tr>
@@ -5777,7 +5777,7 @@ other names.
 </tr>
 <tr>
 <td align="left">Decrefs</td>
-<td align="right">120,201,881</td>
+<td align="right">120,201,885</td>
 <td align="right">17.3%</td>
 </tr>
 <tr>
@@ -5802,27 +5802,27 @@ other names.
 </tr>
 <tr>
 <td align="left">Method cache hits</td>
-<td align="right">301</td>
+<td align="right">300</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">Method cache misses</td>
-<td align="right">79</td>
+<td align="right">80</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">Method cache collisions</td>
-<td align="right">127</td>
+<td align="right">126</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">Method cache dunder hits</td>
-<td align="right">32,002,980</td>
+<td align="right">32,002,978</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">Method cache dunder misses</td>
-<td align="right">80</td>
+<td align="right">82</td>
 <td align="right"></td>
 </tr>
 </tbody>
@@ -5859,7 +5859,7 @@ Collected/visits gives some measure of efficiency.
 <td align="right">1</td>
 <td align="right">0</td>
 <td align="right">2,020</td>
-<td align="right">98,347,720</td>
+<td align="right">98,347,260</td>
 </tr>
 <tr>
 <td align="right">2</td>
@@ -6431,4 +6431,4 @@ A watched `globals()` dict has been modified
 </details>
 
 ---
-Stats gathered on: 2024-06-06
+Stats gathered on: 2024-06-10

@@ -5228,7 +5228,7 @@ other names.
 </tr>
 <tr>
 <td align="left">Frees</td>
-<td align="right">79,961,961</td>
+<td align="right">79,961,968</td>
 <td align="right"></td>
 </tr>
 <tr>
@@ -5253,7 +5253,7 @@ other names.
 </tr>
 <tr>
 <td align="left">Decrefs</td>
-<td align="right">1,087,828,062</td>
+<td align="right">1,087,828,068</td>
 <td align="right">71.6%</td>
 </tr>
 <tr>
@@ -5288,7 +5288,7 @@ other names.
 </tr>
 <tr>
 <td align="left">Method cache collisions</td>
-<td align="right">122</td>
+<td align="right">126</td>
 <td align="right"></td>
 </tr>
 <tr>
@@ -5335,7 +5335,7 @@ Collected/visits gives some measure of efficiency.
 <td align="right">1</td>
 <td align="right">0</td>
 <td align="right">1,920</td>
-<td align="right">270,493,052</td>
+<td align="right">270,493,472</td>
 </tr>
 <tr>
 <td align="right">2</td>
@@ -6276,4 +6276,4 @@ A watched `globals()` dict has been modified
 </details>
 
 ---
-Stats gathered on: 2024-06-06
+Stats gathered on: 2024-06-10

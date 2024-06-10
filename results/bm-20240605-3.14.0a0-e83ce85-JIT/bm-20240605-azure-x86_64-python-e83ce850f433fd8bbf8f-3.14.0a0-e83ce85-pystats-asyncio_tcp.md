@@ -30,231 +30,231 @@ instruction is not counted.
 <tbody>
 <tr>
 <td align="left">LOAD_FAST</td>
-<td align="right">76,778,773</td>
+<td align="right">76,779,801</td>
 <td align="right">21.4%</td>
 <td align="right">21.4%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">LOAD_ATTR_INSTANCE_VALUE</td>
-<td align="right">21,274,443</td>
+<td align="right">21,274,551</td>
 <td align="right">5.9%</td>
 <td align="right">27.4%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">RESUME_CHECK</td>
-<td align="right">20,262,324</td>
+<td align="right">20,262,548</td>
 <td align="right">5.7%</td>
 <td align="right">33.0%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">POP_JUMP_IF_FALSE</td>
-<td align="right">15,155,738</td>
+<td align="right">15,155,986</td>
 <td align="right">4.2%</td>
 <td align="right">37.3%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">CALL_PY_EXACT_ARGS</td>
-<td align="right">14,634,247</td>
+<td align="right">14,634,419</td>
 <td align="right">4.1%</td>
 <td align="right">41.3%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">STORE_FAST</td>
-<td align="right">13,499,902</td>
+<td align="right">13,500,134</td>
 <td align="right">3.8%</td>
 <td align="right">45.1%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">TO_BOOL_BOOL</td>
-<td align="right">12,863,052</td>
+<td align="right">12,863,164</td>
 <td align="right">3.6%</td>
 <td align="right">48.7%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">POP_TOP</td>
-<td align="right">12,859,490</td>
+<td align="right">12,859,690</td>
 <td align="right">3.6%</td>
 <td align="right">52.3%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">RETURN_VALUE</td>
-<td align="right">12,549,588</td>
+<td align="right">12,549,716</td>
 <td align="right">3.5%</td>
 <td align="right">55.8%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">LOAD_CONST</td>
-<td align="right">11,627,810</td>
+<td align="right">11,627,930</td>
 <td align="right">3.2%</td>
 <td align="right">59.0%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">LOAD_ATTR</td>
-<td align="right">11,227,103</td>
+<td align="right">11,227,451</td>
 <td align="right">3.1%</td>
 <td align="right">62.2%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">LOAD_ATTR_METHOD_WITH_VALUES</td>
-<td align="right">10,216,289</td>
+<td align="right">10,216,373</td>
 <td align="right">2.9%</td>
 <td align="right">65.0%</td>
 <td align="right">0.0%</td>
 </tr>
 <tr>
 <td align="left">RETURN_CONST</td>
-<td align="right">7,763,661</td>
+<td align="right">7,763,777</td>
 <td align="right">2.2%</td>
 <td align="right">67.2%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">LOAD_FAST_LOAD_FAST</td>
-<td align="right">7,093,892</td>
+<td align="right">7,094,004</td>
 <td align="right">2.0%</td>
 <td align="right">69.2%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">LOAD_GLOBAL_MODULE</td>
-<td align="right">6,760,648</td>
+<td align="right">6,760,776</td>
 <td align="right">1.9%</td>
 <td align="right">71.1%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">LOAD_ATTR_SLOT</td>
-<td align="right">6,708,025</td>
+<td align="right">6,708,125</td>
 <td align="right">1.9%</td>
 <td align="right">72.9%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">LOAD_GLOBAL_BUILTIN</td>
-<td align="right">6,404,683</td>
+<td align="right">6,404,791</td>
 <td align="right">1.8%</td>
 <td align="right">74.7%</td>
 <td align="right">0.0%</td>
 </tr>
 <tr>
 <td align="left">STORE_ATTR_SLOT</td>
-<td align="right">5,612,550</td>
+<td align="right">5,612,590</td>
 <td align="right">1.6%</td>
 <td align="right">76.3%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">POP_JUMP_IF_TRUE</td>
-<td align="right">5,077,607</td>
+<td align="right">5,077,699</td>
 <td align="right">1.4%</td>
 <td align="right">77.7%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">LOAD_ATTR_METHOD_NO_DICT</td>
-<td align="right">4,797,865</td>
+<td align="right">4,797,965</td>
 <td align="right">1.3%</td>
 <td align="right">79.0%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">NOP</td>
-<td align="right">4,324,046</td>
+<td align="right">4,324,102</td>
 <td align="right">1.2%</td>
 <td align="right">80.2%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">LOAD_ATTR_MODULE</td>
-<td align="right">3,421,591</td>
+<td align="right">3,421,667</td>
 <td align="right">1.0%</td>
 <td align="right">81.2%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">CALL_NON_PY_GENERAL</td>
-<td align="right">3,313,061</td>
+<td align="right">3,313,097</td>
 <td align="right">0.9%</td>
 <td align="right">82.1%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">PUSH_NULL</td>
-<td align="right">3,027,017</td>
+<td align="right">3,027,069</td>
 <td align="right">0.8%</td>
 <td align="right">83.0%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">TO_BOOL_INT</td>
-<td align="right">2,834,465</td>
+<td align="right">2,834,565</td>
 <td align="right">0.8%</td>
 <td align="right">83.8%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">BINARY_OP</td>
-<td align="right">2,753,662</td>
+<td align="right">2,753,734</td>
 <td align="right">0.8%</td>
 <td align="right">84.5%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">COMPARE_OP_INT</td>
-<td align="right">2,745,953</td>
+<td align="right">2,746,021</td>
 <td align="right">0.8%</td>
 <td align="right">85.3%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">INTERPRETER_EXIT</td>
-<td align="right">2,667,014</td>
+<td align="right">2,667,038</td>
 <td align="right">0.7%</td>
 <td align="right">86.0%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">ENTER_EXECUTOR</td>
-<td align="right">2,428,215</td>
+<td align="right">2,428,275</td>
 <td align="right">0.7%</td>
 <td align="right">86.7%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">POP_JUMP_IF_NONE</td>
-<td align="right">2,287,727</td>
+<td align="right">2,287,739</td>
 <td align="right">0.6%</td>
 <td align="right">87.4%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">POP_JUMP_IF_NOT_NONE</td>
-<td align="right">1,697,732</td>
+<td align="right">1,697,764</td>
 <td align="right">0.5%</td>
 <td align="right">87.8%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">CALL_LEN</td>
-<td align="right">1,677,814</td>
+<td align="right">1,677,838</td>
 <td align="right">0.5%</td>
 <td align="right">88.3%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">JUMP_FORWARD</td>
-<td align="right">1,651,016</td>
+<td align="right">1,651,032</td>
 <td align="right">0.5%</td>
 <td align="right">88.8%</td>
 <td align="right"></td>
@@ -275,21 +275,21 @@ instruction is not counted.
 </tr>
 <tr>
 <td align="left">TO_BOOL</td>
-<td align="right">1,426,057</td>
+<td align="right">1,426,109</td>
 <td align="right">0.4%</td>
 <td align="right">90.1%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">COPY</td>
-<td align="right">1,325,676</td>
+<td align="right">1,325,692</td>
 <td align="right">0.4%</td>
 <td align="right">90.4%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">CALL_ISINSTANCE</td>
-<td align="right">1,315,156</td>
+<td align="right">1,315,172</td>
 <td align="right">0.4%</td>
 <td align="right">90.8%</td>
 <td align="right"></td>
@@ -324,35 +324,35 @@ instruction is not counted.
 </tr>
 <tr>
 <td align="left">CALL_METHOD_DESCRIPTOR_O</td>
-<td align="right">1,094,301</td>
+<td align="right">1,094,337</td>
 <td align="right">0.3%</td>
 <td align="right">92.6%</td>
 <td align="right">0.0%</td>
 </tr>
 <tr>
 <td align="left">STORE_FAST_STORE_FAST</td>
-<td align="right">1,086,548</td>
+<td align="right">1,086,596</td>
 <td align="right">0.3%</td>
 <td align="right">92.9%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">UNPACK_SEQUENCE_TWO_TUPLE</td>
-<td align="right">1,086,108</td>
+<td align="right">1,086,156</td>
 <td align="right">0.3%</td>
 <td align="right">93.2%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">CALL_METHOD_DESCRIPTOR_NOARGS</td>
-<td align="right">1,025,756</td>
+<td align="right">1,025,772</td>
 <td align="right">0.3%</td>
 <td align="right">93.5%</td>
 <td align="right">0.1%</td>
 </tr>
 <tr>
 <td align="left">CALL_FUNCTION_EX</td>
-<td align="right">1,024,505</td>
+<td align="right">1,024,525</td>
 <td align="right">0.3%</td>
 <td align="right">93.7%</td>
 <td align="right"></td>
@@ -366,14 +366,14 @@ instruction is not counted.
 </tr>
 <tr>
 <td align="left">CALL_PY_GENERAL</td>
-<td align="right">986,727</td>
+<td align="right">986,739</td>
 <td align="right">0.3%</td>
 <td align="right">94.3%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">CALL_METHOD_DESCRIPTOR_FAST</td>
-<td align="right">979,858</td>
+<td align="right">979,866</td>
 <td align="right">0.3%</td>
 <td align="right">94.6%</td>
 <td align="right"></td>
@@ -401,35 +401,35 @@ instruction is not counted.
 </tr>
 <tr>
 <td align="left">LOAD_DEREF</td>
-<td align="right">727,190</td>
+<td align="right">727,230</td>
 <td align="right">0.2%</td>
 <td align="right">95.6%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">CALL</td>
-<td align="right">720,694</td>
+<td align="right">720,718</td>
 <td align="right">0.2%</td>
 <td align="right">95.8%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">CALL_BUILTIN_CLASS</td>
-<td align="right">719,443</td>
+<td align="right">719,471</td>
 <td align="right">0.2%</td>
 <td align="right">96.0%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">SWAP</td>
-<td align="right">710,783</td>
+<td align="right">710,811</td>
 <td align="right">0.2%</td>
 <td align="right">96.2%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">COPY_FREE_VARS</td>
-<td align="right">691,634</td>
+<td align="right">691,658</td>
 <td align="right">0.2%</td>
 <td align="right">96.4%</td>
 <td align="right"></td>
@@ -443,14 +443,14 @@ instruction is not counted.
 </tr>
 <tr>
 <td align="left">BUILD_TUPLE</td>
-<td align="right">664,358</td>
+<td align="right">664,366</td>
 <td align="right">0.2%</td>
 <td align="right">96.7%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">CALL_METHOD_DESCRIPTOR_FAST_WITH_KEYWORDS</td>
-<td align="right">661,918</td>
+<td align="right">661,926</td>
 <td align="right">0.2%</td>
 <td align="right">96.9%</td>
 <td align="right"></td>
@@ -492,7 +492,7 @@ instruction is not counted.
 </tr>
 <tr>
 <td align="left">UNARY_INVERT</td>
-<td align="right">648,549</td>
+<td align="right">648,553</td>
 <td align="right">0.2%</td>
 <td align="right">98.0%</td>
 <td align="right"></td>
@@ -527,28 +527,28 @@ instruction is not counted.
 </tr>
 <tr>
 <td align="left">CALL_LIST_APPEND</td>
-<td align="right">373,765</td>
+<td align="right">373,785</td>
 <td align="right">0.1%</td>
 <td align="right">98.8%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">BINARY_SLICE</td>
-<td align="right">373,705</td>
+<td align="right">373,725</td>
 <td align="right">0.1%</td>
 <td align="right">98.9%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">CALL_KW</td>
-<td align="right">346,938</td>
+<td align="right">346,946</td>
 <td align="right">0.1%</td>
 <td align="right">99.0%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">LOAD_ATTR_NONDESCRIPTOR_WITH_VALUES</td>
-<td align="right">344,107</td>
+<td align="right">344,119</td>
 <td align="right">0.1%</td>
 <td align="right">99.1%</td>
 <td align="right"></td>
@@ -562,14 +562,14 @@ instruction is not counted.
 </tr>
 <tr>
 <td align="left">STORE_SUBSCR_DICT</td>
-<td align="right">336,638</td>
+<td align="right">336,646</td>
 <td align="right">0.1%</td>
 <td align="right">99.3%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">CALL_BOUND_METHOD_EXACT_ARGS</td>
-<td align="right">336,098</td>
+<td align="right">336,106</td>
 <td align="right">0.1%</td>
 <td align="right">99.4%</td>
 <td align="right"></td>
@@ -618,21 +618,21 @@ instruction is not counted.
 </tr>
 <tr>
 <td align="left">CALL_BUILTIN_FAST_WITH_KEYWORDS</td>
-<td align="right">60,885</td>
+<td align="right">60,905</td>
 <td align="right">0.0%</td>
 <td align="right">100.0%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">COMPARE_OP</td>
-<td align="right">19,058</td>
+<td align="right">19,066</td>
 <td align="right">0.0%</td>
 <td align="right">100.0%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">BINARY_SUBSCR_DICT</td>
-<td align="right">16,958</td>
+<td align="right">16,966</td>
 <td align="right">0.0%</td>
 <td align="right">100.0%</td>
 <td align="right"></td>
@@ -667,7 +667,7 @@ instruction is not counted.
 </tr>
 <tr>
 <td align="left">JUMP_BACKWARD</td>
-<td align="right">3,551</td>
+<td align="right">3,547</td>
 <td align="right">0.0%</td>
 <td align="right">100.0%</td>
 <td align="right"></td>
@@ -1007,313 +1007,313 @@ the corresponding unspecialized instruction are not counted as pairs.
 <tbody>
 <tr>
 <td align="left">LOAD_FAST LOAD_ATTR_INSTANCE_VALUE</td>
-<td align="right">20,276,747</td>
+<td align="right">20,276,839</td>
 <td align="right">5.7%</td>
 <td align="right">5.7%</td>
 </tr>
 <tr>
 <td align="left">CALL_PY_EXACT_ARGS RESUME_CHECK</td>
-<td align="right">13,639,329</td>
+<td align="right">13,639,493</td>
 <td align="right">3.8%</td>
 <td align="right">9.5%</td>
 </tr>
 <tr>
 <td align="left">RESUME_CHECK LOAD_FAST</td>
-<td align="right">12,949,186</td>
+<td align="right">12,949,322</td>
 <td align="right">3.6%</td>
 <td align="right">13.1%</td>
 </tr>
 <tr>
 <td align="left">LOAD_FAST LOAD_ATTR</td>
-<td align="right">9,559,487</td>
+<td align="right">9,559,819</td>
 <td align="right">2.7%</td>
 <td align="right">15.7%</td>
 </tr>
 <tr>
 <td align="left">TO_BOOL_BOOL POP_JUMP_IF_FALSE</td>
-<td align="right">8,614,338</td>
+<td align="right">8,614,426</td>
 <td align="right">2.4%</td>
 <td align="right">18.2%</td>
 </tr>
 <tr>
 <td align="left">STORE_FAST LOAD_FAST</td>
-<td align="right">8,598,229</td>
+<td align="right">8,598,313</td>
 <td align="right">2.4%</td>
 <td align="right">20.6%</td>
 </tr>
 <tr>
 <td align="left">POP_JUMP_IF_FALSE LOAD_FAST</td>
-<td align="right">8,174,378</td>
+<td align="right">8,174,546</td>
 <td align="right">2.3%</td>
 <td align="right">22.8%</td>
 </tr>
 <tr>
 <td align="left">LOAD_FAST LOAD_ATTR_SLOT</td>
-<td align="right">6,699,145</td>
+<td align="right">6,699,245</td>
 <td align="right">1.9%</td>
 <td align="right">24.7%</td>
 </tr>
 <tr>
 <td align="left">RETURN_CONST POP_TOP</td>
-<td align="right">6,389,307</td>
+<td align="right">6,389,399</td>
 <td align="right">1.8%</td>
 <td align="right">26.5%</td>
 </tr>
 <tr>
 <td align="left">LOAD_CONST LOAD_FAST</td>
-<td align="right">5,883,714</td>
+<td align="right">5,883,738</td>
 <td align="right">1.6%</td>
 <td align="right">28.1%</td>
 </tr>
 <tr>
 <td align="left">LOAD_FAST CALL_PY_EXACT_ARGS</td>
-<td align="right">5,632,302</td>
+<td align="right">5,632,374</td>
 <td align="right">1.6%</td>
 <td align="right">29.7%</td>
 </tr>
 <tr>
 <td align="left">POP_TOP LOAD_FAST</td>
-<td align="right">5,336,053</td>
+<td align="right">5,336,121</td>
 <td align="right">1.5%</td>
 <td align="right">31.2%</td>
 </tr>
 <tr>
 <td align="left">LOAD_ATTR_METHOD_WITH_VALUES CALL_PY_EXACT_ARGS</td>
-<td align="right">4,938,374</td>
+<td align="right">4,938,398</td>
 <td align="right">1.4%</td>
 <td align="right">32.6%</td>
 </tr>
 <tr>
 <td align="left">LOAD_ATTR_METHOD_WITH_VALUES LOAD_FAST</td>
-<td align="right">4,608,437</td>
+<td align="right">4,608,489</td>
 <td align="right">1.3%</td>
 <td align="right">33.9%</td>
 </tr>
 <tr>
 <td align="left">LOAD_FAST LOAD_ATTR_METHOD_WITH_VALUES</td>
-<td align="right">4,602,341</td>
+<td align="right">4,602,377</td>
 <td align="right">1.3%</td>
 <td align="right">35.1%</td>
 </tr>
 <tr>
 <td align="left">LOAD_ATTR_INSTANCE_VALUE TO_BOOL_BOOL</td>
-<td align="right">4,226,689</td>
+<td align="right">4,226,693</td>
 <td align="right">1.2%</td>
 <td align="right">36.3%</td>
 </tr>
 <tr>
 <td align="left">LOAD_GLOBAL_BUILTIN LOAD_FAST</td>
-<td align="right">4,002,157</td>
+<td align="right">4,002,209</td>
 <td align="right">1.1%</td>
 <td align="right">37.4%</td>
 </tr>
 <tr>
 <td align="left">LOAD_FAST RETURN_VALUE</td>
-<td align="right">3,956,679</td>
+<td align="right">3,956,723</td>
 <td align="right">1.1%</td>
 <td align="right">38.5%</td>
 </tr>
 <tr>
 <td align="left">LOAD_GLOBAL_MODULE LOAD_ATTR_MODULE</td>
-<td align="right">3,419,551</td>
+<td align="right">3,419,627</td>
 <td align="right">1.0%</td>
 <td align="right">39.5%</td>
 </tr>
 <tr>
 <td align="left">LOAD_ATTR_INSTANCE_VALUE LOAD_ATTR_METHOD_NO_DICT</td>
-<td align="right">3,321,261</td>
+<td align="right">3,321,297</td>
 <td align="right">0.9%</td>
 <td align="right">40.4%</td>
 </tr>
 <tr>
 <td align="left">RETURN_VALUE STORE_FAST</td>
-<td align="right">3,303,692</td>
+<td align="right">3,303,724</td>
 <td align="right">0.9%</td>
 <td align="right">41.3%</td>
 </tr>
 <tr>
 <td align="left">RETURN_VALUE TO_BOOL_BOOL</td>
-<td align="right">3,259,447</td>
+<td align="right">3,259,459</td>
 <td align="right">0.9%</td>
 <td align="right">42.3%</td>
 </tr>
 <tr>
 <td align="left">POP_TOP RETURN_CONST</td>
-<td align="right">3,102,075</td>
+<td align="right">3,102,135</td>
 <td align="right">0.9%</td>
 <td align="right">43.1%</td>
 </tr>
 <tr>
 <td align="left">POP_JUMP_IF_TRUE LOAD_FAST</td>
-<td align="right">3,071,513</td>
+<td align="right">3,071,581</td>
 <td align="right">0.9%</td>
 <td align="right">44.0%</td>
 </tr>
 <tr>
 <td align="left">NOP LOAD_FAST</td>
-<td align="right">3,009,770</td>
+<td align="right">3,009,810</td>
 <td align="right">0.8%</td>
 <td align="right">44.8%</td>
 </tr>
 <tr>
 <td align="left">LOAD_FAST STORE_ATTR_SLOT</td>
-<td align="right">2,977,334</td>
+<td align="right">2,977,358</td>
 <td align="right">0.8%</td>
 <td align="right">45.7%</td>
 </tr>
 <tr>
 <td align="left">TO_BOOL_BOOL POP_JUMP_IF_TRUE</td>
-<td align="right">2,968,694</td>
+<td align="right">2,968,718</td>
 <td align="right">0.8%</td>
 <td align="right">46.5%</td>
 </tr>
 <tr>
 <td align="left">LOAD_ATTR_INSTANCE_VALUE RETURN_VALUE</td>
-<td align="right">2,965,605</td>
+<td align="right">2,965,625</td>
 <td align="right">0.8%</td>
 <td align="right">47.3%</td>
 </tr>
 <tr>
 <td align="left">LOAD_FAST LOAD_CONST</td>
-<td align="right">2,953,923</td>
+<td align="right">2,953,951</td>
 <td align="right">0.8%</td>
 <td align="right">48.1%</td>
 </tr>
 <tr>
 <td align="left">COMPARE_OP_INT POP_JUMP_IF_FALSE</td>
-<td align="right">2,745,753</td>
+<td align="right">2,745,821</td>
 <td align="right">0.8%</td>
 <td align="right">48.9%</td>
 </tr>
 <tr>
 <td align="left">CACHE RESUME_CHECK</td>
-<td align="right">2,664,194</td>
+<td align="right">2,664,218</td>
 <td align="right">0.7%</td>
 <td align="right">49.6%</td>
 </tr>
 <tr>
 <td align="left">LOAD_FAST_LOAD_FAST STORE_ATTR_SLOT</td>
-<td align="right">2,634,756</td>
+<td align="right">2,634,772</td>
 <td align="right">0.7%</td>
 <td align="right">50.4%</td>
 </tr>
 <tr>
 <td align="left">LOAD_ATTR CALL_PY_EXACT_ARGS</td>
-<td align="right">2,430,544</td>
+<td align="right">2,430,608</td>
 <td align="right">0.7%</td>
 <td align="right">51.1%</td>
 </tr>
 <tr>
 <td align="left">LOAD_ATTR_METHOD_NO_DICT LOAD_FAST</td>
-<td align="right">2,401,648</td>
+<td align="right">2,401,696</td>
 <td align="right">0.7%</td>
 <td align="right">51.7%</td>
 </tr>
 <tr>
 <td align="left">LOAD_FAST LOAD_GLOBAL_MODULE</td>
-<td align="right">2,397,615</td>
+<td align="right">2,397,675</td>
 <td align="right">0.7%</td>
 <td align="right">52.4%</td>
 </tr>
 <tr>
 <td align="left">LOAD_ATTR_INSTANCE_VALUE LOAD_ATTR_METHOD_WITH_VALUES</td>
-<td align="right">2,334,634</td>
+<td align="right">2,334,658</td>
 <td align="right">0.7%</td>
 <td align="right">53.0%</td>
 </tr>
 <tr>
 <td align="left">RESUME_CHECK NOP</td>
-<td align="right">2,292,014</td>
+<td align="right">2,292,038</td>
 <td align="right">0.6%</td>
 <td align="right">53.7%</td>
 </tr>
 <tr>
 <td align="left">TO_BOOL_INT POP_JUMP_IF_FALSE</td>
-<td align="right">2,126,071</td>
+<td align="right">2,126,147</td>
 <td align="right">0.6%</td>
 <td align="right">54.3%</td>
 </tr>
 <tr>
 <td align="left">LOAD_ATTR LOAD_FAST</td>
-<td align="right">2,071,155</td>
+<td align="right">2,071,215</td>
 <td align="right">0.6%</td>
 <td align="right">54.9%</td>
 </tr>
 <tr>
 <td align="left">RESUME_CHECK LOAD_GLOBAL_BUILTIN</td>
-<td align="right">2,019,361</td>
+<td align="right">2,019,397</td>
 <td align="right">0.6%</td>
 <td align="right">55.4%</td>
 </tr>
 <tr>
 <td align="left">LOAD_ATTR_MODULE PUSH_NULL</td>
-<td align="right">2,014,223</td>
+<td align="right">2,014,251</td>
 <td align="right">0.6%</td>
 <td align="right">56.0%</td>
 </tr>
 <tr>
 <td align="left">POP_TOP LOAD_CONST</td>
-<td align="right">2,004,183</td>
+<td align="right">2,004,211</td>
 <td align="right">0.6%</td>
 <td align="right">56.5%</td>
 </tr>
 <tr>
 <td align="left">STORE_ATTR_SLOT LOAD_FAST_LOAD_FAST</td>
-<td align="right">1,975,727</td>
+<td align="right">1,975,739</td>
 <td align="right">0.6%</td>
 <td align="right">57.1%</td>
 </tr>
 <tr>
 <td align="left">POP_JUMP_IF_NONE LOAD_FAST</td>
-<td align="right">1,964,447</td>
+<td align="right">1,964,459</td>
 <td align="right">0.5%</td>
 <td align="right">57.6%</td>
 </tr>
 <tr>
 <td align="left">LOAD_ATTR_SLOT LOAD_ATTR_METHOD_WITH_VALUES</td>
-<td align="right">1,962,876</td>
+<td align="right">1,962,892</td>
 <td align="right">0.5%</td>
 <td align="right">58.2%</td>
 </tr>
 <tr>
 <td align="left">LOAD_CONST COMPARE_OP_INT</td>
-<td align="right">1,958,136</td>
+<td align="right">1,958,152</td>
 <td align="right">0.5%</td>
 <td align="right">58.7%</td>
 </tr>
 <tr>
 <td align="left">LOAD_ATTR_SLOT TO_BOOL_BOOL</td>
-<td align="right">1,777,264</td>
+<td align="right">1,777,328</td>
 <td align="right">0.5%</td>
 <td align="right">59.2%</td>
 </tr>
 <tr>
 <td align="left">CALL_NON_PY_GENERAL STORE_FAST</td>
-<td align="right">1,698,441</td>
+<td align="right">1,698,477</td>
 <td align="right">0.5%</td>
 <td align="right">59.7%</td>
 </tr>
 <tr>
 <td align="left">RESUME_CHECK LOAD_GLOBAL_MODULE</td>
-<td align="right">1,675,165</td>
+<td align="right">1,675,185</td>
 <td align="right">0.5%</td>
 <td align="right">60.2%</td>
 </tr>
 <tr>
 <td align="left">STORE_ATTR_SLOT LOAD_CONST</td>
-<td align="right">1,645,787</td>
+<td align="right">1,645,799</td>
 <td align="right">0.5%</td>
 <td align="right">60.6%</td>
 </tr>
 <tr>
 <td align="left">JUMP_FORWARD LOAD_FAST</td>
-<td align="right">1,644,896</td>
+<td align="right">1,644,912</td>
 <td align="right">0.5%</td>
 <td align="right">61.1%</td>
 </tr>
 <tr>
 <td align="left">LOAD_FAST LOAD_GLOBAL_BUILTIN</td>
-<td align="right">1,634,776</td>
+<td align="right">1,634,792</td>
 <td align="right">0.5%</td>
 <td align="right">61.5%</td>
 </tr>
@@ -1325,85 +1325,85 @@ the corresponding unspecialized instruction are not counted as pairs.
 </tr>
 <tr>
 <td align="left">LOAD_CONST STORE_FAST</td>
-<td align="right">1,404,579</td>
+<td align="right">1,404,623</td>
 <td align="right">0.4%</td>
 <td align="right">62.4%</td>
 </tr>
 <tr>
 <td align="left">TO_BOOL POP_JUMP_IF_TRUE</td>
-<td align="right">1,401,099</td>
+<td align="right">1,401,143</td>
 <td align="right">0.4%</td>
 <td align="right">62.8%</td>
 </tr>
 <tr>
 <td align="left">LOAD_FAST POP_JUMP_IF_NOT_NONE</td>
-<td align="right">1,376,012</td>
+<td align="right">1,376,044</td>
 <td align="right">0.4%</td>
 <td align="right">63.2%</td>
 </tr>
 <tr>
 <td align="left">POP_JUMP_IF_FALSE RETURN_CONST</td>
-<td align="right">1,369,652</td>
+<td align="right">1,369,684</td>
 <td align="right">0.4%</td>
 <td align="right">63.6%</td>
 </tr>
 <tr>
 <td align="left">POP_JUMP_IF_FALSE LOAD_CONST</td>
-<td align="right">1,344,836</td>
+<td align="right">1,344,852</td>
 <td align="right">0.4%</td>
 <td align="right">63.9%</td>
 </tr>
 <tr>
 <td align="left">STORE_FAST JUMP_FORWARD</td>
-<td align="right">1,329,396</td>
+<td align="right">1,329,412</td>
 <td align="right">0.4%</td>
 <td align="right">64.3%</td>
 </tr>
 <tr>
 <td align="left">CALL_ISINSTANCE TO_BOOL_BOOL</td>
-<td align="right">1,314,896</td>
+<td align="right">1,314,912</td>
 <td align="right">0.4%</td>
 <td align="right">64.7%</td>
 </tr>
 <tr>
 <td align="left">RETURN_VALUE RETURN_VALUE</td>
-<td align="right">1,314,836</td>
+<td align="right">1,314,852</td>
 <td align="right">0.4%</td>
 <td align="right">65.0%</td>
 </tr>
 <tr>
 <td align="left">LOAD_FAST_LOAD_FAST LOAD_FAST</td>
-<td align="right">1,314,758</td>
+<td align="right">1,314,766</td>
 <td align="right">0.4%</td>
 <td align="right">65.4%</td>
 </tr>
 <tr>
 <td align="left">LOAD_GLOBAL_MODULE LOAD_FAST</td>
-<td align="right">1,314,296</td>
+<td align="right">1,314,312</td>
 <td align="right">0.4%</td>
 <td align="right">65.8%</td>
 </tr>
 <tr>
 <td align="left">LOAD_GLOBAL_BUILTIN CALL_ISINSTANCE</td>
-<td align="right">1,314,176</td>
+<td align="right">1,314,192</td>
 <td align="right">0.4%</td>
 <td align="right">66.1%</td>
 </tr>
 <tr>
 <td align="left">LOAD_FAST STORE_FAST</td>
-<td align="right">1,313,496</td>
+<td align="right">1,313,512</td>
 <td align="right">0.4%</td>
 <td align="right">66.5%</td>
 </tr>
 <tr>
 <td align="left">NOP LOAD_GLOBAL_MODULE</td>
-<td align="right">1,313,436</td>
+<td align="right">1,313,452</td>
 <td align="right">0.4%</td>
 <td align="right">66.9%</td>
 </tr>
 <tr>
 <td align="left">LOAD_FAST POP_JUMP_IF_NONE</td>
-<td align="right">1,309,018</td>
+<td align="right">1,309,026</td>
 <td align="right">0.4%</td>
 <td align="right">67.2%</td>
 </tr>
@@ -1421,7 +1421,7 @@ the corresponding unspecialized instruction are not counted as pairs.
 </tr>
 <tr>
 <td align="left">LOAD_ATTR TO_BOOL_BOOL</td>
-<td align="right">1,296,098</td>
+<td align="right">1,296,106</td>
 <td align="right">0.4%</td>
 <td align="right">68.3%</td>
 </tr>
@@ -1445,115 +1445,115 @@ the corresponding unspecialized instruction are not counted as pairs.
 </tr>
 <tr>
 <td align="left">CALL_METHOD_DESCRIPTOR_O POP_TOP</td>
-<td align="right">1,094,221</td>
+<td align="right">1,094,257</td>
 <td align="right">0.3%</td>
 <td align="right">69.7%</td>
 </tr>
 <tr>
 <td align="left">LOAD_FAST LOAD_ATTR_METHOD_NO_DICT</td>
-<td align="right">1,093,399</td>
+<td align="right">1,093,443</td>
 <td align="right">0.3%</td>
 <td align="right">70.0%</td>
 </tr>
 <tr>
 <td align="left">UNPACK_SEQUENCE_TWO_TUPLE STORE_FAST_STORE_FAST</td>
-<td align="right">1,085,988</td>
+<td align="right">1,086,036</td>
 <td align="right">0.3%</td>
 <td align="right">70.3%</td>
 </tr>
 <tr>
 <td align="left">STORE_FAST_STORE_FAST LOAD_FAST</td>
-<td align="right">1,085,748</td>
+<td align="right">1,085,796</td>
 <td align="right">0.3%</td>
 <td align="right">70.6%</td>
 </tr>
 <tr>
 <td align="left">BINARY_OP TO_BOOL_INT</td>
-<td align="right">1,067,010</td>
+<td align="right">1,067,050</td>
 <td align="right">0.3%</td>
 <td align="right">70.9%</td>
 </tr>
 <tr>
 <td align="left">PUSH_NULL LOAD_FAST</td>
-<td align="right">1,057,841</td>
+<td align="right">1,057,877</td>
 <td align="right">0.3%</td>
 <td align="right">71.2%</td>
 </tr>
 <tr>
 <td align="left">LOAD_FAST CALL_METHOD_DESCRIPTOR_O</td>
-<td align="right">1,048,225</td>
+<td align="right">1,048,245</td>
 <td align="right">0.3%</td>
 <td align="right">71.5%</td>
 </tr>
 <tr>
 <td align="left">RETURN_CONST INTERPRETER_EXIT</td>
-<td align="right">1,036,734</td>
+<td align="right">1,036,758</td>
 <td align="right">0.3%</td>
 <td align="right">71.8%</td>
 </tr>
 <tr>
 <td align="left">POP_JUMP_IF_NOT_NONE LOAD_FAST</td>
-<td align="right">1,034,163</td>
+<td align="right">1,034,191</td>
 <td align="right">0.3%</td>
 <td align="right">72.1%</td>
 </tr>
 <tr>
 <td align="left">CALL_FUNCTION_EX POP_TOP</td>
-<td align="right">1,023,945</td>
+<td align="right">1,023,965</td>
 <td align="right">0.3%</td>
 <td align="right">72.4%</td>
 </tr>
 <tr>
 <td align="left">RETURN_VALUE LOAD_FAST</td>
-<td align="right">1,015,065</td>
+<td align="right">1,015,085</td>
 <td align="right">0.3%</td>
 <td align="right">72.6%</td>
 </tr>
 <tr>
 <td align="left">LOAD_GLOBAL_MODULE BINARY_OP</td>
-<td align="right">1,002,716</td>
+<td align="right">1,002,732</td>
 <td align="right">0.3%</td>
 <td align="right">72.9%</td>
 </tr>
 <tr>
 <td align="left">PUSH_NULL LOAD_FAST_LOAD_FAST</td>
-<td align="right">995,567</td>
+<td align="right">995,579</td>
 <td align="right">0.3%</td>
 <td align="right">73.2%</td>
 </tr>
 <tr>
 <td align="left">POP_JUMP_IF_FALSE POP_TOP</td>
-<td align="right">988,927</td>
+<td align="right">988,939</td>
 <td align="right">0.3%</td>
 <td align="right">73.5%</td>
 </tr>
 <tr>
 <td align="left">LOAD_FAST TO_BOOL</td>
-<td align="right">988,767</td>
+<td align="right">988,779</td>
 <td align="right">0.3%</td>
 <td align="right">73.8%</td>
 </tr>
 <tr>
 <td align="left">STORE_ATTR_SLOT LOAD_FAST</td>
-<td align="right">987,538</td>
+<td align="right">987,546</td>
 <td align="right">0.3%</td>
 <td align="right">74.0%</td>
 </tr>
 <tr>
 <td align="left">STORE_ATTR_SLOT RETURN_CONST</td>
-<td align="right">987,538</td>
+<td align="right">987,546</td>
 <td align="right">0.3%</td>
 <td align="right">74.3%</td>
 </tr>
 <tr>
 <td align="left">CALL_PY_GENERAL RESUME_CHECK</td>
-<td align="right">986,607</td>
+<td align="right">986,619</td>
 <td align="right">0.3%</td>
 <td align="right">74.6%</td>
 </tr>
 <tr>
 <td align="left">POP_JUMP_IF_TRUE LOAD_CONST</td>
-<td align="right">985,089</td>
+<td align="right">985,093</td>
 <td align="right">0.3%</td>
 <td align="right">74.9%</td>
 </tr>
@@ -1577,13 +1577,13 @@ the corresponding unspecialized instruction are not counted as pairs.
 </tr>
 <tr>
 <td align="left">PUSH_NULL CALL_NON_PY_GENERAL</td>
-<td align="right">971,309</td>
+<td align="right">971,313</td>
 <td align="right">0.3%</td>
 <td align="right">75.9%</td>
 </tr>
 <tr>
 <td align="left">LOAD_ATTR_METHOD_NO_DICT CALL_PY_EXACT_ARGS</td>
-<td align="right">969,969</td>
+<td align="right">969,973</td>
 <td align="right">0.3%</td>
 <td align="right">76.2%</td>
 </tr>
@@ -1641,7 +1641,7 @@ specialized instruction deoptimizes.
 </tr>
 <tr>
 <td align="left">LOAD_CONST</td>
-<td align="right">53,385</td>
+<td align="right">53,405</td>
 <td align="right">14.3%</td>
 </tr>
 </tbody>
@@ -1663,12 +1663,12 @@ specialized instruction deoptimizes.
 </tr>
 <tr>
 <td align="left">CALL_METHOD_DESCRIPTOR_O</td>
-<td align="right">44,956</td>
+<td align="right">44,972</td>
 <td align="right">12.0%</td>
 </tr>
 <tr>
 <td align="left">STORE_FAST</td>
-<td align="right">7,909</td>
+<td align="right">7,913</td>
 <td align="right">2.1%</td>
 </tr>
 <tr>
@@ -1703,7 +1703,7 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">RESUME_CHECK</td>
-<td align="right">2,664,194</td>
+<td align="right">2,664,218</td>
 <td align="right">99.9%</td>
 </tr>
 <tr>
@@ -2199,7 +2199,7 @@ specialized instruction deoptimizes.
 </tr>
 <tr>
 <td align="left">RETURN_CONST</td>
-<td align="right">1,036,734</td>
+<td align="right">1,036,758</td>
 <td align="right">38.9%</td>
 </tr>
 <tr>
@@ -2276,22 +2276,22 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">RESUME_CHECK</td>
-<td align="right">2,292,014</td>
+<td align="right">2,292,038</td>
 <td align="right">53.0%</td>
 </tr>
 <tr>
 <td align="left">POP_JUMP_IF_FALSE</td>
-<td align="right">694,905</td>
+<td align="right">694,925</td>
 <td align="right">16.1%</td>
 </tr>
 <tr>
 <td align="left">STORE_FAST</td>
-<td align="right">663,118</td>
+<td align="right">663,126</td>
 <td align="right">15.3%</td>
 </tr>
 <tr>
 <td align="left">POP_JUMP_IF_TRUE</td>
-<td align="right">328,709</td>
+<td align="right">328,713</td>
 <td align="right">7.6%</td>
 </tr>
 <tr>
@@ -2313,12 +2313,12 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">LOAD_FAST</td>
-<td align="right">3,009,770</td>
+<td align="right">3,009,810</td>
 <td align="right">69.6%</td>
 </tr>
 <tr>
 <td align="left">LOAD_GLOBAL_MODULE</td>
-<td align="right">1,313,436</td>
+<td align="right">1,313,452</td>
 <td align="right">30.4%</td>
 </tr>
 <tr>
@@ -2425,22 +2425,22 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">RETURN_CONST</td>
-<td align="right">6,389,307</td>
+<td align="right">6,389,399</td>
 <td align="right">49.7%</td>
 </tr>
 <tr>
 <td align="left">CALL_METHOD_DESCRIPTOR_O</td>
-<td align="right">1,094,221</td>
+<td align="right">1,094,257</td>
 <td align="right">8.5%</td>
 </tr>
 <tr>
 <td align="left">CALL_FUNCTION_EX</td>
-<td align="right">1,023,945</td>
+<td align="right">1,023,965</td>
 <td align="right">8.0%</td>
 </tr>
 <tr>
 <td align="left">POP_JUMP_IF_FALSE</td>
-<td align="right">988,927</td>
+<td align="right">988,939</td>
 <td align="right">7.7%</td>
 </tr>
 <tr>
@@ -2462,22 +2462,22 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">LOAD_FAST</td>
-<td align="right">5,336,053</td>
+<td align="right">5,336,121</td>
 <td align="right">41.5%</td>
 </tr>
 <tr>
 <td align="left">RETURN_CONST</td>
-<td align="right">3,102,075</td>
+<td align="right">3,102,135</td>
 <td align="right">24.1%</td>
 </tr>
 <tr>
 <td align="left">LOAD_CONST</td>
-<td align="right">2,004,183</td>
+<td align="right">2,004,211</td>
 <td align="right">15.6%</td>
 </tr>
 <tr>
 <td align="left">ENTER_EXECUTOR</td>
-<td align="right">771,410</td>
+<td align="right">771,450</td>
 <td align="right">6.0%</td>
 </tr>
 <tr>
@@ -2574,7 +2574,7 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">LOAD_ATTR_MODULE</td>
-<td align="right">2,014,223</td>
+<td align="right">2,014,251</td>
 <td align="right">66.5%</td>
 </tr>
 <tr>
@@ -2584,7 +2584,7 @@ specialized instruction deoptimizes.
 </tr>
 <tr>
 <td align="left">LOAD_DEREF</td>
-<td align="right">47,534</td>
+<td align="right">47,558</td>
 <td align="right">1.6%</td>
 </tr>
 <tr>
@@ -2606,17 +2606,17 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">LOAD_FAST</td>
-<td align="right">1,057,841</td>
+<td align="right">1,057,877</td>
 <td align="right">34.9%</td>
 </tr>
 <tr>
 <td align="left">LOAD_FAST_LOAD_FAST</td>
-<td align="right">995,567</td>
+<td align="right">995,579</td>
 <td align="right">32.9%</td>
 </tr>
 <tr>
 <td align="left">CALL_NON_PY_GENERAL</td>
-<td align="right">971,309</td>
+<td align="right">971,313</td>
 <td align="right">32.1%</td>
 </tr>
 <tr>
@@ -2733,17 +2733,17 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">LOAD_FAST</td>
-<td align="right">3,956,679</td>
+<td align="right">3,956,723</td>
 <td align="right">31.5%</td>
 </tr>
 <tr>
 <td align="left">LOAD_ATTR_INSTANCE_VALUE</td>
-<td align="right">2,965,605</td>
+<td align="right">2,965,625</td>
 <td align="right">23.6%</td>
 </tr>
 <tr>
 <td align="left">RETURN_VALUE</td>
-<td align="right">1,314,836</td>
+<td align="right">1,314,852</td>
 <td align="right">10.5%</td>
 </tr>
 <tr>
@@ -2753,7 +2753,7 @@ specialized instruction deoptimizes.
 </tr>
 <tr>
 <td align="left">CALL_METHOD_DESCRIPTOR_FAST</td>
-<td align="right">656,818</td>
+<td align="right">656,826</td>
 <td align="right">5.2%</td>
 </tr>
 </tbody>
@@ -2770,17 +2770,17 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">STORE_FAST</td>
-<td align="right">3,303,692</td>
+<td align="right">3,303,724</td>
 <td align="right">26.3%</td>
 </tr>
 <tr>
 <td align="left">TO_BOOL_BOOL</td>
-<td align="right">3,259,447</td>
+<td align="right">3,259,459</td>
 <td align="right">26.0%</td>
 </tr>
 <tr>
 <td align="left">RETURN_VALUE</td>
-<td align="right">1,314,836</td>
+<td align="right">1,314,852</td>
 <td align="right">10.5%</td>
 </tr>
 <tr>
@@ -2790,7 +2790,7 @@ specialized instruction deoptimizes.
 </tr>
 <tr>
 <td align="left">LOAD_FAST</td>
-<td align="right">1,015,065</td>
+<td align="right">1,015,085</td>
 <td align="right">8.1%</td>
 </tr>
 </tbody>
@@ -2892,7 +2892,7 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">LOAD_FAST</td>
-<td align="right">988,767</td>
+<td align="right">988,779</td>
 <td align="right">69.3%</td>
 </tr>
 <tr>
@@ -2902,7 +2902,7 @@ specialized instruction deoptimizes.
 </tr>
 <tr>
 <td align="left">LOAD_ATTR</td>
-<td align="right">108,550</td>
+<td align="right">108,590</td>
 <td align="right">7.6%</td>
 </tr>
 <tr>
@@ -2929,12 +2929,12 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">POP_JUMP_IF_TRUE</td>
-<td align="right">1,401,099</td>
+<td align="right">1,401,143</td>
 <td align="right">98.2%</td>
 </tr>
 <tr>
 <td align="left">POP_JUMP_IF_FALSE</td>
-<td align="right">19,478</td>
+<td align="right">19,486</td>
 <td align="right">1.4%</td>
 </tr>
 <tr>
@@ -2974,7 +2974,7 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">LOAD_ATTR_MODULE</td>
-<td align="right">328,189</td>
+<td align="right">328,193</td>
 <td align="right">50.6%</td>
 </tr>
 <tr>
@@ -3001,7 +3001,7 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">BINARY_OP</td>
-<td align="right">648,549</td>
+<td align="right">648,553</td>
 <td align="right">100.0%</td>
 </tr>
 </tbody>
@@ -3088,27 +3088,27 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">LOAD_GLOBAL_MODULE</td>
-<td align="right">1,002,716</td>
+<td align="right">1,002,732</td>
 <td align="right">36.4%</td>
 </tr>
 <tr>
 <td align="left">LOAD_ATTR_MODULE</td>
-<td align="right">754,659</td>
+<td align="right">754,703</td>
 <td align="right">27.4%</td>
 </tr>
 <tr>
 <td align="left">UNARY_INVERT</td>
-<td align="right">648,549</td>
+<td align="right">648,553</td>
 <td align="right">23.6%</td>
 </tr>
 <tr>
 <td align="left">POP_JUMP_IF_FALSE</td>
-<td align="right">328,789</td>
+<td align="right">328,793</td>
 <td align="right">11.9%</td>
 </tr>
 <tr>
 <td align="left">LOAD_ATTR_NONDESCRIPTOR_WITH_VALUES</td>
-<td align="right">7,949</td>
+<td align="right">7,953</td>
 <td align="right">0.3%</td>
 </tr>
 </tbody>
@@ -3125,17 +3125,17 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">TO_BOOL_INT</td>
-<td align="right">1,067,010</td>
+<td align="right">1,067,050</td>
 <td align="right">38.7%</td>
 </tr>
 <tr>
 <td align="left">COPY</td>
-<td align="right">679,076</td>
+<td align="right">679,092</td>
 <td align="right">24.7%</td>
 </tr>
 <tr>
 <td align="left">STORE_FAST</td>
-<td align="right">670,027</td>
+<td align="right">670,039</td>
 <td align="right">24.3%</td>
 </tr>
 <tr>
@@ -3145,7 +3145,7 @@ specialized instruction deoptimizes.
 </tr>
 <tr>
 <td align="left">LOAD_FAST_LOAD_FAST</td>
-<td align="right">7,909</td>
+<td align="right">7,913</td>
 <td align="right">0.3%</td>
 </tr>
 </tbody>
@@ -3413,7 +3413,7 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">LOAD_CONST</td>
-<td align="right">328,149</td>
+<td align="right">328,153</td>
 <td align="right">49.4%</td>
 </tr>
 <tr>
@@ -3423,7 +3423,7 @@ specialized instruction deoptimizes.
 </tr>
 <tr>
 <td align="left">LOAD_FAST_LOAD_FAST</td>
-<td align="right">8,709</td>
+<td align="right">8,713</td>
 <td align="right">1.3%</td>
 </tr>
 <tr>
@@ -3450,7 +3450,7 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">CALL_PY_EXACT_ARGS</td>
-<td align="right">335,978</td>
+<td align="right">335,986</td>
 <td align="right">50.6%</td>
 </tr>
 <tr>
@@ -3505,12 +3505,12 @@ specialized instruction deoptimizes.
 </tr>
 <tr>
 <td align="left">LOAD_GLOBAL_MODULE</td>
-<td align="right">53,245</td>
+<td align="right">53,265</td>
 <td align="right">7.4%</td>
 </tr>
 <tr>
 <td align="left">ENTER_EXECUTOR</td>
-<td align="right">7,489</td>
+<td align="right">7,493</td>
 <td align="right">1.0%</td>
 </tr>
 <tr>
@@ -3542,12 +3542,12 @@ specialized instruction deoptimizes.
 </tr>
 <tr>
 <td align="left">RETURN_VALUE</td>
-<td align="right">53,205</td>
+<td align="right">53,225</td>
 <td align="right">7.4%</td>
 </tr>
 <tr>
 <td align="left">LOAD_FAST</td>
-<td align="right">9,089</td>
+<td align="right">9,093</td>
 <td align="right">1.3%</td>
 </tr>
 <tr>
@@ -3582,7 +3582,7 @@ specialized instruction deoptimizes.
 </tr>
 <tr>
 <td align="left">ENTER_EXECUTOR</td>
-<td align="right">62,225</td>
+<td align="right">62,245</td>
 <td align="right">6.1%</td>
 </tr>
 <tr>
@@ -3614,7 +3614,7 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">POP_TOP</td>
-<td align="right">1,023,945</td>
+<td align="right">1,023,965</td>
 <td align="right">99.9%</td>
 </tr>
 <tr>
@@ -3701,7 +3701,7 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">LOAD_CONST</td>
-<td align="right">346,938</td>
+<td align="right">346,946</td>
 <td align="right">100.0%</td>
 </tr>
 </tbody>
@@ -3723,7 +3723,7 @@ specialized instruction deoptimizes.
 </tr>
 <tr>
 <td align="left">COPY_FREE_VARS</td>
-<td align="right">15,818</td>
+<td align="right">15,826</td>
 <td align="right">4.6%</td>
 </tr>
 <tr>
@@ -3763,7 +3763,7 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">LOAD_ATTR</td>
-<td align="right">16,058</td>
+<td align="right">16,066</td>
 <td align="right">84.3%</td>
 </tr>
 <tr>
@@ -3800,7 +3800,7 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">POP_JUMP_IF_FALSE</td>
-<td align="right">17,778</td>
+<td align="right">17,786</td>
 <td align="right">93.3%</td>
 </tr>
 <tr>
@@ -3927,7 +3927,7 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">BINARY_OP</td>
-<td align="right">679,076</td>
+<td align="right">679,092</td>
 <td align="right">51.2%</td>
 </tr>
 <tr>
@@ -3964,7 +3964,7 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">TO_BOOL_INT</td>
-<td align="right">684,256</td>
+<td align="right">684,272</td>
 <td align="right">51.6%</td>
 </tr>
 <tr>
@@ -4009,17 +4009,17 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">CALL_PY_EXACT_ARGS</td>
-<td align="right">657,738</td>
+<td align="right">657,746</td>
 <td align="right">95.1%</td>
 </tr>
 <tr>
 <td align="left">CALL_KW</td>
-<td align="right">15,818</td>
+<td align="right">15,826</td>
 <td align="right">2.3%</td>
 </tr>
 <tr>
 <td align="left">CALL_BOUND_METHOD_EXACT_ARGS</td>
-<td align="right">15,798</td>
+<td align="right">15,806</td>
 <td align="right">2.3%</td>
 </tr>
 <tr>
@@ -4046,7 +4046,7 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">RESUME_CHECK</td>
-<td align="right">690,874</td>
+<td align="right">690,898</td>
 <td align="right">99.9%</td>
 </tr>
 <tr>
@@ -4128,7 +4128,7 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">POP_TOP</td>
-<td align="right">771,410</td>
+<td align="right">771,450</td>
 <td align="right">31.8%</td>
 </tr>
 <tr>
@@ -4138,7 +4138,7 @@ specialized instruction deoptimizes.
 </tr>
 <tr>
 <td align="left">CALL_LIST_APPEND</td>
-<td align="right">373,125</td>
+<td align="right">373,145</td>
 <td align="right">15.4%</td>
 </tr>
 <tr>
@@ -4175,12 +4175,12 @@ specialized instruction deoptimizes.
 </tr>
 <tr>
 <td align="left">POP_TOP</td>
-<td align="right">383,085</td>
+<td align="right">383,105</td>
 <td align="right">15.8%</td>
 </tr>
 <tr>
 <td align="left">CALL_LIST_APPEND</td>
-<td align="right">368,125</td>
+<td align="right">368,145</td>
 <td align="right">15.2%</td>
 </tr>
 <tr>
@@ -4568,12 +4568,12 @@ specialized instruction deoptimizes.
 <tr>
 <td align="left">POP_TOP</td>
 <td align="right">1,740</td>
-<td align="right">49.0%</td>
+<td align="right">49.1%</td>
 </tr>
 <tr>
 <td align="left">POP_JUMP_IF_FALSE</td>
-<td align="right">471</td>
-<td align="right">13.3%</td>
+<td align="right">467</td>
+<td align="right">13.2%</td>
 </tr>
 <tr>
 <td align="left">CALL_LIST_APPEND</td>
@@ -4609,13 +4609,13 @@ specialized instruction deoptimizes.
 </tr>
 <tr>
 <td align="left">LOAD_FAST</td>
-<td align="right">751</td>
+<td align="right">747</td>
 <td align="right">21.1%</td>
 </tr>
 <tr>
 <td align="left">FOR_ITER_RANGE</td>
 <td align="right">740</td>
-<td align="right">20.8%</td>
+<td align="right">20.9%</td>
 </tr>
 <tr>
 <td align="left">FOR_ITER</td>
@@ -4711,7 +4711,7 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">STORE_FAST</td>
-<td align="right">1,329,396</td>
+<td align="right">1,329,412</td>
 <td align="right">80.5%</td>
 </tr>
 <tr>
@@ -4748,7 +4748,7 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">LOAD_FAST</td>
-<td align="right">1,644,896</td>
+<td align="right">1,644,912</td>
 <td align="right">99.6%</td>
 </tr>
 <tr>
@@ -4892,7 +4892,7 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">LOAD_FAST</td>
-<td align="right">9,559,487</td>
+<td align="right">9,559,819</td>
 <td align="right">85.1%</td>
 </tr>
 <tr>
@@ -4907,7 +4907,7 @@ specialized instruction deoptimizes.
 </tr>
 <tr>
 <td align="left">LOAD_FAST_LOAD_FAST</td>
-<td align="right">32,256</td>
+<td align="right">32,272</td>
 <td align="right">0.3%</td>
 </tr>
 <tr>
@@ -4929,17 +4929,17 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">CALL_PY_EXACT_ARGS</td>
-<td align="right">2,430,544</td>
+<td align="right">2,430,608</td>
 <td align="right">21.6%</td>
 </tr>
 <tr>
 <td align="left">LOAD_FAST</td>
-<td align="right">2,071,155</td>
+<td align="right">2,071,215</td>
 <td align="right">18.4%</td>
 </tr>
 <tr>
 <td align="left">TO_BOOL_BOOL</td>
-<td align="right">1,296,098</td>
+<td align="right">1,296,106</td>
 <td align="right">11.5%</td>
 </tr>
 <tr>
@@ -4949,7 +4949,7 @@ specialized instruction deoptimizes.
 </tr>
 <tr>
 <td align="left">SWAP</td>
-<td align="right">709,483</td>
+<td align="right">709,511</td>
 <td align="right">6.3%</td>
 </tr>
 </tbody>
@@ -4974,27 +4974,27 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">LOAD_FAST</td>
-<td align="right">2,953,923</td>
+<td align="right">2,953,951</td>
 <td align="right">25.4%</td>
 </tr>
 <tr>
 <td align="left">POP_TOP</td>
-<td align="right">2,004,183</td>
+<td align="right">2,004,211</td>
 <td align="right">17.2%</td>
 </tr>
 <tr>
 <td align="left">STORE_ATTR_SLOT</td>
-<td align="right">1,645,787</td>
+<td align="right">1,645,799</td>
 <td align="right">14.2%</td>
 </tr>
 <tr>
 <td align="left">POP_JUMP_IF_FALSE</td>
-<td align="right">1,344,836</td>
+<td align="right">1,344,852</td>
 <td align="right">11.6%</td>
 </tr>
 <tr>
 <td align="left">POP_JUMP_IF_TRUE</td>
-<td align="right">985,089</td>
+<td align="right">985,093</td>
 <td align="right">8.5%</td>
 </tr>
 </tbody>
@@ -5011,27 +5011,27 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">LOAD_FAST</td>
-<td align="right">5,883,714</td>
+<td align="right">5,883,738</td>
 <td align="right">50.6%</td>
 </tr>
 <tr>
 <td align="left">COMPARE_OP_INT</td>
-<td align="right">1,958,136</td>
+<td align="right">1,958,152</td>
 <td align="right">16.8%</td>
 </tr>
 <tr>
 <td align="left">STORE_FAST</td>
-<td align="right">1,404,579</td>
+<td align="right">1,404,623</td>
 <td align="right">12.1%</td>
 </tr>
 <tr>
 <td align="left">CALL_NON_PY_GENERAL</td>
-<td align="right">656,869</td>
+<td align="right">656,873</td>
 <td align="right">5.6%</td>
 </tr>
 <tr>
 <td align="left">CALL_KW</td>
-<td align="right">346,938</td>
+<td align="right">346,946</td>
 <td align="right">3.0%</td>
 </tr>
 </tbody>
@@ -5061,22 +5061,22 @@ specialized instruction deoptimizes.
 </tr>
 <tr>
 <td align="left">LOAD_ATTR</td>
-<td align="right">31,676</td>
+<td align="right">31,692</td>
 <td align="right">4.4%</td>
 </tr>
 <tr>
 <td align="left">STORE_FAST</td>
-<td align="right">16,378</td>
+<td align="right">16,386</td>
 <td align="right">2.3%</td>
 </tr>
 <tr>
 <td align="left">RESUME_CHECK</td>
-<td align="right">16,118</td>
+<td align="right">16,126</td>
 <td align="right">2.2%</td>
 </tr>
 <tr>
 <td align="left">CALL_LEN</td>
-<td align="right">15,798</td>
+<td align="right">15,806</td>
 <td align="right">2.2%</td>
 </tr>
 </tbody>
@@ -5093,17 +5093,17 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">LOAD_FAST</td>
-<td align="right">659,678</td>
+<td align="right">659,686</td>
 <td align="right">90.7%</td>
 </tr>
 <tr>
 <td align="left">PUSH_NULL</td>
-<td align="right">47,534</td>
+<td align="right">47,558</td>
 <td align="right">6.5%</td>
 </tr>
 <tr>
 <td align="left">COMPARE_OP_INT</td>
-<td align="right">15,818</td>
+<td align="right">15,826</td>
 <td align="right">2.2%</td>
 </tr>
 <tr>
@@ -5138,27 +5138,27 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">RESUME_CHECK</td>
-<td align="right">12,949,186</td>
+<td align="right">12,949,322</td>
 <td align="right">16.9%</td>
 </tr>
 <tr>
 <td align="left">STORE_FAST</td>
-<td align="right">8,598,229</td>
+<td align="right">8,598,313</td>
 <td align="right">11.2%</td>
 </tr>
 <tr>
 <td align="left">POP_JUMP_IF_FALSE</td>
-<td align="right">8,174,378</td>
+<td align="right">8,174,546</td>
 <td align="right">10.6%</td>
 </tr>
 <tr>
 <td align="left">LOAD_CONST</td>
-<td align="right">5,883,714</td>
+<td align="right">5,883,738</td>
 <td align="right">7.7%</td>
 </tr>
 <tr>
 <td align="left">POP_TOP</td>
-<td align="right">5,336,053</td>
+<td align="right">5,336,121</td>
 <td align="right">6.9%</td>
 </tr>
 </tbody>
@@ -5175,27 +5175,27 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">LOAD_ATTR_INSTANCE_VALUE</td>
-<td align="right">20,276,747</td>
+<td align="right">20,276,839</td>
 <td align="right">26.4%</td>
 </tr>
 <tr>
 <td align="left">LOAD_ATTR</td>
-<td align="right">9,559,487</td>
+<td align="right">9,559,819</td>
 <td align="right">12.5%</td>
 </tr>
 <tr>
 <td align="left">LOAD_ATTR_SLOT</td>
-<td align="right">6,699,145</td>
+<td align="right">6,699,245</td>
 <td align="right">8.7%</td>
 </tr>
 <tr>
 <td align="left">CALL_PY_EXACT_ARGS</td>
-<td align="right">5,632,302</td>
+<td align="right">5,632,374</td>
 <td align="right">7.3%</td>
 </tr>
 <tr>
 <td align="left">LOAD_ATTR_METHOD_WITH_VALUES</td>
-<td align="right">4,602,341</td>
+<td align="right">4,602,377</td>
 <td align="right">6.0%</td>
 </tr>
 </tbody>
@@ -5304,17 +5304,17 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">STORE_ATTR_SLOT</td>
-<td align="right">1,975,727</td>
+<td align="right">1,975,739</td>
 <td align="right">27.9%</td>
 </tr>
 <tr>
 <td align="left">PUSH_NULL</td>
-<td align="right">995,567</td>
+<td align="right">995,579</td>
 <td align="right">14.0%</td>
 </tr>
 <tr>
 <td align="left">LOAD_ATTR_METHOD_NO_DICT</td>
-<td align="right">728,352</td>
+<td align="right">728,384</td>
 <td align="right">10.3%</td>
 </tr>
 <tr>
@@ -5341,22 +5341,22 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">STORE_ATTR_SLOT</td>
-<td align="right">2,634,756</td>
+<td align="right">2,634,772</td>
 <td align="right">37.1%</td>
 </tr>
 <tr>
 <td align="left">LOAD_FAST</td>
-<td align="right">1,314,758</td>
+<td align="right">1,314,766</td>
 <td align="right">18.5%</td>
 </tr>
 <tr>
 <td align="left">CALL_NON_PY_GENERAL</td>
-<td align="right">666,778</td>
+<td align="right">666,786</td>
 <td align="right">9.4%</td>
 </tr>
 <tr>
 <td align="left">CALL_METHOD_DESCRIPTOR_FAST</td>
-<td align="right">656,778</td>
+<td align="right">656,786</td>
 <td align="right">9.3%</td>
 </tr>
 <tr>
@@ -5607,17 +5607,17 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">TO_BOOL_BOOL</td>
-<td align="right">8,614,338</td>
+<td align="right">8,614,426</td>
 <td align="right">56.8%</td>
 </tr>
 <tr>
 <td align="left">COMPARE_OP_INT</td>
-<td align="right">2,745,753</td>
+<td align="right">2,745,821</td>
 <td align="right">18.1%</td>
 </tr>
 <tr>
 <td align="left">TO_BOOL_INT</td>
-<td align="right">2,126,071</td>
+<td align="right">2,126,147</td>
 <td align="right">14.0%</td>
 </tr>
 <tr>
@@ -5644,22 +5644,22 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">LOAD_FAST</td>
-<td align="right">8,174,378</td>
+<td align="right">8,174,546</td>
 <td align="right">53.9%</td>
 </tr>
 <tr>
 <td align="left">RETURN_CONST</td>
-<td align="right">1,369,652</td>
+<td align="right">1,369,684</td>
 <td align="right">9.0%</td>
 </tr>
 <tr>
 <td align="left">LOAD_CONST</td>
-<td align="right">1,344,836</td>
+<td align="right">1,344,852</td>
 <td align="right">8.9%</td>
 </tr>
 <tr>
 <td align="left">POP_TOP</td>
-<td align="right">988,927</td>
+<td align="right">988,939</td>
 <td align="right">6.5%</td>
 </tr>
 <tr>
@@ -5689,7 +5689,7 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">LOAD_FAST</td>
-<td align="right">1,309,018</td>
+<td align="right">1,309,026</td>
 <td align="right">57.2%</td>
 </tr>
 <tr>
@@ -5699,7 +5699,7 @@ specialized instruction deoptimizes.
 </tr>
 <tr>
 <td align="left">LOAD_ATTR</td>
-<td align="right">8,989</td>
+<td align="right">8,993</td>
 <td align="right">0.4%</td>
 </tr>
 <tr>
@@ -5726,7 +5726,7 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">LOAD_FAST</td>
-<td align="right">1,964,447</td>
+<td align="right">1,964,459</td>
 <td align="right">85.9%</td>
 </tr>
 <tr>
@@ -5771,7 +5771,7 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">LOAD_FAST</td>
-<td align="right">1,376,012</td>
+<td align="right">1,376,044</td>
 <td align="right">81.1%</td>
 </tr>
 <tr>
@@ -5808,7 +5808,7 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">LOAD_FAST</td>
-<td align="right">1,034,163</td>
+<td align="right">1,034,191</td>
 <td align="right">60.9%</td>
 </tr>
 <tr>
@@ -5818,7 +5818,7 @@ specialized instruction deoptimizes.
 </tr>
 <tr>
 <td align="left">LOAD_GLOBAL_MODULE</td>
-<td align="right">329,749</td>
+<td align="right">329,753</td>
 <td align="right">19.4%</td>
 </tr>
 <tr>
@@ -5853,17 +5853,17 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">TO_BOOL_BOOL</td>
-<td align="right">2,968,694</td>
+<td align="right">2,968,718</td>
 <td align="right">58.5%</td>
 </tr>
 <tr>
 <td align="left">TO_BOOL</td>
-<td align="right">1,401,099</td>
+<td align="right">1,401,143</td>
 <td align="right">27.6%</td>
 </tr>
 <tr>
 <td align="left">TO_BOOL_INT</td>
-<td align="right">707,074</td>
+<td align="right">707,098</td>
 <td align="right">13.9%</td>
 </tr>
 <tr>
@@ -5890,17 +5890,17 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">LOAD_FAST</td>
-<td align="right">3,071,513</td>
+<td align="right">3,071,581</td>
 <td align="right">60.5%</td>
 </tr>
 <tr>
 <td align="left">LOAD_CONST</td>
-<td align="right">985,089</td>
+<td align="right">985,093</td>
 <td align="right">19.4%</td>
 </tr>
 <tr>
 <td align="left">NOP</td>
-<td align="right">328,709</td>
+<td align="right">328,713</td>
 <td align="right">6.5%</td>
 </tr>
 <tr>
@@ -6019,22 +6019,22 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">POP_TOP</td>
-<td align="right">3,102,075</td>
+<td align="right">3,102,135</td>
 <td align="right">40.0%</td>
 </tr>
 <tr>
 <td align="left">POP_JUMP_IF_FALSE</td>
-<td align="right">1,369,652</td>
+<td align="right">1,369,684</td>
 <td align="right">17.6%</td>
 </tr>
 <tr>
 <td align="left">STORE_ATTR_SLOT</td>
-<td align="right">987,538</td>
+<td align="right">987,546</td>
 <td align="right">12.7%</td>
 </tr>
 <tr>
 <td align="left">STORE_FAST</td>
-<td align="right">705,345</td>
+<td align="right">705,365</td>
 <td align="right">9.1%</td>
 </tr>
 <tr>
@@ -6056,12 +6056,12 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">POP_TOP</td>
-<td align="right">6,389,307</td>
+<td align="right">6,389,399</td>
 <td align="right">82.3%</td>
 </tr>
 <tr>
 <td align="left">INTERPRETER_EXIT</td>
-<td align="right">1,036,734</td>
+<td align="right">1,036,758</td>
 <td align="right">13.4%</td>
 </tr>
 <tr>
@@ -6384,27 +6384,27 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">RETURN_VALUE</td>
-<td align="right">3,303,692</td>
+<td align="right">3,303,724</td>
 <td align="right">24.5%</td>
 </tr>
 <tr>
 <td align="left">CALL_NON_PY_GENERAL</td>
-<td align="right">1,698,441</td>
+<td align="right">1,698,477</td>
 <td align="right">12.6%</td>
 </tr>
 <tr>
 <td align="left">LOAD_CONST</td>
-<td align="right">1,404,579</td>
+<td align="right">1,404,623</td>
 <td align="right">10.4%</td>
 </tr>
 <tr>
 <td align="left">LOAD_FAST</td>
-<td align="right">1,313,496</td>
+<td align="right">1,313,512</td>
 <td align="right">9.7%</td>
 </tr>
 <tr>
 <td align="left">SWAP</td>
-<td align="right">709,483</td>
+<td align="right">709,511</td>
 <td align="right">5.3%</td>
 </tr>
 </tbody>
@@ -6421,27 +6421,27 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">LOAD_FAST</td>
-<td align="right">8,598,229</td>
+<td align="right">8,598,313</td>
 <td align="right">63.7%</td>
 </tr>
 <tr>
 <td align="left">JUMP_FORWARD</td>
-<td align="right">1,329,396</td>
+<td align="right">1,329,412</td>
 <td align="right">9.8%</td>
 </tr>
 <tr>
 <td align="left">UNPACK_SEQUENCE_TWO_TUPLE</td>
-<td align="right">709,323</td>
+<td align="right">709,351</td>
 <td align="right">5.3%</td>
 </tr>
 <tr>
 <td align="left">RETURN_CONST</td>
-<td align="right">705,345</td>
+<td align="right">705,365</td>
 <td align="right">5.2%</td>
 </tr>
 <tr>
 <td align="left">LOAD_GLOBAL_BUILTIN</td>
-<td align="right">695,096</td>
+<td align="right">695,112</td>
 <td align="right">5.1%</td>
 </tr>
 </tbody>
@@ -6508,7 +6508,7 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">UNPACK_SEQUENCE_TWO_TUPLE</td>
-<td align="right">1,085,988</td>
+<td align="right">1,086,036</td>
 <td align="right">99.9%</td>
 </tr>
 <tr>
@@ -6545,7 +6545,7 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">LOAD_FAST</td>
-<td align="right">1,085,748</td>
+<td align="right">1,085,796</td>
 <td align="right">99.9%</td>
 </tr>
 <tr>
@@ -6632,7 +6632,7 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">LOAD_ATTR</td>
-<td align="right">709,483</td>
+<td align="right">709,511</td>
 <td align="right">99.8%</td>
 </tr>
 <tr>
@@ -6669,7 +6669,7 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">STORE_FAST</td>
-<td align="right">709,483</td>
+<td align="right">709,511</td>
 <td align="right">99.8%</td>
 </tr>
 <tr>
@@ -7215,7 +7215,7 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">RETURN_VALUE</td>
-<td align="right">15,858</td>
+<td align="right">15,866</td>
 <td align="right">93.5%</td>
 </tr>
 <tr>
@@ -7242,7 +7242,7 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">STORE_FAST</td>
-<td align="right">15,798</td>
+<td align="right">15,806</td>
 <td align="right">93.2%</td>
 </tr>
 <tr>
@@ -7475,7 +7475,7 @@ specialized instruction deoptimizes.
 </tr>
 <tr>
 <td align="left">CALL_BUILTIN_CLASS</td>
-<td align="right">15,778</td>
+<td align="right">15,786</td>
 <td align="right">4.7%</td>
 </tr>
 <tr>
@@ -7502,7 +7502,7 @@ specialized instruction deoptimizes.
 </tr>
 <tr>
 <td align="left">COPY_FREE_VARS</td>
-<td align="right">15,798</td>
+<td align="right">15,806</td>
 <td align="right">4.7%</td>
 </tr>
 </tbody>
@@ -7584,12 +7584,12 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">LOAD_FAST</td>
-<td align="right">657,518</td>
+<td align="right">657,526</td>
 <td align="right">91.4%</td>
 </tr>
 <tr>
 <td align="left">LOAD_ATTR</td>
-<td align="right">60,865</td>
+<td align="right">60,885</td>
 <td align="right">8.5%</td>
 </tr>
 <tr>
@@ -7626,12 +7626,12 @@ specialized instruction deoptimizes.
 </tr>
 <tr>
 <td align="left">CALL_BUILTIN_FAST_WITH_KEYWORDS</td>
-<td align="right">60,865</td>
+<td align="right">60,885</td>
 <td align="right">8.5%</td>
 </tr>
 <tr>
 <td align="left">CALL_BOUND_METHOD_EXACT_ARGS</td>
-<td align="right">15,778</td>
+<td align="right">15,786</td>
 <td align="right">2.2%</td>
 </tr>
 <tr>
@@ -7738,7 +7738,7 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">CALL_BUILTIN_CLASS</td>
-<td align="right">60,865</td>
+<td align="right">60,885</td>
 <td align="right">100.0%</td>
 </tr>
 <tr>
@@ -7760,7 +7760,7 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">RETURN_VALUE</td>
-<td align="right">60,885</td>
+<td align="right">60,905</td>
 <td align="right">100.0%</td>
 </tr>
 </tbody>
@@ -7847,7 +7847,7 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">LOAD_GLOBAL_BUILTIN</td>
-<td align="right">1,314,176</td>
+<td align="right">1,314,192</td>
 <td align="right">99.9%</td>
 </tr>
 <tr>
@@ -7884,7 +7884,7 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">TO_BOOL_BOOL</td>
-<td align="right">1,314,896</td>
+<td align="right">1,314,912</td>
 <td align="right">100.0%</td>
 </tr>
 <tr>
@@ -7919,7 +7919,7 @@ specialized instruction deoptimizes.
 </tr>
 <tr>
 <td align="left">LOAD_FAST</td>
-<td align="right">388,934</td>
+<td align="right">388,958</td>
 <td align="right">23.2%</td>
 </tr>
 <tr>
@@ -7941,7 +7941,7 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">STORE_FAST</td>
-<td align="right">695,836</td>
+<td align="right">695,852</td>
 <td align="right">41.5%</td>
 </tr>
 <tr>
@@ -7961,7 +7961,7 @@ specialized instruction deoptimizes.
 </tr>
 <tr>
 <td align="left">LOAD_DEREF</td>
-<td align="right">15,798</td>
+<td align="right">15,806</td>
 <td align="right">0.9%</td>
 </tr>
 </tbody>
@@ -7986,7 +7986,7 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">ENTER_EXECUTOR</td>
-<td align="right">368,125</td>
+<td align="right">368,145</td>
 <td align="right">98.5%</td>
 </tr>
 <tr>
@@ -8023,7 +8023,7 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">ENTER_EXECUTOR</td>
-<td align="right">373,125</td>
+<td align="right">373,145</td>
 <td align="right">99.8%</td>
 </tr>
 <tr>
@@ -8063,7 +8063,7 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">LOAD_FAST_LOAD_FAST</td>
-<td align="right">656,778</td>
+<td align="right">656,786</td>
 <td align="right">67.0%</td>
 </tr>
 <tr>
@@ -8095,7 +8095,7 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">RETURN_VALUE</td>
-<td align="right">656,818</td>
+<td align="right">656,826</td>
 <td align="right">67.0%</td>
 </tr>
 <tr>
@@ -8125,7 +8125,7 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">LOAD_FAST</td>
-<td align="right">336,058</td>
+<td align="right">336,066</td>
 <td align="right">50.8%</td>
 </tr>
 <tr>
@@ -8162,7 +8162,7 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">POP_TOP</td>
-<td align="right">656,398</td>
+<td align="right">656,406</td>
 <td align="right">99.2%</td>
 </tr>
 <tr>
@@ -8197,7 +8197,7 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">LOAD_ATTR_METHOD_NO_DICT</td>
-<td align="right">695,516</td>
+<td align="right">695,532</td>
 <td align="right">67.8%</td>
 </tr>
 <tr>
@@ -8234,7 +8234,7 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">STORE_FAST</td>
-<td align="right">694,556</td>
+<td align="right">694,572</td>
 <td align="right">67.7%</td>
 </tr>
 <tr>
@@ -8279,12 +8279,12 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">LOAD_FAST</td>
-<td align="right">1,048,225</td>
+<td align="right">1,048,245</td>
 <td align="right">95.8%</td>
 </tr>
 <tr>
 <td align="left">BINARY_SLICE</td>
-<td align="right">44,956</td>
+<td align="right">44,972</td>
 <td align="right">4.1%</td>
 </tr>
 <tr>
@@ -8311,7 +8311,7 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">POP_TOP</td>
-<td align="right">1,094,221</td>
+<td align="right">1,094,257</td>
 <td align="right">100.0%</td>
 </tr>
 <tr>
@@ -8346,17 +8346,17 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">PUSH_NULL</td>
-<td align="right">971,309</td>
+<td align="right">971,313</td>
 <td align="right">29.3%</td>
 </tr>
 <tr>
 <td align="left">LOAD_FAST_LOAD_FAST</td>
-<td align="right">666,778</td>
+<td align="right">666,786</td>
 <td align="right">20.1%</td>
 </tr>
 <tr>
 <td align="left">LOAD_CONST</td>
-<td align="right">656,869</td>
+<td align="right">656,873</td>
 <td align="right">19.8%</td>
 </tr>
 <tr>
@@ -8383,7 +8383,7 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">STORE_FAST</td>
-<td align="right">1,698,441</td>
+<td align="right">1,698,477</td>
 <td align="right">51.3%</td>
 </tr>
 <tr>
@@ -8428,27 +8428,27 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">LOAD_FAST</td>
-<td align="right">5,632,302</td>
+<td align="right">5,632,374</td>
 <td align="right">38.5%</td>
 </tr>
 <tr>
 <td align="left">LOAD_ATTR_METHOD_WITH_VALUES</td>
-<td align="right">4,938,374</td>
+<td align="right">4,938,398</td>
 <td align="right">33.7%</td>
 </tr>
 <tr>
 <td align="left">LOAD_ATTR</td>
-<td align="right">2,430,544</td>
+<td align="right">2,430,608</td>
 <td align="right">16.6%</td>
 </tr>
 <tr>
 <td align="left">LOAD_ATTR_METHOD_NO_DICT</td>
-<td align="right">969,969</td>
+<td align="right">969,973</td>
 <td align="right">6.6%</td>
 </tr>
 <tr>
 <td align="left">BUILD_TUPLE</td>
-<td align="right">335,978</td>
+<td align="right">335,986</td>
 <td align="right">2.3%</td>
 </tr>
 </tbody>
@@ -8465,12 +8465,12 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">RESUME_CHECK</td>
-<td align="right">13,639,329</td>
+<td align="right">13,639,493</td>
 <td align="right">93.2%</td>
 </tr>
 <tr>
 <td align="left">COPY_FREE_VARS</td>
-<td align="right">657,738</td>
+<td align="right">657,746</td>
 <td align="right">4.5%</td>
 </tr>
 <tr>
@@ -8505,12 +8505,12 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">LOAD_FAST</td>
-<td align="right">657,218</td>
+<td align="right">657,226</td>
 <td align="right">66.6%</td>
 </tr>
 <tr>
 <td align="left">LOAD_ATTR</td>
-<td align="right">328,029</td>
+<td align="right">328,033</td>
 <td align="right">33.2%</td>
 </tr>
 <tr>
@@ -8542,7 +8542,7 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">RESUME_CHECK</td>
-<td align="right">986,607</td>
+<td align="right">986,619</td>
 <td align="right">100.0%</td>
 </tr>
 <tr>
@@ -8629,7 +8629,7 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">LOAD_CONST</td>
-<td align="right">1,958,136</td>
+<td align="right">1,958,152</td>
 <td align="right">71.3%</td>
 </tr>
 <tr>
@@ -8644,12 +8644,12 @@ specialized instruction deoptimizes.
 </tr>
 <tr>
 <td align="left">LOAD_ATTR_SLOT</td>
-<td align="right">60,825</td>
+<td align="right">60,845</td>
 <td align="right">2.2%</td>
 </tr>
 <tr>
 <td align="left">LOAD_FAST_LOAD_FAST</td>
-<td align="right">52,956</td>
+<td align="right">52,972</td>
 <td align="right">1.9%</td>
 </tr>
 </tbody>
@@ -8666,7 +8666,7 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">POP_JUMP_IF_FALSE</td>
-<td align="right">2,745,753</td>
+<td align="right">2,745,821</td>
 <td align="right">100.0%</td>
 </tr>
 <tr>
@@ -8899,12 +8899,12 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">UNPACK_SEQUENCE_TWO_TUPLE</td>
-<td align="right">376,025</td>
+<td align="right">376,045</td>
 <td align="right">58.0%</td>
 </tr>
 <tr>
 <td align="left">RETURN_CONST</td>
-<td align="right">268,755</td>
+<td align="right">268,735</td>
 <td align="right">41.4%</td>
 </tr>
 <tr>
@@ -9110,17 +9110,17 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">LOAD_FAST</td>
-<td align="right">20,276,747</td>
+<td align="right">20,276,839</td>
 <td align="right">95.3%</td>
 </tr>
 <tr>
 <td align="left">LOAD_ATTR_INSTANCE_VALUE</td>
-<td align="right">656,658</td>
+<td align="right">656,666</td>
 <td align="right">3.1%</td>
 </tr>
 <tr>
 <td align="left">LOAD_FAST_LOAD_FAST</td>
-<td align="right">337,018</td>
+<td align="right">337,026</td>
 <td align="right">1.6%</td>
 </tr>
 <tr>
@@ -9147,22 +9147,22 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">TO_BOOL_BOOL</td>
-<td align="right">4,226,689</td>
+<td align="right">4,226,693</td>
 <td align="right">19.9%</td>
 </tr>
 <tr>
 <td align="left">LOAD_ATTR_METHOD_NO_DICT</td>
-<td align="right">3,321,261</td>
+<td align="right">3,321,297</td>
 <td align="right">15.6%</td>
 </tr>
 <tr>
 <td align="left">RETURN_VALUE</td>
-<td align="right">2,965,605</td>
+<td align="right">2,965,625</td>
 <td align="right">13.9%</td>
 </tr>
 <tr>
 <td align="left">LOAD_ATTR_METHOD_WITH_VALUES</td>
-<td align="right">2,334,634</td>
+<td align="right">2,334,658</td>
 <td align="right">11.0%</td>
 </tr>
 <tr>
@@ -9264,17 +9264,17 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">LOAD_ATTR_INSTANCE_VALUE</td>
-<td align="right">3,321,261</td>
+<td align="right">3,321,297</td>
 <td align="right">69.2%</td>
 </tr>
 <tr>
 <td align="left">LOAD_FAST</td>
-<td align="right">1,093,399</td>
+<td align="right">1,093,443</td>
 <td align="right">22.8%</td>
 </tr>
 <tr>
 <td align="left">LOAD_ATTR</td>
-<td align="right">382,965</td>
+<td align="right">382,985</td>
 <td align="right">8.0%</td>
 </tr>
 <tr>
@@ -9301,22 +9301,22 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">LOAD_FAST</td>
-<td align="right">2,401,648</td>
+<td align="right">2,401,696</td>
 <td align="right">50.1%</td>
 </tr>
 <tr>
 <td align="left">CALL_PY_EXACT_ARGS</td>
-<td align="right">969,969</td>
+<td align="right">969,973</td>
 <td align="right">20.2%</td>
 </tr>
 <tr>
 <td align="left">LOAD_FAST_LOAD_FAST</td>
-<td align="right">728,352</td>
+<td align="right">728,384</td>
 <td align="right">15.2%</td>
 </tr>
 <tr>
 <td align="left">CALL_METHOD_DESCRIPTOR_NOARGS</td>
-<td align="right">695,516</td>
+<td align="right">695,532</td>
 <td align="right">14.5%</td>
 </tr>
 <tr>
@@ -9346,22 +9346,22 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">LOAD_FAST</td>
-<td align="right">4,602,341</td>
+<td align="right">4,602,377</td>
 <td align="right">45.0%</td>
 </tr>
 <tr>
 <td align="left">LOAD_ATTR_INSTANCE_VALUE</td>
-<td align="right">2,334,634</td>
+<td align="right">2,334,658</td>
 <td align="right">22.9%</td>
 </tr>
 <tr>
 <td align="left">LOAD_ATTR_SLOT</td>
-<td align="right">1,962,876</td>
+<td align="right">1,962,892</td>
 <td align="right">19.2%</td>
 </tr>
 <tr>
 <td align="left">RETURN_VALUE</td>
-<td align="right">656,738</td>
+<td align="right">656,746</td>
 <td align="right">6.4%</td>
 </tr>
 <tr>
@@ -9383,17 +9383,17 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">CALL_PY_EXACT_ARGS</td>
-<td align="right">4,938,374</td>
+<td align="right">4,938,398</td>
 <td align="right">48.3%</td>
 </tr>
 <tr>
 <td align="left">LOAD_FAST</td>
-<td align="right">4,608,437</td>
+<td align="right">4,608,489</td>
 <td align="right">45.1%</td>
 </tr>
 <tr>
 <td align="left">LOAD_FAST_LOAD_FAST</td>
-<td align="right">346,798</td>
+<td align="right">346,806</td>
 <td align="right">3.4%</td>
 </tr>
 <tr>
@@ -9428,7 +9428,7 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">LOAD_GLOBAL_MODULE</td>
-<td align="right">3,419,551</td>
+<td align="right">3,419,627</td>
 <td align="right">99.9%</td>
 </tr>
 <tr>
@@ -9455,17 +9455,17 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">PUSH_NULL</td>
-<td align="right">2,014,223</td>
+<td align="right">2,014,251</td>
 <td align="right">58.9%</td>
 </tr>
 <tr>
 <td align="left">BINARY_OP</td>
-<td align="right">754,659</td>
+<td align="right">754,703</td>
 <td align="right">22.1%</td>
 </tr>
 <tr>
 <td align="left">UNARY_INVERT</td>
-<td align="right">328,189</td>
+<td align="right">328,193</td>
 <td align="right">9.6%</td>
 </tr>
 <tr>
@@ -9500,7 +9500,7 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">LOAD_FAST</td>
-<td align="right">344,007</td>
+<td align="right">344,019</td>
 <td align="right">100.0%</td>
 </tr>
 <tr>
@@ -9522,12 +9522,12 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">LOAD_FAST</td>
-<td align="right">336,158</td>
+<td align="right">336,166</td>
 <td align="right">97.7%</td>
 </tr>
 <tr>
 <td align="left">BINARY_OP</td>
-<td align="right">7,949</td>
+<td align="right">7,953</td>
 <td align="right">2.3%</td>
 </tr>
 </tbody>
@@ -9614,7 +9614,7 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">LOAD_FAST</td>
-<td align="right">6,699,145</td>
+<td align="right">6,699,245</td>
 <td align="right">99.9%</td>
 </tr>
 <tr>
@@ -9646,12 +9646,12 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">LOAD_ATTR_METHOD_WITH_VALUES</td>
-<td align="right">1,962,876</td>
+<td align="right">1,962,892</td>
 <td align="right">29.3%</td>
 </tr>
 <tr>
 <td align="left">TO_BOOL_BOOL</td>
-<td align="right">1,777,264</td>
+<td align="right">1,777,328</td>
 <td align="right">26.5%</td>
 </tr>
 <tr>
@@ -9691,12 +9691,12 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">RESUME_CHECK</td>
-<td align="right">2,019,361</td>
+<td align="right">2,019,397</td>
 <td align="right">31.5%</td>
 </tr>
 <tr>
 <td align="left">LOAD_FAST</td>
-<td align="right">1,634,776</td>
+<td align="right">1,634,792</td>
 <td align="right">25.5%</td>
 </tr>
 <tr>
@@ -9706,12 +9706,12 @@ specialized instruction deoptimizes.
 </tr>
 <tr>
 <td align="left">STORE_FAST</td>
-<td align="right">695,096</td>
+<td align="right">695,112</td>
 <td align="right">10.9%</td>
 </tr>
 <tr>
 <td align="left">LOAD_GLOBAL_BUILTIN</td>
-<td align="right">442,890</td>
+<td align="right">442,930</td>
 <td align="right">6.9%</td>
 </tr>
 </tbody>
@@ -9728,12 +9728,12 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">LOAD_FAST</td>
-<td align="right">4,002,157</td>
+<td align="right">4,002,209</td>
 <td align="right">62.5%</td>
 </tr>
 <tr>
 <td align="left">CALL_ISINSTANCE</td>
-<td align="right">1,314,176</td>
+<td align="right">1,314,192</td>
 <td align="right">20.5%</td>
 </tr>
 <tr>
@@ -9743,7 +9743,7 @@ specialized instruction deoptimizes.
 </tr>
 <tr>
 <td align="left">LOAD_GLOBAL_BUILTIN</td>
-<td align="right">442,890</td>
+<td align="right">442,930</td>
 <td align="right">6.9%</td>
 </tr>
 <tr>
@@ -9773,27 +9773,27 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">LOAD_FAST</td>
-<td align="right">2,397,615</td>
+<td align="right">2,397,675</td>
 <td align="right">35.5%</td>
 </tr>
 <tr>
 <td align="left">RESUME_CHECK</td>
-<td align="right">1,675,165</td>
+<td align="right">1,675,185</td>
 <td align="right">24.8%</td>
 </tr>
 <tr>
 <td align="left">NOP</td>
-<td align="right">1,313,436</td>
+<td align="right">1,313,452</td>
 <td align="right">19.4%</td>
 </tr>
 <tr>
 <td align="left">POP_TOP</td>
-<td align="right">333,129</td>
+<td align="right">333,133</td>
 <td align="right">4.9%</td>
 </tr>
 <tr>
 <td align="left">POP_JUMP_IF_NOT_NONE</td>
-<td align="right">329,749</td>
+<td align="right">329,753</td>
 <td align="right">4.9%</td>
 </tr>
 </tbody>
@@ -9810,17 +9810,17 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">LOAD_ATTR_MODULE</td>
-<td align="right">3,419,551</td>
+<td align="right">3,419,627</td>
 <td align="right">50.6%</td>
 </tr>
 <tr>
 <td align="left">LOAD_FAST</td>
-<td align="right">1,314,296</td>
+<td align="right">1,314,312</td>
 <td align="right">19.4%</td>
 </tr>
 <tr>
 <td align="left">BINARY_OP</td>
-<td align="right">1,002,716</td>
+<td align="right">1,002,732</td>
 <td align="right">14.8%</td>
 </tr>
 <tr>
@@ -9969,17 +9969,17 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">CALL_PY_EXACT_ARGS</td>
-<td align="right">13,639,329</td>
+<td align="right">13,639,493</td>
 <td align="right">67.3%</td>
 </tr>
 <tr>
 <td align="left">CACHE</td>
-<td align="right">2,664,194</td>
+<td align="right">2,664,218</td>
 <td align="right">13.1%</td>
 </tr>
 <tr>
 <td align="left">CALL_PY_GENERAL</td>
-<td align="right">986,607</td>
+<td align="right">986,619</td>
 <td align="right">4.9%</td>
 </tr>
 <tr>
@@ -9989,7 +9989,7 @@ specialized instruction deoptimizes.
 </tr>
 <tr>
 <td align="left">COPY_FREE_VARS</td>
-<td align="right">690,874</td>
+<td align="right">690,898</td>
 <td align="right">3.4%</td>
 </tr>
 </tbody>
@@ -10006,22 +10006,22 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">LOAD_FAST</td>
-<td align="right">12,949,186</td>
+<td align="right">12,949,322</td>
 <td align="right">63.9%</td>
 </tr>
 <tr>
 <td align="left">NOP</td>
-<td align="right">2,292,014</td>
+<td align="right">2,292,038</td>
 <td align="right">11.3%</td>
 </tr>
 <tr>
 <td align="left">LOAD_GLOBAL_BUILTIN</td>
-<td align="right">2,019,361</td>
+<td align="right">2,019,397</td>
 <td align="right">10.0%</td>
 </tr>
 <tr>
 <td align="left">LOAD_GLOBAL_MODULE</td>
-<td align="right">1,675,165</td>
+<td align="right">1,675,185</td>
 <td align="right">8.3%</td>
 </tr>
 <tr>
@@ -10205,12 +10205,12 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">LOAD_FAST</td>
-<td align="right">2,977,334</td>
+<td align="right">2,977,358</td>
 <td align="right">53.0%</td>
 </tr>
 <tr>
 <td align="left">LOAD_FAST_LOAD_FAST</td>
-<td align="right">2,634,756</td>
+<td align="right">2,634,772</td>
 <td align="right">46.9%</td>
 </tr>
 <tr>
@@ -10232,22 +10232,22 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">LOAD_FAST_LOAD_FAST</td>
-<td align="right">1,975,727</td>
+<td align="right">1,975,739</td>
 <td align="right">35.2%</td>
 </tr>
 <tr>
 <td align="left">LOAD_CONST</td>
-<td align="right">1,645,787</td>
+<td align="right">1,645,799</td>
 <td align="right">29.3%</td>
 </tr>
 <tr>
 <td align="left">LOAD_FAST</td>
-<td align="right">987,538</td>
+<td align="right">987,546</td>
 <td align="right">17.6%</td>
 </tr>
 <tr>
 <td align="left">RETURN_CONST</td>
-<td align="right">987,538</td>
+<td align="right">987,546</td>
 <td align="right">17.6%</td>
 </tr>
 <tr>
@@ -10277,7 +10277,7 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">LOAD_ATTR</td>
-<td align="right">336,058</td>
+<td align="right">336,066</td>
 <td align="right">99.8%</td>
 </tr>
 <tr>
@@ -10309,7 +10309,7 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">LOAD_FAST</td>
-<td align="right">336,158</td>
+<td align="right">336,166</td>
 <td align="right">99.9%</td>
 </tr>
 <tr>
@@ -10354,27 +10354,27 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">LOAD_ATTR_INSTANCE_VALUE</td>
-<td align="right">4,226,689</td>
+<td align="right">4,226,693</td>
 <td align="right">32.9%</td>
 </tr>
 <tr>
 <td align="left">RETURN_VALUE</td>
-<td align="right">3,259,447</td>
+<td align="right">3,259,459</td>
 <td align="right">25.3%</td>
 </tr>
 <tr>
 <td align="left">LOAD_ATTR_SLOT</td>
-<td align="right">1,777,264</td>
+<td align="right">1,777,328</td>
 <td align="right">13.8%</td>
 </tr>
 <tr>
 <td align="left">CALL_ISINSTANCE</td>
-<td align="right">1,314,896</td>
+<td align="right">1,314,912</td>
 <td align="right">10.2%</td>
 </tr>
 <tr>
 <td align="left">LOAD_ATTR</td>
-<td align="right">1,296,098</td>
+<td align="right">1,296,106</td>
 <td align="right">10.1%</td>
 </tr>
 </tbody>
@@ -10391,12 +10391,12 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">POP_JUMP_IF_FALSE</td>
-<td align="right">8,614,338</td>
+<td align="right">8,614,426</td>
 <td align="right">67.0%</td>
 </tr>
 <tr>
 <td align="left">POP_JUMP_IF_TRUE</td>
-<td align="right">2,968,694</td>
+<td align="right">2,968,718</td>
 <td align="right">23.1%</td>
 </tr>
 <tr>
@@ -10426,22 +10426,22 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">BINARY_OP</td>
-<td align="right">1,067,010</td>
+<td align="right">1,067,050</td>
 <td align="right">37.6%</td>
 </tr>
 <tr>
 <td align="left">LOAD_FAST</td>
-<td align="right">709,254</td>
+<td align="right">709,278</td>
 <td align="right">25.0%</td>
 </tr>
 <tr>
 <td align="left">COPY</td>
-<td align="right">684,256</td>
+<td align="right">684,272</td>
 <td align="right">24.1%</td>
 </tr>
 <tr>
 <td align="left">LOAD_ATTR</td>
-<td align="right">373,505</td>
+<td align="right">373,525</td>
 <td align="right">13.2%</td>
 </tr>
 <tr>
@@ -10463,12 +10463,12 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">POP_JUMP_IF_FALSE</td>
-<td align="right">2,126,071</td>
+<td align="right">2,126,147</td>
 <td align="right">75.0%</td>
 </tr>
 <tr>
 <td align="left">POP_JUMP_IF_TRUE</td>
-<td align="right">707,074</td>
+<td align="right">707,098</td>
 <td align="right">24.9%</td>
 </tr>
 <tr>
@@ -10679,12 +10679,12 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">STORE_FAST</td>
-<td align="right">709,323</td>
+<td align="right">709,351</td>
 <td align="right">65.3%</td>
 </tr>
 <tr>
 <td align="left">FOR_ITER_LIST</td>
-<td align="right">376,025</td>
+<td align="right">376,045</td>
 <td align="right">34.6%</td>
 </tr>
 <tr>
@@ -10716,7 +10716,7 @@ specialized instruction deoptimizes.
 <tbody>
 <tr>
 <td align="left">STORE_FAST_STORE_FAST</td>
-<td align="right">1,085,988</td>
+<td align="right">1,086,036</td>
 <td align="right">100.0%</td>
 </tr>
 <tr>
@@ -10766,7 +10766,7 @@ deferred
 Lists the number of "deferred" (i.e. not specialized) instructions executed.
 </details>
 </td>
-<td align="right">2,749,962</td>
+<td align="right">2,750,034</td>
 <td align="right">68.0%</td>
 </tr>
 <tr>
@@ -10884,7 +10884,7 @@ hit
 Specialized instructions that complete.
 </details>
 </td>
-<td align="right">17,118</td>
+<td align="right">17,126</td>
 <td align="right">99.1%</td>
 </tr>
 </tbody>
@@ -10938,7 +10938,7 @@ deferred
 Lists the number of "deferred" (i.e. not specialized) instructions executed.
 </details>
 </td>
-<td align="right">713,474</td>
+<td align="right">713,498</td>
 <td align="right">2.6%</td>
 </tr>
 <tr>
@@ -10950,7 +10950,7 @@ hit
 Specialized instructions that complete.
 </details>
 </td>
-<td align="right">27,242,674</td>
+<td align="right">27,243,098</td>
 <td align="right">97.4%</td>
 </tr>
 <tr>
@@ -11048,7 +11048,7 @@ deferred
 Lists the number of "deferred" (i.e. not specialized) instructions executed.
 </details>
 </td>
-<td align="right">17,958</td>
+<td align="right">17,966</td>
 <td align="right">0.5%</td>
 </tr>
 <tr>
@@ -11060,7 +11060,7 @@ hit
 Specialized instructions that complete.
 </details>
 </td>
-<td align="right">3,711,673</td>
+<td align="right">3,711,741</td>
 <td align="right">99.5%</td>
 </tr>
 </tbody>
@@ -11322,7 +11322,7 @@ deferred
 Lists the number of "deferred" (i.e. not specialized) instructions executed.
 </details>
 </td>
-<td align="right">11,204,363</td>
+<td align="right">11,204,711</td>
 <td align="right">16.6%</td>
 </tr>
 <tr>
@@ -11334,7 +11334,7 @@ hit
 Specialized instructions that complete.
 </details>
 </td>
-<td align="right">56,317,839</td>
+<td align="right">56,318,523</td>
 <td align="right">83.4%</td>
 </tr>
 <tr>
@@ -11481,7 +11481,7 @@ hit
 Specialized instructions that complete.
 </details>
 </td>
-<td align="right">13,165,251</td>
+<td align="right">13,165,487</td>
 <td align="right">99.9%</td>
 </tr>
 <tr>
@@ -11740,7 +11740,7 @@ hit
 Specialized instructions that complete.
 </details>
 </td>
-<td align="right">7,238,590</td>
+<td align="right">7,238,630</td>
 <td align="right">91.8%</td>
 </tr>
 </tbody>
@@ -11843,7 +11843,7 @@ hit
 Specialized instructions that complete.
 </details>
 </td>
-<td align="right">336,638</td>
+<td align="right">336,646</td>
 <td align="right">99.9%</td>
 </tr>
 </tbody>
@@ -11914,7 +11914,7 @@ deferred
 Lists the number of "deferred" (i.e. not specialized) instructions executed.
 </details>
 </td>
-<td align="right">1,420,657</td>
+<td align="right">1,420,709</td>
 <td align="right">6.7%</td>
 </tr>
 <tr>
@@ -11926,7 +11926,7 @@ hit
 Specialized instructions that complete.
 </details>
 </td>
-<td align="right">19,789,477</td>
+<td align="right">19,789,769</td>
 <td align="right">93.3%</td>
 </tr>
 </tbody>
@@ -12049,7 +12049,7 @@ hit
 Specialized instructions that complete.
 </details>
 </td>
-<td align="right">1,457,233</td>
+<td align="right">1,457,301</td>
 <td align="right">100.0%</td>
 </tr>
 </tbody>
@@ -12110,7 +12110,7 @@ Basic
 Instructions that are not and cannot be specialized, e.g. `LOAD_FAST`.
 </details>
 </td>
-<td align="right">174,233,436</td>
+<td align="right">174,235,772</td>
 <td align="right">48.6%</td>
 </tr>
 <tr>
@@ -12122,7 +12122,7 @@ Not specialized
 Instructions that could be specialized but aren't, e.g. `LOAD_ATTR`, `BINARY_SLICE`.
 </details>
 </td>
-<td align="right">42,071,323</td>
+<td align="right">42,072,231</td>
 <td align="right">11.7%</td>
 </tr>
 <tr>
@@ -12134,7 +12134,7 @@ Specialized hits
 Specialized instructions, e.g. `LOAD_ATTR_MODULE` that complete.
 </details>
 </td>
-<td align="right">141,956,148</td>
+<td align="right">141,957,876</td>
 <td align="right">39.6%</td>
 </tr>
 <tr>
@@ -12168,22 +12168,22 @@ Specialized instructions, e.g. `LOAD_ATTR_MODULE` that deopt.
 <tbody>
 <tr>
 <td align="left">LOAD_ATTR</td>
-<td align="right">11,204,363</td>
+<td align="right">11,204,711</td>
 <td align="right">64.3%</td>
 </tr>
 <tr>
 <td align="left">BINARY_OP</td>
-<td align="right">2,749,962</td>
+<td align="right">2,750,034</td>
 <td align="right">15.8%</td>
 </tr>
 <tr>
 <td align="left">TO_BOOL</td>
-<td align="right">1,420,657</td>
+<td align="right">1,420,709</td>
 <td align="right">8.2%</td>
 </tr>
 <tr>
 <td align="left">CALL</td>
-<td align="right">713,474</td>
+<td align="right">713,498</td>
 <td align="right">4.1%</td>
 </tr>
 <tr>
@@ -12198,7 +12198,7 @@ Specialized instructions, e.g. `LOAD_ATTR_MODULE` that deopt.
 </tr>
 <tr>
 <td align="left">COMPARE_OP</td>
-<td align="right">17,958</td>
+<td align="right">17,966</td>
 <td align="right">0.1%</td>
 </tr>
 <tr>
@@ -12318,22 +12318,22 @@ Also includes the count of frame objects created.
 <tbody>
 <tr>
 <td align="left">Calls to PyEval_EvalDefault</td>
-<td align="right">2,667,014</td>
+<td align="right">2,667,038</td>
 <td align="right">12.0%</td>
 </tr>
 <tr>
 <td align="left">Calls to Python functions inlined</td>
-<td align="right">19,612,535</td>
+<td align="right">19,612,755</td>
 <td align="right">88.0%</td>
 </tr>
 <tr>
 <td align="left">Calls via PyEval_EvalFrame (total)</td>
-<td align="right">2,667,014</td>
+<td align="right">2,667,038</td>
 <td align="right">12.0%</td>
 </tr>
 <tr>
 <td align="left">Calls via PyEval_EvalFrame (vector)</td>
-<td align="right">2,337,654</td>
+<td align="right">2,337,678</td>
 <td align="right">10.5%</td>
 </tr>
 <tr>
@@ -12348,7 +12348,7 @@ Also includes the count of frame objects created.
 </tr>
 <tr>
 <td align="left">Calls via PyEval_EvalFrame (function vectorcall)</td>
-<td align="right">2,337,654</td>
+<td align="right">2,337,678</td>
 <td align="right">10.5%</td>
 </tr>
 <tr>
@@ -12383,7 +12383,7 @@ Also includes the count of frame objects created.
 </tr>
 <tr>
 <td align="left">Frames pushed</td>
-<td align="right">20,313,409</td>
+<td align="right">20,313,653</td>
 <td align="right">91.2%</td>
 </tr>
 </tbody>
@@ -12417,22 +12417,22 @@ other names.
 <tbody>
 <tr>
 <td align="left">Allocations from freelist</td>
-<td align="right">9,613,064</td>
+<td align="right">9,613,288</td>
 <td align="right">43.1%</td>
 </tr>
 <tr>
 <td align="left">Frees to freelist</td>
-<td align="right">9,629,222</td>
+<td align="right">9,629,454</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">Allocations</td>
-<td align="right">12,702,012</td>
+<td align="right">12,702,364</td>
 <td align="right">56.9%</td>
 </tr>
 <tr>
 <td align="left">Allocations to 512 bytes</td>
-<td align="right">12,060,046</td>
+<td align="right">12,060,422</td>
 <td align="right">54.0%</td>
 </tr>
 <tr>
@@ -12442,12 +12442,12 @@ other names.
 </tr>
 <tr>
 <td align="left">Allocations over 4 kbytes</td>
-<td align="right">641,186</td>
+<td align="right">641,162</td>
 <td align="right">2.9%</td>
 </tr>
 <tr>
 <td align="left">Frees</td>
-<td align="right">13,164,794</td>
+<td align="right">13,165,205</td>
 <td align="right"></td>
 </tr>
 <tr>
@@ -12457,22 +12457,22 @@ other names.
 </tr>
 <tr>
 <td align="left">Interpreter increfs</td>
-<td align="right">150,697,617</td>
-<td align="right">68.1%</td>
+<td align="right">150,699,669</td>
+<td align="right">68.0%</td>
 </tr>
 <tr>
 <td align="left">Interpreter decrefs</td>
-<td align="right">174,162,557</td>
+<td align="right">174,165,169</td>
 <td align="right">72.0%</td>
 </tr>
 <tr>
 <td align="left">Increfs</td>
-<td align="right">70,698,733</td>
-<td align="right">31.9%</td>
+<td align="right">70,860,400</td>
+<td align="right">32.0%</td>
 </tr>
 <tr>
 <td align="left">Decrefs</td>
-<td align="right">67,592,359</td>
+<td align="right">67,753,968</td>
 <td align="right">28.0%</td>
 </tr>
 <tr>
@@ -12497,27 +12497,27 @@ other names.
 </tr>
 <tr>
 <td align="left">Method cache hits</td>
-<td align="right">12,973,423</td>
+<td align="right">12,813,970</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">Method cache misses</td>
-<td align="right">43,679</td>
+<td align="right">203,524</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">Method cache collisions</td>
-<td align="right">46,337</td>
+<td align="right">206,192</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">Method cache dunder hits</td>
-<td align="right">1,692,304</td>
+<td align="right">1,692,342</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">Method cache dunder misses</td>
-<td align="right">4,428</td>
+<td align="right">4,422</td>
 <td align="right"></td>
 </tr>
 </tbody>
@@ -12711,7 +12711,7 @@ Traces executed
 The number of traces that were executed
 </details>
 </td>
-<td align="right">8,092,775</td>
+<td align="right">8,092,915</td>
 <td align="right"></td>
 </tr>
 <tr>
@@ -12723,7 +12723,7 @@ Uops executed
 The total number of uops (micro-operations) that were executed
 </details>
 </td>
-<td align="right">123,973,465</td>
+<td align="right">123,976,045</td>
 <td align="right">1,531.9%</td>
 </tr>
 </tbody>
@@ -12969,91 +12969,91 @@ The keys in the globals dictionary aren't what was expected
 <tbody>
 <tr>
 <td align="left">_GUARD_TYPE_VERSION</td>
-<td align="right">8,579,419</td>
+<td align="right">8,579,623</td>
 <td align="right">6.9%</td>
 <td align="right">6.9%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">_SET_IP</td>
-<td align="right">7,662,888</td>
+<td align="right">7,663,096</td>
 <td align="right">6.2%</td>
 <td align="right">13.1%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">_LOAD_FAST_0</td>
-<td align="right">6,083,694</td>
+<td align="right">6,083,798</td>
 <td align="right">4.9%</td>
 <td align="right">18.0%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">_CHECK_VALIDITY</td>
-<td align="right">5,979,863</td>
+<td align="right">5,980,051</td>
 <td align="right">4.8%</td>
 <td align="right">22.8%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">_START_EXECUTOR</td>
-<td align="right">5,673,180</td>
+<td align="right">5,673,260</td>
 <td align="right">4.6%</td>
 <td align="right">27.4%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">_CHECK_MANAGED_OBJECT_HAS_VALUES</td>
-<td align="right">5,218,170</td>
+<td align="right">5,218,210</td>
 <td align="right">4.2%</td>
 <td align="right">31.6%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">_LOAD_ATTR_INSTANCE_VALUE_0</td>
-<td align="right">5,218,170</td>
+<td align="right">5,218,210</td>
 <td align="right">4.2%</td>
 <td align="right">35.8%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">_EXIT_TRACE</td>
-<td align="right">5,024,620</td>
+<td align="right">5,024,700</td>
 <td align="right">4.1%</td>
 <td align="right">39.9%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">_LOAD_CONST_INLINE_BORROW</td>
-<td align="right">4,660,195</td>
+<td align="right">4,660,255</td>
 <td align="right">3.8%</td>
 <td align="right">43.6%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">_TIER2_RESUME_CHECK</td>
-<td align="right">3,065,195</td>
+<td align="right">3,065,255</td>
 <td align="right">2.5%</td>
 <td align="right">46.1%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">_GUARD_IS_FALSE_POP</td>
-<td align="right">2,997,610</td>
+<td align="right">2,997,650</td>
 <td align="right">2.4%</td>
 <td align="right">48.5%</td>
 <td align="right">11.0%</td>
 </tr>
 <tr>
 <td align="left">_COLD_EXIT</td>
-<td align="right">2,419,595</td>
+<td align="right">2,419,655</td>
 <td align="right">2.0%</td>
 <td align="right">50.5%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">_LOAD_FAST_1</td>
-<td align="right">1,956,718</td>
+<td align="right">1,956,726</td>
 <td align="right">1.6%</td>
 <td align="right">52.1%</td>
 <td align="right"></td>
@@ -13067,42 +13067,42 @@ The keys in the globals dictionary aren't what was expected
 </tr>
 <tr>
 <td align="left">_GUARD_IS_TRUE_POP</td>
-<td align="right">1,777,735</td>
+<td align="right">1,777,795</td>
 <td align="right">1.4%</td>
 <td align="right">55.0%</td>
 <td align="right">3.4%</td>
 </tr>
 <tr>
 <td align="left">_CHECK_FUNCTION_EXACT_ARGS</td>
-<td align="right">1,675,345</td>
+<td align="right">1,675,365</td>
 <td align="right">1.4%</td>
 <td align="right">56.4%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">_CHECK_FUNCTION_VERSION</td>
-<td align="right">1,675,345</td>
+<td align="right">1,675,365</td>
 <td align="right">1.4%</td>
 <td align="right">57.7%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">_PUSH_FRAME</td>
-<td align="right">1,675,345</td>
+<td align="right">1,675,365</td>
 <td align="right">1.4%</td>
 <td align="right">59.1%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">_SAVE_RETURN_OFFSET</td>
-<td align="right">1,675,345</td>
+<td align="right">1,675,365</td>
 <td align="right">1.4%</td>
 <td align="right">60.4%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">_POP_TOP</td>
-<td align="right">1,646,065</td>
+<td align="right">1,646,085</td>
 <td align="right">1.3%</td>
 <td align="right">61.8%</td>
 <td align="right"></td>
@@ -13144,56 +13144,56 @@ The keys in the globals dictionary aren't what was expected
 </tr>
 <tr>
 <td align="left">_LOAD_ATTR_METHOD_NO_DICT</td>
-<td align="right">1,506,709</td>
+<td align="right">1,506,793</td>
 <td align="right">1.2%</td>
 <td align="right">69.5%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">_BINARY_OP</td>
-<td align="right">1,476,500</td>
+<td align="right">1,476,580</td>
 <td align="right">1.2%</td>
 <td align="right">70.6%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">_LOAD_FAST</td>
-<td align="right">1,475,080</td>
+<td align="right">1,475,160</td>
 <td align="right">1.2%</td>
 <td align="right">71.8%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">_TO_BOOL_INT</td>
-<td align="right">1,383,670</td>
+<td align="right">1,383,710</td>
 <td align="right">1.1%</td>
-<td align="right">73.0%</td>
+<td align="right">72.9%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">_GUARD_NOT_EXHAUSTED_LIST</td>
-<td align="right">1,381,790</td>
+<td align="right">1,381,830</td>
 <td align="right">1.1%</td>
 <td align="right">74.1%</td>
 <td align="right">73.2%</td>
 </tr>
 <tr>
 <td align="left">_ITER_CHECK_LIST</td>
-<td align="right">1,381,790</td>
+<td align="right">1,381,830</td>
 <td align="right">1.1%</td>
 <td align="right">75.2%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">_COPY</td>
-<td align="right">1,375,950</td>
+<td align="right">1,375,990</td>
 <td align="right">1.1%</td>
 <td align="right">76.3%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">_STORE_FAST_3</td>
-<td align="right">1,345,645</td>
+<td align="right">1,345,665</td>
 <td align="right">1.1%</td>
 <td align="right">77.4%</td>
 <td align="right"></td>
@@ -13221,28 +13221,28 @@ The keys in the globals dictionary aren't what was expected
 </tr>
 <tr>
 <td align="left">_LOAD_FAST_3</td>
-<td align="right">1,129,775</td>
+<td align="right">1,129,835</td>
 <td align="right">0.9%</td>
 <td align="right">81.4%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">_CHECK_PERIODIC</td>
-<td align="right">1,076,339</td>
+<td align="right">1,076,383</td>
 <td align="right">0.9%</td>
 <td align="right">82.2%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">_CHECK_STACK_SPACE_OPERAND</td>
-<td align="right">1,026,865</td>
+<td align="right">1,026,885</td>
 <td align="right">0.8%</td>
 <td align="right">83.1%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">_TO_BOOL</td>
-<td align="right">1,025,565</td>
+<td align="right">1,025,585</td>
 <td align="right">0.8%</td>
 <td align="right">83.9%</td>
 <td align="right"></td>
@@ -13277,56 +13277,56 @@ The keys in the globals dictionary aren't what was expected
 </tr>
 <tr>
 <td align="left">_STORE_FAST</td>
-<td align="right">801,135</td>
+<td align="right">801,195</td>
 <td align="right">0.6%</td>
 <td align="right">87.7%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">_CHECK_VALIDITY_AND_SET_IP</td>
-<td align="right">757,890</td>
+<td align="right">757,930</td>
 <td align="right">0.6%</td>
 <td align="right">88.3%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">_LOAD_FAST_7</td>
-<td align="right">740,130</td>
+<td align="right">740,170</td>
 <td align="right">0.6%</td>
 <td align="right">88.9%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">_RESUME_CHECK</td>
-<td align="right">714,545</td>
+<td align="right">714,565</td>
 <td align="right">0.6%</td>
 <td align="right">89.4%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">_GUARD_NOT_EXHAUSTED_RANGE</td>
-<td align="right">711,065</td>
+<td align="right">711,085</td>
 <td align="right">0.6%</td>
 <td align="right">90.0%</td>
 <td align="right">90.2%</td>
 </tr>
 <tr>
 <td align="left">_ITER_CHECK_RANGE</td>
-<td align="right">711,065</td>
+<td align="right">711,085</td>
 <td align="right">0.6%</td>
 <td align="right">90.6%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">_INIT_CALL_PY_EXACT_ARGS_0</td>
-<td align="right">703,125</td>
+<td align="right">703,145</td>
 <td align="right">0.6%</td>
 <td align="right">91.2%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">_BUILD_LIST</td>
-<td align="right">698,065</td>
+<td align="right">698,085</td>
 <td align="right">0.6%</td>
 <td align="right">91.7%</td>
 <td align="right"></td>
@@ -13340,7 +13340,7 @@ The keys in the globals dictionary aren't what was expected
 </tr>
 <tr>
 <td align="left">_STORE_FAST_2</td>
-<td align="right">643,449</td>
+<td align="right">643,453</td>
 <td align="right">0.5%</td>
 <td align="right">92.8%</td>
 <td align="right"></td>
@@ -13382,70 +13382,70 @@ The keys in the globals dictionary aren't what was expected
 </tr>
 <tr>
 <td align="left">_LOAD_ATTR</td>
-<td align="right">476,119</td>
+<td align="right">476,163</td>
 <td align="right">0.4%</td>
 <td align="right">95.7%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">_TO_BOOL_BOOL</td>
-<td align="right">450,990</td>
+<td align="right">451,030</td>
 <td align="right">0.4%</td>
 <td align="right">96.1%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">_BUILD_TUPLE</td>
-<td align="right">375,725</td>
+<td align="right">375,745</td>
 <td align="right">0.3%</td>
 <td align="right">96.4%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">_UNPACK_SEQUENCE_TWO_TUPLE</td>
-<td align="right">370,945</td>
+<td align="right">370,965</td>
 <td align="right">0.3%</td>
 <td align="right">96.7%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">_ITER_NEXT_LIST</td>
-<td align="right">370,825</td>
+<td align="right">370,845</td>
 <td align="right">0.3%</td>
 <td align="right">97.0%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">_STORE_FAST_6</td>
-<td align="right">370,825</td>
+<td align="right">370,845</td>
 <td align="right">0.3%</td>
 <td align="right">97.3%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">_CALL_METHOD_DESCRIPTOR_FAST</td>
-<td align="right">370,705</td>
+<td align="right">370,725</td>
 <td align="right">0.3%</td>
 <td align="right">97.6%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">_LOAD_FAST_5</td>
-<td align="right">370,705</td>
+<td align="right">370,725</td>
 <td align="right">0.3%</td>
 <td align="right">97.9%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">_LOAD_FAST_6</td>
-<td align="right">370,705</td>
+<td align="right">370,725</td>
 <td align="right">0.3%</td>
 <td align="right">98.2%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">_STORE_FAST_7</td>
-<td align="right">370,705</td>
+<td align="right">370,725</td>
 <td align="right">0.3%</td>
 <td align="right">98.5%</td>
 <td align="right"></td>
@@ -13480,42 +13480,42 @@ The keys in the globals dictionary aren't what was expected
 </tr>
 <tr>
 <td align="left">_LOAD_ATTR_SLOT_0</td>
-<td align="right">249,040</td>
+<td align="right">249,120</td>
 <td align="right">0.2%</td>
 <td align="right">99.7%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">_ITER_NEXT_RANGE</td>
-<td align="right">69,905</td>
+<td align="right">69,925</td>
 <td align="right">0.1%</td>
 <td align="right">99.8%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">_CALL_METHOD_DESCRIPTOR_NOARGS</td>
-<td align="right">62,305</td>
+<td align="right">62,325</td>
 <td align="right">0.1%</td>
 <td align="right">99.8%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">_PUSH_NULL</td>
-<td align="right">62,245</td>
+<td align="right">62,265</td>
 <td align="right">0.1%</td>
 <td align="right">99.9%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">_CALL_INTRINSIC_1</td>
-<td align="right">62,245</td>
+<td align="right">62,265</td>
 <td align="right">0.1%</td>
 <td align="right">99.9%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">_LIST_EXTEND</td>
-<td align="right">62,245</td>
+<td align="right">62,265</td>
 <td align="right">0.1%</td>
 <td align="right">100.0%</td>
 <td align="right"></td>
@@ -13543,21 +13543,21 @@ The keys in the globals dictionary aren't what was expected
 </tr>
 <tr>
 <td align="left">_CALL_NON_PY_GENERAL</td>
-<td align="right">7,509</td>
+<td align="right">7,513</td>
 <td align="right">0.0%</td>
 <td align="right">100.0%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">_CHECK_IS_NOT_PY_CALLABLE</td>
-<td align="right">7,509</td>
+<td align="right">7,513</td>
 <td align="right">0.0%</td>
 <td align="right">100.0%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">_LOAD_CONST_INLINE_BORROW_WITH_NULL</td>
-<td align="right">7,509</td>
+<td align="right">7,513</td>
 <td align="right">0.0%</td>
 <td align="right">100.0%</td>
 <td align="right"></td>
@@ -13771,4 +13771,4 @@ A watched `globals()` dict has been modified
 </details>
 
 ---
-Stats gathered on: 2024-06-06
+Stats gathered on: 2024-06-10

@@ -10887,7 +10887,7 @@ other names.
 </tr>
 <tr>
 <td align="left">Allocations</td>
-<td align="right">99,165,371</td>
+<td align="right">99,165,367</td>
 <td align="right">61.2%</td>
 </tr>
 <tr>
@@ -10902,12 +10902,12 @@ other names.
 </tr>
 <tr>
 <td align="left">Allocations over 4 kbytes</td>
-<td align="right">111</td>
+<td align="right">107</td>
 <td align="right">0.0%</td>
 </tr>
 <tr>
 <td align="left">Frees</td>
-<td align="right">101,303,261</td>
+<td align="right">101,304,128</td>
 <td align="right"></td>
 </tr>
 <tr>
@@ -10927,12 +10927,12 @@ other names.
 </tr>
 <tr>
 <td align="left">Increfs</td>
-<td align="right">533,140,548</td>
+<td align="right">533,151,345</td>
 <td align="right">35.1%</td>
 </tr>
 <tr>
 <td align="left">Decrefs</td>
-<td align="right">609,078,360</td>
+<td align="right">609,090,040</td>
 <td align="right">36.7%</td>
 </tr>
 <tr>
@@ -10957,27 +10957,27 @@ other names.
 </tr>
 <tr>
 <td align="left">Method cache hits</td>
-<td align="right">58,034,226</td>
+<td align="right">57,987,811</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">Method cache misses</td>
-<td align="right">956,334</td>
+<td align="right">1,002,749</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">Method cache collisions</td>
-<td align="right">989,878</td>
+<td align="right">1,012,946</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">Method cache dunder hits</td>
-<td align="right">10,415,026</td>
+<td align="right">10,438,447</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">Method cache dunder misses</td>
-<td align="right">37,714</td>
+<td align="right">14,293</td>
 <td align="right"></td>
 </tr>
 </tbody>
@@ -11014,7 +11014,7 @@ Collected/visits gives some measure of efficiency.
 <td align="right">1</td>
 <td align="right">0</td>
 <td align="right">2,240</td>
-<td align="right">961,940,100</td>
+<td align="right">961,940,520</td>
 </tr>
 <tr>
 <td align="right">2</td>
@@ -12091,4 +12091,4 @@ A watched `globals()` dict has been modified
 </details>
 
 ---
-Stats gathered on: 2024-06-06
+Stats gathered on: 2024-06-10

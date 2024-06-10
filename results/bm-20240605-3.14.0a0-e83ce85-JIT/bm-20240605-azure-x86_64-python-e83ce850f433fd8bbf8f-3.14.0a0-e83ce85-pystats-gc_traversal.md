@@ -4165,17 +4165,17 @@ other names.
 </tr>
 <tr>
 <td align="left">Method cache hits</td>
-<td align="right">78</td>
+<td align="right">83</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">Method cache misses</td>
-<td align="right">22</td>
+<td align="right">17</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">Method cache collisions</td>
-<td align="right">22</td>
+<td align="right">17</td>
 <td align="right"></td>
 </tr>
 <tr>
@@ -4228,7 +4228,7 @@ Collected/visits gives some measure of efficiency.
 <td align="right">2</td>
 <td align="right">0</td>
 <td align="right">1,920</td>
-<td align="right">5,713,685,920</td>
+<td align="right">5,713,686,200</td>
 </tr>
 </tbody>
 </table>
@@ -5104,4 +5104,4 @@ A watched `globals()` dict has been modified
 </details>
 
 ---
-Stats gathered on: 2024-06-06
+Stats gathered on: 2024-06-10

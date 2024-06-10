@@ -582,6 +582,13 @@ instruction is not counted.
 <td align="right"></td>
 </tr>
 <tr>
+<td align="left">IS_OP</td>
+<td align="right">180</td>
+<td align="right">0.0%</td>
+<td align="right">100.0%</td>
+<td align="right"></td>
+</tr>
+<tr>
 <td align="left">BINARY_OP_SUBTRACT_FLOAT</td>
 <td align="right">180</td>
 <td align="right">0.0%</td>
@@ -590,13 +597,6 @@ instruction is not counted.
 </tr>
 <tr>
 <td align="left">CALL_BUILTIN_CLASS</td>
-<td align="right">180</td>
-<td align="right">0.0%</td>
-<td align="right">100.0%</td>
-<td align="right"></td>
-</tr>
-<tr>
-<td align="left">IS_OP</td>
 <td align="right">180</td>
 <td align="right">0.0%</td>
 <td align="right">100.0%</td>
@@ -3039,6 +3039,48 @@ specialized instruction deoptimizes.
 <td align="left">LOAD_FAST</td>
 <td align="right">40</td>
 <td align="right">14.3%</td>
+</tr>
+</tbody>
+</table>
+
+
+</details>
+
+### IS_OP
+
+<details>
+<summary> Successors and predecessors for IS_OP </summary>
+
+<table>
+<thead>
+<tr>
+<th align="left">Predecessors</th>
+<th align="right">Count</th>
+<th align="right">Percentage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">LOAD_GLOBAL_MODULE</td>
+<td align="right">180</td>
+<td align="right">100.0%</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th align="left">Successors</th>
+<th align="right">Count</th>
+<th align="right">Percentage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">POP_JUMP_IF_FALSE</td>
+<td align="right">180</td>
+<td align="right">100.0%</td>
 </tr>
 </tbody>
 </table>
@@ -6987,48 +7029,6 @@ specialized instruction deoptimizes.
 
 </details>
 
-### IS_OP
-
-<details>
-<summary> Successors and predecessors for IS_OP </summary>
-
-<table>
-<thead>
-<tr>
-<th align="left">Predecessors</th>
-<th align="right">Count</th>
-<th align="right">Percentage</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">LOAD_GLOBAL_MODULE</td>
-<td align="right">180</td>
-<td align="right">100.0%</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th align="left">Successors</th>
-<th align="right">Count</th>
-<th align="right">Percentage</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">POP_JUMP_IF_FALSE</td>
-<td align="right">180</td>
-<td align="right">100.0%</td>
-</tr>
-</tbody>
-</table>
-
-
-</details>
-
 
 </details>
 
@@ -8321,12 +8321,12 @@ other names.
 </tr>
 <tr>
 <td align="left">Allocations</td>
-<td align="right">52,452,257</td>
+<td align="right">52,446,243</td>
 <td align="right">41.3%</td>
 </tr>
 <tr>
 <td align="left">Allocations to 512 bytes</td>
-<td align="right">52,451,917</td>
+<td align="right">52,445,903</td>
 <td align="right">41.3%</td>
 </tr>
 <tr>
@@ -8341,7 +8341,7 @@ other names.
 </tr>
 <tr>
 <td align="left">Frees</td>
-<td align="right">52,452,704</td>
+<td align="right">52,446,690</td>
 <td align="right"></td>
 </tr>
 <tr>
@@ -8356,17 +8356,17 @@ other names.
 </tr>
 <tr>
 <td align="left">Interpreter decrefs</td>
-<td align="right">999,717,857</td>
+<td align="right">999,711,843</td>
 <td align="right">76.4%</td>
 </tr>
 <tr>
 <td align="left">Increfs</td>
-<td align="right">492,276,658</td>
+<td align="right">492,522,461</td>
 <td align="right">41.8%</td>
 </tr>
 <tr>
 <td align="left">Decrefs</td>
-<td align="right">309,237,241</td>
+<td align="right">309,483,046</td>
 <td align="right">23.6%</td>
 </tr>
 <tr>
@@ -8391,27 +8391,27 @@ other names.
 </tr>
 <tr>
 <td align="left">Method cache hits</td>
-<td align="right">24,603,092</td>
+<td align="right">24,480,205</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">Method cache misses</td>
-<td align="right">3,228</td>
+<td align="right">126,115</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">Method cache collisions</td>
-<td align="right">2,383</td>
+<td align="right">248,106</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">Method cache dunder hits</td>
-<td align="right">14,746,781</td>
+<td align="right">14,623,897</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">Method cache dunder misses</td>
-<td align="right">699</td>
+<td align="right">123,583</td>
 <td align="right"></td>
 </tr>
 </tbody>
@@ -8448,7 +8448,7 @@ Collected/visits gives some measure of efficiency.
 <td align="right">1</td>
 <td align="right">0</td>
 <td align="right">1,980</td>
-<td align="right">448,880</td>
+<td align="right">448,440</td>
 </tr>
 <tr>
 <td align="right">2</td>
@@ -9507,4 +9507,4 @@ A watched `globals()` dict has been modified
 </details>
 
 ---
-Stats gathered on: 2024-06-06
+Stats gathered on: 2024-06-10

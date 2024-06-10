@@ -10769,7 +10769,7 @@ other names.
 </tr>
 <tr>
 <td align="left">Frees</td>
-<td align="right">119,499,407</td>
+<td align="right">119,500,085</td>
 <td align="right"></td>
 </tr>
 <tr>
@@ -10789,12 +10789,12 @@ other names.
 </tr>
 <tr>
 <td align="left">Increfs</td>
-<td align="right">1,309,632,212</td>
+<td align="right">1,309,632,811</td>
 <td align="right">99.5%</td>
 </tr>
 <tr>
 <td align="left">Decrefs</td>
-<td align="right">1,338,369,518</td>
+<td align="right">1,338,370,794</td>
 <td align="right">93.4%</td>
 </tr>
 <tr>
@@ -10819,27 +10819,27 @@ other names.
 </tr>
 <tr>
 <td align="left">Method cache hits</td>
-<td align="right">620,595</td>
+<td align="right">620,094</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">Method cache misses</td>
-<td align="right">11,865</td>
+<td align="right">12,366</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">Method cache collisions</td>
-<td align="right">12,344</td>
+<td align="right">13,043</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">Method cache dunder hits</td>
-<td align="right">1,190,024</td>
+<td align="right">1,189,900</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">Method cache dunder misses</td>
-<td align="right">916</td>
+<td align="right">1,040</td>
 <td align="right"></td>
 </tr>
 </tbody>
@@ -11382,7 +11382,7 @@ The keys in the globals dictionary aren't what was expected
 </tr>
 <tr>
 <td align="left">_LOAD_FAST</td>
-<td align="right">116,196,620</td>
+<td align="right">116,190,380</td>
 <td align="right">3.0%</td>
 <td align="right">75.6%</td>
 <td align="right"></td>
@@ -11508,7 +11508,7 @@ The keys in the globals dictionary aren't what was expected
 </tr>
 <tr>
 <td align="left">_LOAD_FAST_5</td>
-<td align="right">28,879,360</td>
+<td align="right">28,870,000</td>
 <td align="right">0.8%</td>
 <td align="right">97.6%</td>
 <td align="right"></td>
@@ -11732,14 +11732,14 @@ The keys in the globals dictionary aren't what was expected
 </tr>
 <tr>
 <td align="left">_LOAD_FAST_6</td>
-<td align="right">25,380</td>
+<td align="right">31,620</td>
 <td align="right">0.0%</td>
 <td align="right">100.0%</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">_LOAD_FAST_7</td>
-<td align="right">15,700</td>
+<td align="right">25,060</td>
 <td align="right">0.0%</td>
 <td align="right">100.0%</td>
 <td align="right"></td>
@@ -12237,4 +12237,4 @@ A watched `globals()` dict has been modified
 </details>
 
 ---
-Stats gathered on: 2024-06-06
+Stats gathered on: 2024-06-10

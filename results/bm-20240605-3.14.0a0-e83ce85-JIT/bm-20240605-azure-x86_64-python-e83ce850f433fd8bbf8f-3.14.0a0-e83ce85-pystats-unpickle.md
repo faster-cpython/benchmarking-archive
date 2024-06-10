@@ -3484,7 +3484,7 @@ other names.
 </tr>
 <tr>
 <td align="left">Frees</td>
-<td align="right">202,402,711</td>
+<td align="right">202,402,721</td>
 <td align="right"></td>
 </tr>
 <tr>
@@ -3504,12 +3504,12 @@ other names.
 </tr>
 <tr>
 <td align="left">Increfs</td>
-<td align="right">465,630,716</td>
+<td align="right">465,610,219</td>
 <td align="right">100.0%</td>
 </tr>
 <tr>
 <td align="left">Decrefs</td>
-<td align="right">649,137,239</td>
+<td align="right">649,116,750</td>
 <td align="right">100.0%</td>
 </tr>
 <tr>
@@ -3534,27 +3534,27 @@ other names.
 </tr>
 <tr>
 <td align="left">Method cache hits</td>
-<td align="right">4,055,898</td>
+<td align="right">4,076,395</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">Method cache misses</td>
-<td align="right">860,202</td>
+<td align="right">839,705</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">Method cache collisions</td>
-<td align="right">859,679</td>
+<td align="right">839,239</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">Method cache dunder hits</td>
-<td align="right">1,639,012</td>
+<td align="right">1,638,996</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">Method cache dunder misses</td>
-<td align="right">108</td>
+<td align="right">124</td>
 <td align="right"></td>
 </tr>
 </tbody>
@@ -4313,4 +4313,4 @@ A watched `globals()` dict has been modified
 </details>
 
 ---
-Stats gathered on: 2024-06-06
+Stats gathered on: 2024-06-10

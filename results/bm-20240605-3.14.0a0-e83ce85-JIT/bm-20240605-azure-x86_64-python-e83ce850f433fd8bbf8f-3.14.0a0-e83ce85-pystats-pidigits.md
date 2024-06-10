@@ -4242,7 +4242,7 @@ other names.
 </tr>
 <tr>
 <td align="left">Decrefs</td>
-<td align="right">30,520,021</td>
+<td align="right">30,520,020</td>
 <td align="right">62.0%</td>
 </tr>
 <tr>
@@ -4267,17 +4267,17 @@ other names.
 </tr>
 <tr>
 <td align="left">Method cache hits</td>
-<td align="right">20</td>
+<td align="right">21</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">Method cache misses</td>
-<td align="right">20</td>
+<td align="right">19</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">Method cache collisions</td>
-<td align="right">60</td>
+<td align="right">59</td>
 <td align="right"></td>
 </tr>
 <tr>
@@ -5254,4 +5254,4 @@ A watched `globals()` dict has been modified
 </details>
 
 ---
-Stats gathered on: 2024-06-06
+Stats gathered on: 2024-06-10

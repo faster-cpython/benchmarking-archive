@@ -11101,27 +11101,27 @@ other names.
 </tr>
 <tr>
 <td align="left">Allocations</td>
-<td align="right">104,632,369</td>
+<td align="right">104,632,366</td>
 <td align="right">63.1%</td>
 </tr>
 <tr>
 <td align="left">Allocations to 512 bytes</td>
-<td align="right">103,823,725</td>
+<td align="right">103,823,724</td>
 <td align="right">62.6%</td>
 </tr>
 <tr>
 <td align="left">Allocations to 4 kbytes</td>
-<td align="right">808,508</td>
+<td align="right">808,504</td>
 <td align="right">0.5%</td>
 </tr>
 <tr>
 <td align="left">Allocations over 4 kbytes</td>
-<td align="right">136</td>
+<td align="right">138</td>
 <td align="right">0.0%</td>
 </tr>
 <tr>
 <td align="left">Frees</td>
-<td align="right">104,542,687</td>
+<td align="right">104,542,678</td>
 <td align="right"></td>
 </tr>
 <tr>
@@ -11141,12 +11141,12 @@ other names.
 </tr>
 <tr>
 <td align="left">Increfs</td>
-<td align="right">521,179,229</td>
+<td align="right">521,212,836</td>
 <td align="right">31.6%</td>
 </tr>
 <tr>
 <td align="left">Decrefs</td>
-<td align="right">580,707,822</td>
+<td align="right">580,741,401</td>
 <td align="right">32.4%</td>
 </tr>
 <tr>
@@ -11171,17 +11171,17 @@ other names.
 </tr>
 <tr>
 <td align="left">Method cache hits</td>
-<td align="right">56,895,265</td>
+<td align="right">56,861,620</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">Method cache misses</td>
-<td align="right">4,255</td>
+<td align="right">37,900</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">Method cache collisions</td>
-<td align="right">4,007</td>
+<td align="right">37,622</td>
 <td align="right"></td>
 </tr>
 <tr>
@@ -11228,7 +11228,7 @@ Collected/visits gives some measure of efficiency.
 <td align="right">1</td>
 <td align="right">0</td>
 <td align="right">2,240</td>
-<td align="right">1,210,088,474</td>
+<td align="right">1,210,090,550</td>
 </tr>
 <tr>
 <td align="right">2</td>
@@ -12360,4 +12360,4 @@ A watched `globals()` dict has been modified
 </details>
 
 ---
-Stats gathered on: 2024-06-06
+Stats gathered on: 2024-06-10

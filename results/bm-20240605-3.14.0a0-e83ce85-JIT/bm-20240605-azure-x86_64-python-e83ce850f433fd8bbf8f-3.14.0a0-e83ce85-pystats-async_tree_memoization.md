@@ -11281,27 +11281,27 @@ other names.
 </tr>
 <tr>
 <td align="left">Allocations</td>
-<td align="right">110,453,910</td>
+<td align="right">110,453,922</td>
 <td align="right">61.6%</td>
 </tr>
 <tr>
 <td align="left">Allocations to 512 bytes</td>
-<td align="right">110,391,512</td>
+<td align="right">110,391,517</td>
 <td align="right">61.6%</td>
 </tr>
 <tr>
 <td align="left">Allocations to 4 kbytes</td>
-<td align="right">62,260</td>
+<td align="right">62,265</td>
 <td align="right">0.0%</td>
 </tr>
 <tr>
 <td align="left">Allocations over 4 kbytes</td>
-<td align="right">138</td>
+<td align="right">140</td>
 <td align="right">0.0%</td>
 </tr>
 <tr>
 <td align="left">Frees</td>
-<td align="right">112,551,237</td>
+<td align="right">112,551,404</td>
 <td align="right"></td>
 </tr>
 <tr>
@@ -11321,12 +11321,12 @@ other names.
 </tr>
 <tr>
 <td align="left">Increfs</td>
-<td align="right">627,210,798</td>
+<td align="right">627,767,363</td>
 <td align="right">34.8%</td>
 </tr>
 <tr>
 <td align="left">Decrefs</td>
-<td align="right">697,180,124</td>
+<td align="right">697,736,829</td>
 <td align="right">35.6%</td>
 </tr>
 <tr>
@@ -11351,27 +11351,27 @@ other names.
 </tr>
 <tr>
 <td align="left">Method cache hits</td>
-<td align="right">76,958,101</td>
+<td align="right">76,407,249</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">Method cache misses</td>
-<td align="right">843,819</td>
+<td align="right">1,394,671</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">Method cache collisions</td>
-<td align="right">853,504</td>
+<td align="right">1,408,777</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">Method cache dunder hits</td>
-<td align="right">15,641,838</td>
+<td align="right">15,637,580</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">Method cache dunder misses</td>
-<td align="right">14,222</td>
+<td align="right">18,480</td>
 <td align="right"></td>
 </tr>
 </tbody>
@@ -11408,7 +11408,7 @@ Collected/visits gives some measure of efficiency.
 <td align="right">1</td>
 <td align="right">0</td>
 <td align="right">2,240</td>
-<td align="right">1,170,964,906</td>
+<td align="right">1,170,966,586</td>
 </tr>
 <tr>
 <td align="right">2</td>
@@ -12628,4 +12628,4 @@ A watched `globals()` dict has been modified
 </details>
 
 ---
-Stats gathered on: 2024-06-06
+Stats gathered on: 2024-06-10

@@ -8506,12 +8506,12 @@ specialized instruction deoptimizes.
 <td align="right">99.8%</td>
 </tr>
 <tr>
-<td align="left">LOAD_CONST</td>
+<td align="left">JUMP_BACKWARD</td>
 <td align="right">640</td>
 <td align="right">0.1%</td>
 </tr>
 <tr>
-<td align="left">JUMP_BACKWARD</td>
+<td align="left">LOAD_CONST</td>
 <td align="right">640</td>
 <td align="right">0.1%</td>
 </tr>
@@ -13561,7 +13561,7 @@ other names.
 </tr>
 <tr>
 <td align="left">Frees</td>
-<td align="right">233,436,576</td>
+<td align="right">233,436,050</td>
 <td align="right"></td>
 </tr>
 <tr>
@@ -13581,12 +13581,12 @@ other names.
 </tr>
 <tr>
 <td align="left">Increfs</td>
-<td align="right">1,406,792,802</td>
+<td align="right">1,406,812,628</td>
 <td align="right">77.2%</td>
 </tr>
 <tr>
 <td align="left">Decrefs</td>
-<td align="right">1,545,071,921</td>
+<td align="right">1,545,091,168</td>
 <td align="right">72.7%</td>
 </tr>
 <tr>
@@ -13611,27 +13611,27 @@ other names.
 </tr>
 <tr>
 <td align="left">Method cache hits</td>
-<td align="right">154,249,977</td>
+<td align="right">154,250,410</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">Method cache misses</td>
-<td align="right">82,123</td>
+<td align="right">81,690</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">Method cache collisions</td>
-<td align="right">220,950</td>
+<td align="right">260,807</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">Method cache dunder hits</td>
-<td align="right">57,397,760</td>
+<td align="right">57,357,068</td>
 <td align="right"></td>
 </tr>
 <tr>
 <td align="left">Method cache dunder misses</td>
-<td align="right">153,140</td>
+<td align="right">193,832</td>
 <td align="right"></td>
 </tr>
 </tbody>
@@ -13668,7 +13668,7 @@ Collected/visits gives some measure of efficiency.
 <td align="right">1</td>
 <td align="right">0</td>
 <td align="right">37,640</td>
-<td align="right">601,020,560</td>
+<td align="right">601,022,240</td>
 </tr>
 <tr>
 <td align="right">2</td>
@@ -14852,13 +14852,6 @@ The keys in the globals dictionary aren't what was expected
 <td align="right"></td>
 </tr>
 <tr>
-<td align="left">_LOAD_CONST</td>
-<td align="right">420</td>
-<td align="right">0.0%</td>
-<td align="right">100.0%</td>
-<td align="right"></td>
-</tr>
-<tr>
 <td align="left">_COMPARE_OP_INT</td>
 <td align="right">420</td>
 <td align="right">0.0%</td>
@@ -14867,6 +14860,13 @@ The keys in the globals dictionary aren't what was expected
 </tr>
 <tr>
 <td align="left">_GUARD_BOTH_INT</td>
+<td align="right">420</td>
+<td align="right">0.0%</td>
+<td align="right">100.0%</td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left">_LOAD_CONST</td>
 <td align="right">420</td>
 <td align="right">0.0%</td>
 <td align="right">100.0%</td>
@@ -15095,4 +15095,4 @@ A watched `globals()` dict has been modified
 </details>
 
 ---
-Stats gathered on: 2024-06-06
+Stats gathered on: 2024-06-10
