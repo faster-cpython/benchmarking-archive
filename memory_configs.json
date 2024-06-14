@@ -296,5 +296,6 @@
   "bm-20240608-3.13.0b2+-c15f94d\/bm-20240608-arminc-aarch64-python-c15f94d6fbc960790db3-3.13.0b2+-c15f94d.json,bm-20240608-3.13.0b2+-c15f94d-PYTHON_UOPS\/bm-20240608-arminc-aarch64-python-c15f94d6fbc960790db3-3.13.0b2+-c15f94d.json": 1.01,
   "bm-20240608-3.13.0b2+-c15f94d\/bm-20240608-darwin-arm64-python-c15f94d6fbc960790db3-3.13.0b2+-c15f94d.json,bm-20240608-3.13.0b2+-c15f94d-PYTHON_UOPS\/bm-20240608-darwin-arm64-python-c15f94d6fbc960790db3-3.13.0b2+-c15f94d.json": 1.02,
   "bm-20240608-3.13.0b2+-c15f94d\/bm-20240608-pythonperf1-amd64-python-c15f94d6fbc960790db3-3.13.0b2+-c15f94d.json,bm-20240608-3.13.0b2+-c15f94d-PYTHON_UOPS\/bm-20240608-pythonperf1-amd64-python-c15f94d6fbc960790db3-3.13.0b2+-c15f94d.json": null,
-  "bm-20240608-3.13.0b2+-c15f94d\/bm-20240608-pythonperf1_win32-x86-python-c15f94d6fbc960790db3-3.13.0b2+-c15f94d.json,bm-20240608-3.13.0b2+-c15f94d-PYTHON_UOPS\/bm-20240608-pythonperf1_win32-x86-python-c15f94d6fbc960790db3-3.13.0b2+-c15f94d.json": null
+  "bm-20240608-3.13.0b2+-c15f94d\/bm-20240608-pythonperf1_win32-x86-python-c15f94d6fbc960790db3-3.13.0b2+-c15f94d.json,bm-20240608-3.13.0b2+-c15f94d-PYTHON_UOPS\/bm-20240608-pythonperf1_win32-x86-python-c15f94d6fbc960790db3-3.13.0b2+-c15f94d.json": null,
+  "bm-20240608-3.13.0b2+-c15f94d\/bm-20240608-linux-x86_64-python-c15f94d6fbc960790db3-3.13.0b2+-c15f94d.json,bm-20240608-3.13.0b2+-c15f94d-NOGIL\/bm-20240608-linux-x86_64-python-c15f94d6fbc960790db3-3.13.0b2+-c15f94d.json": 1.14
 }
