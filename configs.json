@@ -307,5 +307,6 @@
   "bm-20240615-3.13.0b2+-a19bb26\/bm-20240615-pythonperf2-x86_64-python-a19bb261a327e1008f21-3.13.0b2+-a19bb26.json,bm-20240615-3.13.0b2+-a19bb26-PYTHON_UOPS\/bm-20240615-pythonperf2-x86_64-python-a19bb261a327e1008f21-3.13.0b2+-a19bb26.json": 0.8899999999999999,
   "bm-20240615-3.13.0b2+-a19bb26\/bm-20240615-arminc-aarch64-python-a19bb261a327e1008f21-3.13.0b2+-a19bb26.json,bm-20240615-3.13.0b2+-a19bb26-PYTHON_UOPS\/bm-20240615-arminc-aarch64-python-a19bb261a327e1008f21-3.13.0b2+-a19bb26.json": 0.9199999999999999,
   "bm-20240615-3.13.0b2+-a19bb26\/bm-20240615-darwin-arm64-python-a19bb261a327e1008f21-3.13.0b2+-a19bb26.json,bm-20240615-3.13.0b2+-a19bb26-PYTHON_UOPS\/bm-20240615-darwin-arm64-python-a19bb261a327e1008f21-3.13.0b2+-a19bb26.json": 0.94,
-  "bm-20240615-3.13.0b2+-a19bb26\/bm-20240615-pythonperf1_win32-x86-python-a19bb261a327e1008f21-3.13.0b2+-a19bb26.json,bm-20240615-3.13.0b2+-a19bb26-PYTHON_UOPS\/bm-20240615-pythonperf1_win32-x86-python-a19bb261a327e1008f21-3.13.0b2+-a19bb26.json": 0.97
+  "bm-20240615-3.13.0b2+-a19bb26\/bm-20240615-pythonperf1_win32-x86-python-a19bb261a327e1008f21-3.13.0b2+-a19bb26.json,bm-20240615-3.13.0b2+-a19bb26-PYTHON_UOPS\/bm-20240615-pythonperf1_win32-x86-python-a19bb261a327e1008f21-3.13.0b2+-a19bb26.json": 0.97,
+  "bm-20240605-3.13.0b2-3a83b17\/bm-20240605-darwin-arm64-python-v3.13.0b2-3.13.0b2-3a83b17.json,bm-20240605-3.13.0b2-3a83b17-JIT\/bm-20240605-darwin-arm64-python-v3.13.0b2-3.13.0b2-3a83b17.json": 0.99
 }
